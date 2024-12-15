@@ -1,7 +1,7 @@
 /* About EBR */
 .about {
   padding: 20rem 0 10rem 0;
-  background-image: url(../img/bg04.jpg);
+  /* background-image: url(../img/bg04.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   /* z-index: -10; */
@@ -16,7 +16,7 @@
 
 .aboutFlex.-second {
   flex-direction: row-reverse;
-  margin-bottom: 5rem;
+  margin-bottom: 15rem;
 }
 /* 人物像 */
 .aboutImg__box {
@@ -68,6 +68,24 @@
   position: absolute;
   top: 5rem;
 }
+.aboutImg.-fifth {
+  width: 34rem;
+  height: 27rem;
+  background-image: url(../img/chiz-01.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  position: absolute;
+  top: 60rem;
+}
+.aboutImg.-sixth {
+  width: 30rem;
+  height: 45rem;
+  background-image: url(../img/adam01.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  position: absolute;
+  top: 115rem;
+}
 .aboutTitle {
   font-family: "Sharp", serif;
   font-size: 6rem;
@@ -102,7 +120,7 @@
   font-weight: bold;
 }
 .aboutSubTitle {
-  font-family: "MS Mincho", serif;
+  font-family: "Sharp", serif;
   color: #000;
   font-size: 3.5rem;
   font-weight: bold;
@@ -123,6 +141,7 @@
   padding: 0;
 }
 .aboutSubTitle.-second {
+  font-family: "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
   text-align: center;
   background-image: linear-gradient(
     150deg,
@@ -137,10 +156,9 @@
 }
 
 .aboutText {
-  font-family: "MS Mincho", serif;
   color: #000;
+  font-family: "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
   font-size: 2rem;
-  font-weight: bold;
   text-align: left;
   letter-spacing: 0.2em;
   line-height: 2.5;
@@ -148,6 +166,8 @@
   margin-right: 2rem;
 }
 .aboutText.-second {
+  font-family: "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
+  font-weight: 400;
   margin-top: 2rem;
   margin-right: 0;
   line-height: 2.5;
@@ -166,10 +186,21 @@
   position: relative;
   z-index: 100;
 }
+.aboutContents__img {
+  display: block;
+  width: 50rem;
+  height: auto;
+  z-index: 1;
+  position: relative;
+  box-shadow: 6px 6px #ffd700;
+  outline: 3px solid #fff;
+  border: 1px solid #eee;
+}
 
 .aboutContents__listItem span {
   font-style: italic;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
+  margin-left: 0;
   opacity: 0.7;
 }
 .aboutContents__listItem::before {
@@ -231,7 +262,7 @@
 }
 @media (max-width: 1024px) {
   .about {
-    padding: 15rem 0 10rem 0;
+    padding: 10rem 0 10rem 0;
   }
   .aboutTitle {
     font-size: 5rem;
@@ -257,8 +288,8 @@
     height: 70rem;
   }
   .aboutImg.-third {
-    width: 40rem;
-    height: 45rem;
+    width: 38rem;
+    height: 40rem;
     right: 0;
     top: 20rem;
   }
@@ -266,6 +297,20 @@
     width: 40rem;
     height: 45rem;
     top: 3rem;
+  }
+  .aboutImg.-fifth {
+    width: 30rem;
+    top: 35rem;
+    left: 7rem;
+  }
+  .aboutImg.-sixth {
+    width: 25rem;
+    height: 40rem;
+    top: 45rem;
+    left: 30rem;
+  }
+  .aboutContents__img {
+    width: 90%;
   }
   .aboutPictures__listItem img {
     width: 28rem;
@@ -283,14 +328,14 @@
     text-align: left;
     margin-bottom: 5rem;
   }
+  .aboutFlex.-second {
+    margin-bottom: 20rem;
+  }
   .aboutFlex.-first {
     flex-direction: column-reverse;
   }
   .aboutImg__box.-first {
     width: 100%;
-  }
-  .aboutImg__box.-second {
-    height: 60rem;
   }
   .aboutImg.-first {
     height: 55rem;
@@ -304,6 +349,18 @@
     right: 13rem;
     z-index: 100;
   }
+  .aboutImg.-third {
+    top: 15rem;
+  }
+  .aboutImg.-fifth {
+    top: 45rem;
+    left: 3rem;
+  }
+  .aboutImg.-sixth {
+    width: 18rem;
+    top: 55rem;
+    left: 20rem;
+  }
   .aboutContents.-first {
     margin-top: 45rem;
     z-index: 2000;
@@ -316,6 +373,13 @@
     font-size: 2.4rem;
     width: 6rem;
     height: 6rem;
+  }
+  .aboutContents__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 700/350;
+    object-fit: cover;
   }
   .aboutText,
   .aboutText.-second {
@@ -342,15 +406,15 @@
     padding: 7rem 0 3rem 0;
   }
   .aboutTitle {
-    font-size: 4rem;
-    margin-bottom: 3rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
   }
   .aboutSubTitle.-first {
     font-size: 2rem;
     letter-spacing: 0.05em;
   }
   .aboutSubTitle.-second {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-bottom: 4rem;
   }
   .aboutFlex.-first {
@@ -369,38 +433,54 @@
     top: 6rem;
   }
   .aboutImg.-third {
-    width: 32rem;
-    height: 40rem;
+    width: 25rem;
+    height: 30rem;
   }
   .aboutImg.-fourth {
     width: 30rem;
     height: 35rem;
   }
+  .aboutImg.-fifth {
+    top: 35rem;
+    width: 28rem;
+    height: 20rem;
+    left: 1rem;
+  }
+  .aboutImg.-sixth {
+    width: 18rem;
+    height: 27rem;
+    top: 47rem;
+    left: 8rem;
+  }
   .aboutContents.-first {
     margin-top: 40rem;
   }
   .aboutContents__listItem {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .aboutContents__listItem::before {
     font-size: 2rem;
-    width: 5rem;
-    height: 5rem;
-    left: -1.8rem;
+    width: 4rem;
+    height: 4rem;
+    top: -0.5rem;
+    left: 0.5rem;
+  }
+  .aboutContents__listItem span {
+    margin-left: 1.7rem;
   }
   .aboutText,
   .aboutText.-second {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .aboutPictures__list {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
   .aboutPictures__listItem img {
-    width: 16rem;
-    height: 16rem;
+    width: 11rem;
+    height: 11rem;
   }
   .aboutPictures__listItem:nth-child(2) {
     margin-top: 12rem;

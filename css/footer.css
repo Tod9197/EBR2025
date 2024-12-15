@@ -35,6 +35,9 @@
   color: transparent;
   line-height: 1;
 }
+.footer__logo img {
+  width: 10rem;
+}
 
 .footerList {
   display: flex;
@@ -123,21 +126,28 @@
   }
   .footer__logo {
     font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+  .footer__logo img {
+    width: 8rem;
   }
   .footerList {
     flex-direction: column;
+    overflow: hidden;
   }
   .footerList__item {
+    font-size: 2rem;
     width: 100%;
+    margin-right: 0;
   }
   .footerList__itemTitle {
     display: contents;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     width: 100%;
   }
   .footerList__item a {
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 3rem;

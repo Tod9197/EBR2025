@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
     <?php bloginfo('name'); ?></title>
-  <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/style.css')); ?>" type="text/css">
-  <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/mainvisual.css')); ?>" type="text/css">
+  <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/style.css')); ?>?v=<?php echo filemtime(get_theme_file_path('/css/style.css')); ?>" type="text/css">
+  <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/mainvisual.css')); ?>?v=<?php echo filemtime(get_theme_file_path('/css/style.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/about.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/header.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/footer.css')); ?>" type="text/css">
@@ -34,8 +34,10 @@
           <li class="header__listItem"><a href="<?php echo esc_url(home_url('/sponsors')); ?>">sponsors</a></li>
         </ul>
         </div>
-        <a class="header__logo" href="/">EBR</a>
-
+        <a class="header__logo" href="<?php echo esc_url(home_url('/')); ?>">
+        <img src="<?php echo esc_url(get_theme_file_uri('/img/ebr-logo.png')); ?>" alt="EBRロゴ">
+        </a>
+         
         <!-- ハンバーガーメニュー -->
         <button class="hamburgerBtn" id="js-hamburger">
           <span class="headerLine -first" id="js-hamburgerLine-first"></span>

@@ -10,6 +10,32 @@ get_header(); ?>
 <!-- メインビジュアル -->
 <section class="mainVisual">
     <h1 class="mainVisual__title">Shohokan's<br><span class="title__gold">E</span>nglish<br><span class="title__gold">B</span>attle<br><span class="title__gold">R</span>oyale</h1>
+
+    <!-- 応援金 -->
+<!-- <div class="fundingModal__layer">
+  <div class="fundingWrap">
+    <div class="funding">
+      <div class="fundingInner">
+        <div class="fundingTitle__wrap">
+        <span class="fundingTitle__span"></span>
+        <h2 class="fundingTitle"> 応援金のご協力お願いします!!</h2>
+        <button class="fundingModal__close">×</button>
+        </div>
+        <p class="fundingText">皆様、こんにちは！<br>
+私たち英語道場升砲館は、国際人としての成長を目指す門下生一同によるスピーチコンテストを12月14日（土）に開催いたします。このコンテストは、日々の稽古の成果を発表し、英語発音の重要性を広める貴重な機会です。<br class="pc-only">しかしながら、コンテスト開催には多額の費用が必要です。<br class="pc-only">当日参加する方の参加費だけで賄うには参加費が高額となり、参加者の負担が大きくなるため、皆様に応援金のお願いをしております。皆様のご支援により、英語のスキル向上を目指す仲間たちが力を発揮できる場を作りたいと思います。<br class="pc-only">どうぞご協力いただきますようよろしくお願いいたします。</p>
+
+ <p class="fundingButton__text">詳しくは下記のリンクをクリックしてください。</p>
+ <div class="fundingButton__flex">
+  <a class="fundingButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSfpg-h2_HX_NzEDAngFNsBK8tVygYj_ox8XTKMN_toTxZMV4Q/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+  <a class="fundingButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSeFABwtbdj6jb9XoogbIfdcJ5Sd_2CbGZvDfFTDcVAGwWg3EQ/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+  </div>
+    <p class="fundingText -second">升砲館EBR実行委員会</p>
+        </div>
+      </div>
+    </div>
+</div> -->
+ <!-- 応援金ここまで -->
+
 </section>
 
 <!-- タイマー -->
@@ -17,10 +43,10 @@ get_header(); ?>
 <!-- 申し込みリンク -->
 <div class="requestLink">
   <div class="requestLink__flex">
-    <a class="requestLink__item -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeN66tRCIuVy8_pssjk8pJMNnZeN5tHjHtCJwJsNybvOeVeBw/viewform" id="js-request-guest" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -guest" href="https://docs.google.com/forms/d/e/1FAIpQLScz-y88pjXqvP2gWjCGlr7LqggBdRvFXqW9cdBiWuRk3Pxg8Q/viewform" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text">(ゲストの方)<br>　申し込む</p>
     </a>
-    <a class="requestLink__item -student" href="https://docs.google.com/forms/d/e/1FAIpQLScj2b2ZH2SKMyr6FCwwrMk-jblrtCCySUv3Il8_u3893Rt24w/viewform" id="js-request-student" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" id="js-request-student" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text -student">(門下生)<br>申し込む</p>
     </a>
   </div>
@@ -29,17 +55,18 @@ get_header(); ?>
 
 <div class="requestLink -mobile">
   <div class="requestLink__flex -mobile">
-    <a class="requestLink__item -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeN66tRCIuVy8_pssjk8pJMNnZeN5tHjHtCJwJsNybvOeVeBw/viewform" id="js-request-guest"
+    <a class="requestLink__item -guest" href="https://docs.google.com/forms/d/e/1FAIpQLScz-y88pjXqvP2gWjCGlr7LqggBdRvFXqW9cdBiWuRk3Pxg8Q/viewform" id="js-request-guest"
     target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text">申し込む<br>(ゲストの方)</p>
     </a>
-    <a class="requestLink__item -student" href="https://docs.google.com/forms/d/e/1FAIpQLScj2b2ZH2SKMyr6FCwwrMk-jblrtCCySUv3Il8_u3893Rt24w/viewform" id="js-request-student" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" id="js-request-student" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text -student">申し込む<br>(門下生)</p>
     </a>
   </div>
   <a href="#" class="backToTop__button -mobile" id="backToTop">↑</a>
 </div>
 <!-- 申し込みリンクここまで -->
+
 
   <div class="Timer__wrap">
   <div class="inner">  
@@ -50,18 +77,42 @@ get_header(); ?>
     <span class="Timer__text" id="timer-min"></span>分
     <span class="Timer__text" id="timer-sec"></span>秒
   </div>
+  <div class="Timer__scheduleWrap">
+    <p class="Timer__scheduleText">【開催日時】2024年12月14日(土)<br class="sp-only02"> 16時 〜 21時半</p>
+    <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p>
+    <p class="Timer__schedulePrice">【参加費用】コンテスト&パーティー<br class="sp-only02"> 20,000円</p>
+    <p class="Timer__schedulePlace">【開催場所】ザ・グラン銀座
+      <br class="sp-only02">（GINZA SIX 13階）</p>
+  </div>
+  <!-- 申し込み -->
   <div class="requestWrap">
     <div class="requestInner__line">
   <p class="requestText">EBRに申し込む</p>
   <div class="requestButton__flex">
-  <a class="requestButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeN66tRCIuVy8_pssjk8pJMNnZeN5tHjHtCJwJsNybvOeVeBw/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
-  <a class="requestButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLScj2b2ZH2SKMyr6FCwwrMk-jblrtCCySUv3Il8_u3893Rt24w/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+  <a class="requestButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLScz-y88pjXqvP2gWjCGlr7LqggBdRvFXqW9cdBiWuRk3Pxg8Q/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+  <a class="requestButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div> 
   </div>
+   <!-- 申し込みここまで -->
+
+<!-- 応援金ここから -->
+  <div class="supportWrap">
+    <div class="supportInner__line">
+      <p class="supportText">EBR応援金</p>
+      <p class="supportDescription">EBRでは皆様からの応援金を募集しています。<br class="sp-only">応援金額に応じて素敵な特典もございます。<br>詳しくは下記のリンクをクリックしてください。</p>
+      <div class="supportButton__flex">
+        <a class="supportButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSfpg-h2_HX_NzEDAngFNsBK8tVygYj_ox8XTKMN_toTxZMV4Q/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+        <a class="supportButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSeFABwtbdj6jb9XoogbIfdcJ5Sd_2CbGZvDfFTDcVAGwWg3EQ/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+      </div>
+    </div> 
+</div>
+<!-- 応援金ここまで -->
   </div>
   </div>
 </section>
+
+
 
 <!-- About -->
 <section class="about" id="about">
@@ -89,14 +140,14 @@ get_header(); ?>
   </div>
 
    <p class="aboutSubTitle -second">
-    EBRは他のスピーチコンテストとここが違う！！
+    EBRは他のスピーチコンテストとはここが違う！！
   </p>
   <div class="aboutFlex -second">
     <div class="aboutContents">
       <ul class="aboutContents__list">
         <li class="aboutContents__listItem">
           <span>1</span>チーム対抗戦
-         <p class="aboutText -second">
+        <p class="aboutText -second">
           一般的にスピーチと言えば一人で話す「個人戦」が普通。
           <br class="pc-only02">
           EBRでは2チームに分かれて優勝を争う「団体戦」を採用。
@@ -105,6 +156,7 @@ get_header(); ?>
           <br class="pc-only02">
           普通のスピーチより楽しく、興奮、感動します。
         </p>
+        <img class="aboutContents__img" src="<?php echo esc_url(get_theme_file_uri('/img/ebr2023-36.jpg')); ?>" alt="コンテスト画像1">
         </li>
         <li class="aboutContents__listItem">
           <span>2</span>多様な競技種目
@@ -116,6 +168,7 @@ get_header(); ?>
           多様な競技種目があり、やる方も見る方もみんなが楽しめます。
         </p>
           <!-- 詳細ページリンク -->
+          <img class="aboutContents__img" src="<?php echo esc_url(get_theme_file_uri('/img/ebr2023-35.jpg')); ?>" alt="コンテスト画像">
     <a class="contestContents__link -about" href="<?php echo esc_url(home_url('/contest')); ?>">競技詳細ページは<br class="sp-only">こちら</a>
         </li>
         <li class="aboutContents__listItem">
@@ -127,12 +180,15 @@ get_header(); ?>
           <br class="pc-only02">
           色んなバックグラウンドを持つ方々と交流ができます。
         </p>
+        <img class="aboutContents__img" src="<?php echo esc_url(get_theme_file_uri('/img/ebr2023-37.jpg')); ?>" alt="パーティー画像">
         </li>
       </ul>
     </div>
     <div class="aboutImg__box -second">
-     <div class="aboutImg -fourth"></div>
-     <div class="aboutImg -third"></div>
+    <div class="aboutImg -fourth"></div>
+    <div class="aboutImg -third"></div>
+    <div class="aboutImg -fifth"></div>
+    <div class="aboutImg -sixth"></div>
     </div>
   </div>
 
@@ -157,14 +213,14 @@ get_header(); ?>
         <img src="<?php echo esc_url(get_theme_file_uri('/img/ebr2023-20.jpg')); ?>" alt="パーティー画像3">
       </li>
     </ul>
-    <p class="aboutPrice">【参加費】<br>コンテスト＆パーティ：18,000円 前後</p>
+    <p class="aboutPrice">【参加費】<br>コンテスト＆パーティ：20,000円</p>
   </div>
   <div class="requestWrap -about">
     <div class="requestInner__line">
   <p class="requestText -about">EBRに申し込む</p>
   <div class="requestButton__flex -about">
-  <a class="requestButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeN66tRCIuVy8_pssjk8pJMNnZeN5tHjHtCJwJsNybvOeVeBw/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
-  <a class="requestButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLScj2b2ZH2SKMyr6FCwwrMk-jblrtCCySUv3Il8_u3893Rt24w/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+  <a class="requestButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLScz-y88pjXqvP2gWjCGlr7LqggBdRvFXqW9cdBiWuRk3Pxg8Q/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+  <a class="requestButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div>
   </div>
@@ -211,7 +267,7 @@ get_header(); ?>
     <h2 class="showDown__title">連覇か!!王座奪還か!?</h2>
     <div class="showDown__textRight">
       <div class="showDown__textWrap">
-    <p class="showDown__text -first">昨年のEBRで大接戦の末<br>見事優勝を果たした<mark>Team e-Go!</mark><br>今年はさらなる上達を目論み、<br>リーダーSherryを筆頭に<br>メンバー全員が貪欲に猛稽古に励む。<br>昨年よりパワーアップした<br>Team e-Go!は前回王者のプライド
+    <p class="showDown__text -first">昨年のEBRで大接戦の末<br>見事優勝を果たしたTeam e-Go!<br>今年はさらなる上達を目論み、<br>リーダーSherryを筆頭に<br>メンバー全員が貪欲に猛稽古に励む。<br>昨年よりパワーアップした<br>Team e-Go!は前回王者のプライド
     <br>を胸に大会連覇を狙う。<br>
     ２度目の大輪の華を<br class="sp-only">咲かせることができるか！？</p>
     </div>
@@ -220,7 +276,7 @@ get_header(); ?>
 
     <div class="showDown__textLeft">
       <div class="showDown__textWrap">
-    <p class="showDown__text -second">対して僅かの差で優勝を逃した<br><mark>Team H. Blacks</mark><br>
+    <p class="showDown__text -second">対して僅かの差で優勝を逃した<br>Team H. Blacks<br>
     このまま黙っていられない！<br>
     リーダーKirkを中心に想いは一つ。<br>
     昨年の悔しさをバネに<br class="sp-only02">今年こそはとリベンジを誓う。<br>
@@ -242,19 +298,14 @@ get_header(); ?>
     <div class="timeTable__outline">
       <div class="timeTable__inline">
          <h2 class="timeTableTitle" data-en="当日の流れ">TIME TABLE</h2>
-         <p class="timeTable__subTitle">当日の流れ(仮)</p>
+         <p class="timeTable__subTitle">当日の流れ</p>
          <ul class="timeTable__list">
-          <li class="timeTable__listItem">15:00 開場</li>
-          <li class="timeTable__listItem">15:10 開会の挨拶</li>
-          <li class="timeTable__listItem">15:20 競技種目①(個人)<span>引用文の音読</span></span></li>
-          <li class="timeTable__listItem">15:40 競技種目②(個人)<span>Delivery = ぶっ放す</span></span></li>
-          <li class="timeTable__listItem">16:00 競技種目③(団体)<span>音節分化即時対応</span></span></li>
-          <li class="timeTable__listItem">休憩</li>
-          <li class="timeTable__listItem">16:40 競技種目④(団体)<span>チーム対抗歌合戦</span></span></li>
-          <li class="timeTable__listItem">17:00 競技種目⑤(個人)<span>アテレコ</span></spaN></li>
-          <li class="timeTable__listItem">17:15 競技種目⑥(個人)<span>ビデオレター</span></spaN></li>
-          <li class="timeTable__listItem">18:30 〜 21:00<span>パーティー</span></spaN></li>
-         </ul>
+          <li class="timeTable__listItem">15:00 <br><span>門下生集合・コンテスト会場設営・準備</span></li>
+          <li class="timeTable__listItem">16:00 ~ 18:00 <br><span>コンテスト</span></li>
+          <li class="timeTable__listItem">18:00 ~ 18:30 <br><span>ゲスト休憩・着替え<br>実行委員会パーティー会場設営・準備</span></li>
+          <li class="timeTable__listItem">18:30 ~ 19:00 <br><span>パーティー受付</span></li>
+          <li class="timeTable__listItem">19:00 ~ 21:30 <br><span>パーティー</span></li>
+        </ul>
 
         <!-- 詳細ページリンク -->
     <a class="contestContents__link" href="<?php echo esc_url(home_url('/contest')); ?>">競技詳細ページは<br class="sp-only">こちら</a>
@@ -375,6 +426,7 @@ else :
 <p>ギャラリー写真はありません</p>
 <?php endif; ?>
   </div>
+  <p class="galleryImg__listItem__text">※クリックで拡大できます</p>
   <a class="galleryImg__link" href="<?php echo esc_url(home_url('/gallerylist')) ?>">写真をもっと見る</a>
 
   <!-- モーダル -->
@@ -393,13 +445,33 @@ else :
   <div class="inner">
     <h2 class="accessTitle">ACCESS</h2>
     <div class="accessSubTitle">開催場所</div>
-    <h3 class="accessText">Coming Soon(東京都内予定)</h3>
+    <h3 class="accessText">ザ・グラン銀座<br class="sp-only02">（GINZA SIX 13階）</h3>
     <div class="accessMap">
-    <!-- <iframe class="accessMap_google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.5029226342294!2d139.70695837543224!3d35.66461667259268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca04352d389%3A0xa1e1b2faef4fa15e!2z6Z2S5bGxIOOCu-ODs-ODiOOCsOODrOODvOOCueWkp-iBluWggg!5e0!3m2!1sja!2sjp!4v1717992624529!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12965.18691448534!2d139.7636564!3d35.669695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be639f83e41%3A0x480b874be69c390e!2sTHE%20GRAND%20GINZA!5e0!3m2!1sja!2sjp!4v1731926963464!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
+    <p class="accessText -second">東京都中央区銀座六丁目10番1号　GINZA SIX 13階</p>
+    <p class="accessText -second">東京メトロ 銀座線・丸ノ内線・日比谷線「銀座駅」A3 出口より徒歩2分</p>
+    <p class="accessText -second">東京メトロ 日比谷線、都営地下鉄 浅草線「東銀座駅」A1出口より徒歩3分</p>
+    <a class="accessLink" href="https://www.grandginza.com/#page1" target="_blank" rel="noopener noreferrer">ザ・グラン銀座公式HPはこちら</a>
   </div>
 </section>
 
+<!-- 応援金 -->
+<section class="support">
+  <div class="inner">
+  <div class="supportWrap">
+    <div class="supportInner__line">
+      <p class="supportText">EBR応援金</p>
+      <p class="supportDescription">EBRでは皆様からの応援金を募集しています。<br class="sp-only">応援金額に応じて素敵な特典もございます。<br>詳しくは下記のリンクをクリックしてください。</p>
+      <div class="supportButton__flex">
+        <a class="supportButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSfpg-h2_HX_NzEDAngFNsBK8tVygYj_ox8XTKMN_toTxZMV4Q/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+        <a class="supportButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSeFABwtbdj6jb9XoogbIfdcJ5Sd_2CbGZvDfFTDcVAGwWg3EQ/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+      </div>
+    </div> 
+  </div>
+</div>
+</section>
+<!-- 応援金ここまで -->
 
 
 <!-- フッター -->

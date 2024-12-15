@@ -1,15 +1,15 @@
 <footer class="footer">
   <div class="inner">
     <div class="footerFlex">
-    <a class="footer__logo" href="/">EBR</a>
+    <a class="footer__logo" href="<?php echo esc_url(home_url('/')); ?>">
+    <img src="<?php echo esc_url(get_theme_file_uri('/img/ebr-logo.png')); ?>" alt="EBRロゴ">
+    </a>
     <ul class="footerList">
       <li class="footerList__item">
         <p class="footerList__itemTitle">ABOUT</p>  
         <a href="<?php echo esc_url(home_url('/#about')); ?>">EBRについて</a>
         <p class="footerList__itemTitle -interview">SHOHOKAN WEBSITE</p>
         <a href="https://shohokan.net/" target="_blank" rel="noopener noreferrer">英語道場 升砲館 公式ウェブサイト</a>
-        <!-- <p class="footerList__itemTitle -interview">INTERVIEW</p>
-        <a href="#interview">インタビュー</a> -->
       </li>
       <li class="footerList__item">
         <p class="footerList__itemTitle">ACCESS</p>
@@ -38,7 +38,7 @@
   </div>
 </footer>
 
-<script src="<?php echo esc_url(get_theme_file_uri('/js/main.js')) ?>" ></script>
-<script src="<?php echo esc_url(get_theme_file_uri('/js/hamburger.js')) ?>" ></script>
+<script src="<?php echo esc_url(get_theme_file_uri('/js/main.js')); ?>?v=<?php echo filemtime(get_theme_file_path('/js/main.js')); ?>"></script>
+<script src="<?php echo esc_url(get_theme_file_uri('/js/hamburger.js')); ?>?v=<?php echo filemtime(get_theme_file_path('/js/hamburger.js')); ?>"></script>
 </body>
 </html>

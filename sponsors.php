@@ -203,7 +203,7 @@ get_header();
               <li class="sponsors__listItem -third">山懸哲也 様</li>
               <li class="sponsors__listItem -third">山口理 様</li>
               <li class="sponsors__listItem -third">山﨑望 様</li>
-              <li class="sponsors__listItem -third">山下明未 様</li>
+              <li class="sponsors__listItem -third">山下明美 様</li>
               <li class="sponsors__listItem -third">山本貴司 様</li>
               <li class="sponsors__listItem -third">山森千秋 様</li>
               <li class="sponsors__listItem -third">吉田道子 様</li>

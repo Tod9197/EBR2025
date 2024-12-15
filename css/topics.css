@@ -49,7 +49,7 @@
 }
 .singleTopics__content {
   font-family: "MS Mincho", serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 400;
   text-wrap: wrap;
   letter-spacing: 0.2em;
@@ -79,7 +79,7 @@
     max-height: 350px;
   }
   .singleTopics__content {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 480px) {

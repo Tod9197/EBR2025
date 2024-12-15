@@ -161,3 +161,52 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+// 応援金ポップアップ
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(() => {
+    const modalLayer = document.querySelector(".fundingModal__layer");
+    const modalContent = document.querySelector(".funding");
+    const linkButtons = document.querySelectorAll(".fundingButton");
+    let initialScrollTop = 0; // ポップアップ表示時のスクロール位置を記録
+
+    if (modalLayer) {
+      modalLayer.classList.add("is-open");
+
+      // ポップアップが表示された時のスクロール位置を取得
+      initialScrollTop = window.scrollY || document.documentElement.scrollTop;
+
+      // モーダル外をクリックした時に閉じる
+      modalLayer.addEventListener("click", (event) => {
+        if (!modalContent.contains(event.target)) {
+          modalLayer.classList.remove("is-open");
+        }
+      });
+
+      // ボタンをクリックしたら閉じる
+      linkButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          modalLayer.classList.remove("is-open");
+        });
+      });
+
+      // スクロール位置でモーダルを閉じる
+      const screenHeight = window.innerHeight;
+      window.addEventListener("scroll", () => {
+        const currentScrollTop =
+          window.scrollY || document.documentElement.scrollTop;
+        const scrolledDistance = currentScrollTop - initialScrollTop; // 移動した距離
+
+        if (scrolledDistance > screenHeight * 6) {
+          modalLayer.classList.remove("is-open");
+        }
+      });
+
+      // ×ボタンを押すとモーダルが閉じる
+      const closeButton = document.querySelector(".fundingModal__close");
+      closeButton.addEventListener("click", () => {
+        modalLayer.classList.remove("is-open");
+      });
+    }
+  }, 3000);
+});
