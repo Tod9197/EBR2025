@@ -41,7 +41,8 @@ function countDown(due) {
 }
 
 // 升砲館EBR日程を定義
-const goal1 = new Date(2024, 11, 14);
+//2026/01/31
+const goal1 = new Date(2026, 1, 31);
 
 function recalc() {
   // Timer セクションが存在する場合のみタイマーを更新
@@ -153,9 +154,9 @@ document.addEventListener("DOMContentLoaded", function () {
   if (hamburgerBtn) {
     hamburgerBtn.addEventListener("click", function () {
       isHamburgerMenuOpen = !isHamburgerMenuOpen; // ハンバーガーメニューの状態をトグル
-      if (isHamburgerMenuOpen) {
+      if (isHamburgerMenuOpen && requestLinkMobile) {
         requestLinkMobile.classList.add("show");
-      } else {
+      } else if (requestLinkMobile) {
         requestLinkMobile.classList.remove("show");
       }
     });

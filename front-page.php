@@ -41,7 +41,7 @@ get_header(); ?>
 <!-- タイマー -->
 <section class="Timer">
 <!-- 申し込みリンク -->
-<div class="requestLink">
+<!-- <div class="requestLink">
   <div class="requestLink__flex">
     <a class="requestLink__item -guest" href="https://docs.google.com/forms/d/e/1FAIpQLScz-y88pjXqvP2gWjCGlr7LqggBdRvFXqW9cdBiWuRk3Pxg8Q/viewform" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text">(ゲストの方)<br>　申し込む</p>
@@ -64,13 +64,13 @@ get_header(); ?>
     </a>
   </div>
   <a href="#" class="backToTop__button -mobile" id="backToTop">↑</a>
-</div>
+</div> -->
 <!-- 申し込みリンクここまで -->
 
 
   <div class="Timer__wrap">
   <div class="inner">  
-    <h2 class="Timer__title"><span>火花散る！！<br class="Timer__title__spOnly">度肝抜かれる</span><br>決戦まで</h2>
+    <h2 class="Timer__title"><span>NEXT <br class="Timer__title__spOnly">STAGE</span><br>決戦まで</h2>
     <div class="Timer__section">
     あと<span class="Timer__text" id="timer-day"></span>日
     <span class="Timer__text" id="timer-hours"></span>時間
@@ -78,14 +78,31 @@ get_header(); ?>
     <span class="Timer__text" id="timer-sec"></span>秒
   </div>
   <div class="Timer__scheduleWrap">
-    <p class="Timer__scheduleText">【開催日時】2024年12月14日(土)<br class="sp-only02"> 16時 〜 21時半</p>
-    <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p>
-    <p class="Timer__schedulePrice">【参加費用】コンテスト&パーティー<br class="sp-only02"> 20,000円</p>
-    <p class="Timer__schedulePlace">【開催場所】ザ・グラン銀座
-      <br class="sp-only02">（GINZA SIX 13階）</p>
+    <p class="Timer__scheduleText">【開催日時】2025年01月31日(金)<br class="sp-only02"> 時間未定</p>
+    <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
+    <p class="Timer__schedulePrice">【参加費用】
+      <!-- コンテスト&パーティー -->
+      <br class="sp-only02"> 未定</p>
+    <p class="Timer__schedulePlace">
+      【開催場所】未定
+      <!-- ザ・グラン銀座 -->
+      <br class="sp-only02">
+    </p>
   </div>
   <!-- 申し込み -->
-  <div class="requestWrap">
+
+   <div class="requestWrap">
+    <div class="requestInner__line">
+  <p class="requestText">2024年EBRを終えて</p>
+  <div class="appreciateText__wrap">
+  <p class="appreciateText">2024年12月24日にザ・グラン銀座にて行われたEBR2024は大成功にて終えることができました。<br>競技者の熱い戦いに参加者された皆様の心強い応援。1日を通して笑顔が絶えない楽しい会となりました。<br>この会が素晴らしい会となったのもひとえに参加された方々や、応援金・その他様々なサポートをしていただいた皆様のおかげです。<br>改めて心より感謝の気持ちを表明いたします。<br>そしてこの会はまた1年後に開催されます。2026年1月31日と日程は決まっておりますが、開催時間や場所等は未定ですので、決まり次第追ってお知らせします。今後ともEBRをどうぞよろしくお願いいたします。
+  </p>
+  <p class="appreciateText -second">升砲館EBR実行委員会</p>
+  </div>
+  </div> 
+  </div>
+  
+  <!-- <div class="requestWrap">
     <div class="requestInner__line">
   <p class="requestText">EBRに申し込む</p>
   <div class="requestButton__flex">
@@ -93,11 +110,11 @@ get_header(); ?>
   <a class="requestButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div> 
-  </div>
+  </div> -->
    <!-- 申し込みここまで -->
 
 <!-- 応援金ここから -->
-  <div class="supportWrap">
+  <!-- <div class="supportWrap">
     <div class="supportInner__line">
       <p class="supportText">EBR応援金</p>
       <p class="supportDescription">EBRでは皆様からの応援金を募集しています。<br class="sp-only">応援金額に応じて素敵な特典もございます。<br>詳しくは下記のリンクをクリックしてください。</p>
@@ -106,7 +123,7 @@ get_header(); ?>
         <a class="supportButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSeFABwtbdj6jb9XoogbIfdcJ5Sd_2CbGZvDfFTDcVAGwWg3EQ/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
       </div>
     </div> 
-</div>
+</div> -->
 <!-- 応援金ここまで -->
   </div>
   </div>
@@ -213,9 +230,11 @@ get_header(); ?>
         <img src="<?php echo esc_url(get_theme_file_uri('/img/ebr2023-20.jpg')); ?>" alt="パーティー画像3">
       </li>
     </ul>
-    <p class="aboutPrice">【参加費】<br>コンテスト＆パーティ：20,000円</p>
+    <p class="aboutPrice">【参加費】未定
+        <!-- <br>コンテスト＆パーティ：20,000円 -->
+  </p>
   </div>
-  <div class="requestWrap -about">
+  <!-- <div class="requestWrap -about">
     <div class="requestInner__line">
   <p class="requestText -about">EBRに申し込む</p>
   <div class="requestButton__flex -about">
@@ -223,7 +242,8 @@ get_header(); ?>
   <a class="requestButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div>
-  </div>
+  </div> -->
+
   </div>
 </section>
 
@@ -445,19 +465,20 @@ else :
   <div class="inner">
     <h2 class="accessTitle">ACCESS</h2>
     <div class="accessSubTitle">開催場所</div>
-    <h3 class="accessText">ザ・グラン銀座<br class="sp-only02">（GINZA SIX 13階）</h3>
-    <div class="accessMap">
+    <h3 class="accessText">未定</h3>
+    <!-- <h3 class="accessText">ザ・グラン銀座<br class="sp-only02">（GINZA SIX 13階）</h3> -->
+    <!-- <div class="accessMap">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12965.18691448534!2d139.7636564!3d35.669695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be639f83e41%3A0x480b874be69c390e!2sTHE%20GRAND%20GINZA!5e0!3m2!1sja!2sjp!4v1731926963464!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <p class="accessText -second">東京都中央区銀座六丁目10番1号　GINZA SIX 13階</p>
     <p class="accessText -second">東京メトロ 銀座線・丸ノ内線・日比谷線「銀座駅」A3 出口より徒歩2分</p>
     <p class="accessText -second">東京メトロ 日比谷線、都営地下鉄 浅草線「東銀座駅」A1出口より徒歩3分</p>
     <a class="accessLink" href="https://www.grandginza.com/#page1" target="_blank" rel="noopener noreferrer">ザ・グラン銀座公式HPはこちら</a>
-  </div>
+  </div> -->
 </section>
 
 <!-- 応援金 -->
-<section class="support">
+<!-- <section class="support">
   <div class="inner">
   <div class="supportWrap">
     <div class="supportInner__line">
@@ -470,7 +491,7 @@ else :
     </div> 
   </div>
 </div>
-</section>
+</section> -->
 <!-- 応援金ここまで -->
 
 
