@@ -78,7 +78,7 @@ get_header(); ?>
     <span class="Timer__text" id="timer-sec"></span>秒
   </div>
   <div class="Timer__scheduleWrap">
-    <p class="Timer__scheduleText">【開催日時】2025年01月31日(金)<br class="sp-only02"> 時間未定</p>
+    <p class="Timer__scheduleText">【開催日時】2026年01月31日(金)<br class="sp-only02"> 時間未定</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
     <p class="Timer__schedulePrice">【参加費用】
       <!-- コンテスト&パーティー -->
