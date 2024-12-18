@@ -70,7 +70,7 @@ get_header(); ?>
 
   <div class="Timer__wrap">
   <div class="inner">  
-    <h2 class="Timer__title"><span>NEXT <br class="Timer__title__spOnly">STAGE</span><br>決戦まで</h2>
+    <h2 class="Timer__title"><span>NEXT <br class="Timer__title__spOnly">STAGE</span><br>次の闘いまで</h2>
     <div class="Timer__section">
     あと<span class="Timer__text" id="timer-day"></span>日
     <span class="Timer__text" id="timer-hours"></span>時間
