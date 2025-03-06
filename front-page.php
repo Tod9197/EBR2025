@@ -129,6 +129,35 @@ get_header(); ?>
   </div>
 </section>
 
+<!-- 昨年の声 -->
+<section class="impression">
+  <div class="impression__bg"></div>
+  <div class="impression__inner">
+  <h2 class="impression__title">VOICEs</h2>
+  <p class="impression__subTitle"> 2024年参加者の感想</p>
+  <div class="impressionWords">
+    <ul class="impressionList">
+      <li class="impressionList__item">
+      <div class="impressionWords__itemContent">
+        <span class="impressionWords__itemTag">感動！感動！感動！</span>
+      </div>
+      </li>
+      <li class="impressionList__item">
+      <div class="impressionWords__itemContent">
+        aaa
+      </div>
+      </li>
+      <li class="impressionList__item">
+      <div class="impressionWords__itemContent">
+        aaa
+      </div>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+</section>
+
 
 
 <!-- About -->
@@ -247,7 +276,7 @@ get_header(); ?>
   </div>
 </section>
 
-<!-- 昨年の声 -->
+<!-- 昨年の声
 <section class="impression">
   <div class="impression__bg"></div>
   <h2 class="impression__title">VOICEs</h2>
@@ -264,7 +293,7 @@ get_header(); ?>
      <p class="impressionWords__item -ninth">笑いあり涙ありで感動の一日でした!!</p>
      <p class="impressionWords__item -tenth">みんなが人前で堂々とネイティブのように英語を話す姿を見て感動しました！改めて升砲館は凄いなと思いましたし、一員で入れて嬉しかったです！！</p>
   </div>
-</section>
+</section> -->
 
 
 <!-- ShowDown -->

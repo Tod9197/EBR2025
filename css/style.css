@@ -941,9 +941,10 @@ img {
 .impression__subTitle {
   font-family: "Sharp", serif;
   font-size: 2rem;
+  font-weight: bold;
   text-align: center;
   color: #000;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 .impression__bg {
   width: 100%;
@@ -951,10 +952,10 @@ img {
   top: 0;
   left: 0;
   position: absolute;
-  background-image: url(../img/party01.jpg);
+  background-image: url(../img/party02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .impressionWords {
@@ -994,7 +995,58 @@ img {
     opacity: 0;
   }
 }
-.impressionWords__item.-first {
+
+/* 20250306追記 2024年参加者の声*/
+.impression__inner {
+  max-width: 1400px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin: 0 auto;
+}
+.impressionList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 0;
+}
+.impressionList__item {
+  height: 25rem;
+  background: linear-gradient(
+    135deg,
+    #a855f7,
+    /* 鮮やかな紫 */ #d8b9ff,
+    /* 明るいラベンダー */ #b39ddb,
+    /* メタリック感のある紫 */ #e6e6e6,
+    /* シルバー */ #ffffff /* ハイライトの白 */
+  );
+  background-size: 300% 300%;
+  animation: shinePurple 20s infinite linear;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0 50px 0 50px;
+}
+@keyframes shinePurple {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.impressionWords__itemContent {
+  padding: 2rem;
+}
+.impressionWords__itemTag {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* .impressionWords__item.-first {
   text-align: left;
   animation: rizing 15s infinite alternate;
   top: 50%;
@@ -1055,7 +1107,7 @@ img {
   left: 13rem;
   animation: rizing 16s infinite alternate;
   animation-delay: 2s;
-}
+} */
 
 @media (max-width: 1024px) {
   .impression__title {
