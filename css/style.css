@@ -978,7 +978,7 @@ img {
   border-radius: 20px;
   border: 2px solid #ffd700;
 }
-@keyframes rizing {
+/* @keyframes rizing {
   0% {
     opacity: 0;
   }
@@ -994,7 +994,7 @@ img {
   100% {
     opacity: 0;
   }
-}
+} */
 
 /* 20250306追記 2024年参加者の声*/
 .impression__inner {
@@ -1007,45 +1007,45 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  padding: 0;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 .impressionList__item {
-  height: 25rem;
-  background: linear-gradient(
-    135deg,
-    #a855f7,
-    /* 鮮やかな紫 */ #d8b9ff,
-    /* 明るいラベンダー */ #b39ddb,
-    /* メタリック感のある紫 */ #e6e6e6,
-    /* シルバー */ #ffffff /* ハイライトの白 */
-  );
-  background-size: 300% 300%;
-  animation: shinePurple 20s infinite linear;
+  height: auto;
+  background-color: #fff;
   padding: 10px;
   text-align: center;
-  border-radius: 0 50px 0 50px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 4px 4px #ffd700;
+  position: relative;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.6s ease-out;
 }
-@keyframes shinePurple {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-.impressionWords__itemContent {
-  padding: 2rem;
-}
-.impressionWords__itemTag {
-  font-size: 1.8rem;
-  text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
+.impressionList__item.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
+.impressionWords__itemContent {
+  padding: 3rem 2rem 2rem;
+}
+.impressionWords__itemText {
+  font-size: 1.6rem;
+  text-align: left;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+.impressionWords__itemName {
+  display: block;
+  font-size: 1.4rem;
+  text-align: right;
+  color: #333;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
 /* .impressionWords__item.-first {
   text-align: left;
   animation: rizing 15s infinite alternate;

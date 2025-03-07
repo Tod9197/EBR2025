@@ -139,7 +139,21 @@ get_header(); ?>
     <ul class="impressionList">
       <li class="impressionList__item">
       <div class="impressionWords__itemContent">
-        <span class="impressionWords__itemTag">感動！感動！感動！</span>
+        <p class="impressionWords__itemText">本番に向けてのデリバリー出場者との密な稽古がとても楽しかったです。<br>通常稽古ではない、同じ目標に向けて頑張る、時には12時を超えたこともありましたが、学生時代の文化祭のような感じでとても楽しかったです。<br>楽しいだけではなく、ネイティブならではのリズムやアクセントが身につき、今でも夢に見ることがあります笑 EBRを通じて英語話者としての感覚も身につけられる貴重な機会でした。</p>
+        <span class="impressionWords__itemName">升砲館門下生 Mitchel</span>
+      </div>
+      </li>
+      <li class="impressionList__item">
+      <div class="impressionWords__itemContent">
+        <p class="impressionWords__itemText">EBRに、参加するなら、やはり勝ちたい。前年は、負けているので尚更勝ちたい。通常の稽古とは違い、グループでポイントを競い勝ち負けがつきます。<br>勝負なので、競技種目が難しい。難しいけれど、それをどのようにしたら上手くできるのかと考え、稽古するので、私にとっては、なかなか良い刺激になりました。<br>競技種目は、アテレコでしたが、会話の間、声のトーンなど俳優になりきってやってみるのが面白かったです。</p>
+        <span class="impressionWords__itemName">升砲館門下生 Jess</span>
+      </div>
+      </li>
+      <li class="impressionList__item">
+      <div class="impressionWords__itemContent">
+        <p class="impressionWords__itemText">EBRは1年に1度の体育祭のようでした<br>
+        個人戦も団体戦もあり､自分1人のためではなく､チームが勝つための作戦を練り練習をしました。<br>その場で考えて､それを形にしていくことの楽しさと団結力で勝ち抜こうとする気持ちが芽生え、第二の青春を味わうことができました。</p>
+        <span class="impressionWords__itemName">升砲館門下生 Hannah</span>
       </div>
       </li>
       <li class="impressionList__item">

@@ -42,7 +42,7 @@ function countDown(due) {
 
 // 升砲館EBR日程を定義
 //2026/01/31
-const goal1 = new Date(2026, 1, 31);
+const goal1 = new Date(2026, 0, 31);
 
 function recalc() {
   // Timer セクションが存在する場合のみタイマーを更新
@@ -210,4 +210,27 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   }, 3000);
+});
+
+// 2024年参加者の声
+document.addEventListener("DOMContentLoaded", function () {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const items = entry.target.querySelectorAll(".impressionList__item");
+          items.forEach((item, index) => {
+            setTimeout(() => {
+              item.classList.add("show");
+            }, index * 400);
+          });
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  const section = document.querySelector(".impression");
+  if (section) observer.observe(section);
 });
