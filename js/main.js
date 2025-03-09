@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
           items.forEach((item, index) => {
             setTimeout(() => {
               item.classList.add("show");
-            }, index * 400);
+            }, index * 500);
           });
           observer.unobserve(entry.target);
         }

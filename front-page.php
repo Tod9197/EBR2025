@@ -354,7 +354,7 @@ get_header(); ?>
 </section>
 
 <!-- 当日のスケジュール -->
-<section class="timeTable" id="timetable">
+<!-- <section class="timeTable" id="timetable">
   <div class="inner">
     <div class="timeTable__contents">
   <div class="timeTable__wrap">
@@ -368,17 +368,17 @@ get_header(); ?>
           <li class="timeTable__listItem">18:00 ~ 18:30 <br><span>ゲスト休憩・着替え<br>実行委員会パーティー会場設営・準備</span></li>
           <li class="timeTable__listItem">18:30 ~ 19:00 <br><span>パーティー受付</span></li>
           <li class="timeTable__listItem">19:00 ~ 21:30 <br><span>パーティー</span></li>
-        </ul>
+        </ul> -->
 
         <!-- 詳細ページリンク -->
-    <a class="contestContents__link" href="<?php echo esc_url(home_url('/contest')); ?>">競技詳細ページは<br class="sp-only">こちら</a>
+    <!-- <a class="contestContents__link" href="<?php echo esc_url(home_url('/contest')); ?>">競技詳細ページは<br class="sp-only">こちら</a>
       </div>
     </div>
 
   </div>
   </div>
   </div>
-</section>
+</section> -->
 
 
 <!-- Topics -->

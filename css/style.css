@@ -1006,7 +1006,7 @@ img {
 .impressionList {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 4rem 2rem;
+  gap: 5rem 3rem;
   padding-right: 2rem;
   padding-left: 2rem;
 }
@@ -1028,7 +1028,7 @@ img {
 }
 
 .impressionWords__itemContent {
-  padding: 3rem;
+  padding: 3rem 2.5rem 2.5rem;
 }
 .impressionWords__itemText {
   font-size: 1.6rem;
