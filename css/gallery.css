@@ -3,6 +3,13 @@
   padding: 10rem 0 20rem;
   background-image: url(../img/bg02.jpg);
 }
+.galleryArchive.-show {
+  display: block;
+}
+.galleryArchive.-off {
+  display: none;
+}
+
 .galleryArchive__title {
   font-size: 3.5rem;
   font-weight: bold;

@@ -40,5 +40,6 @@
 
 <script src="<?php echo esc_url(get_theme_file_uri('/js/main.js')); ?>?v=<?php echo filemtime(get_theme_file_path('/js/main.js')); ?>"></script>
 <script src="<?php echo esc_url(get_theme_file_uri('/js/hamburger.js')); ?>?v=<?php echo filemtime(get_theme_file_path('/js/hamburger.js')); ?>"></script>
+<script src="<?php echo esc_url(get_theme_file_uri('/js/gallery.js')); ?>?v=<?php echo filemtime(get_theme_file_path('/js/gallery.js')); ?>"></script>
 </body>
 </html>
