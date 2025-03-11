@@ -1,7 +1,35 @@
-.galleryArchive {
+.inner.-galleryArchive {
+  max-width: 1200px;
+}
+
+.galleryArchive__wrap {
   width: 100%;
   padding: 10rem 0 20rem;
   background-image: url(../img/bg02.jpg);
+}
+.galleryTab__button {
+  width: 20rem;
+  font-size: 2rem;
+  color: #000;
+  background-color: #fff;
+  padding: 1rem 0;
+  border: 1px solid #ffd700;
+  border-radius: 4px 4px 0 0;
+  letter-spacing: 0.1em;
+  margin-right: 1rem;
+}
+.galleryTab__button:hover {
+  cursor: pointer;
+}
+.galleryTab__button.-active {
+  background-color: #ffd700;
+}
+
+.galleryArchive {
+  padding: 5rem 3rem;
+  background-color: #fff;
+  border: 1px solid #ffd700;
+  border-top: none;
 }
 .galleryArchive.-show {
   display: block;
@@ -11,7 +39,7 @@
 }
 
 .galleryArchive__title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.1em;

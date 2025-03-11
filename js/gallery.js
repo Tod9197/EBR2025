@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const galleryTab2023 = document.getElementById("js-gallery2023");
 
   galleryButton2024.addEventListener("click", function () {
+    galleryButton2024.classList.add("-active");
+    galleryButton2023.classList.remove("-active");
     galleryTab2024.classList.add("-show");
     galleryTab2024.classList.remove("-off");
     galleryTab2023.classList.remove("-show");
@@ -13,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   galleryButton2023.addEventListener("click", function () {
+    galleryButton2023.classList.add("-active");
+    galleryButton2024.classList.remove("-active");
     galleryTab2023.classList.add("-show");
     galleryTab2023.classList.remove("-off");
     galleryTab2024.classList.remove("-show");

@@ -38,15 +38,15 @@ get_header();
 </div> -->
 <!-- 申し込みリンクここまで -->
 
-
-<div class="galleryTab">
-  <div class="galleryTab__button">
-    <button id="js-gallery-tab2024" class="active">2024年</button>
-    <button id="js-gallery-tab2023">2023年</button>
-  </div>
 <!-- 2024年度画像 -->
-<section class="galleryArchive -show" id="js-gallery2024">
-  <div class="inner">
+<div class="galleryArchive__wrap">
+  <div class="inner -galleryArchive">
+    <div class="galleryTab">
+      <div class="galleryTab__buttonWrap">
+        <button class="galleryTab__button -active" id="js-gallery-tab2024">2024年</button><button class="galleryTab__button" id="js-gallery-tab2023">2023年</button>
+    </div>
+  </div>
+  <section class="galleryArchive -show" id="js-gallery2024">
     <h2 class="galleryArchive__title">2024年度EBR</h2>
     <div class="galleryArchive__list">
       <?php  
@@ -91,7 +91,7 @@ get_header();
     ?>
       <p>ギャラリー画像はありません。</p>
     <?php endif; ?>
-  </div>
+  
   <!-- モーダル -->
   <div class="modal" id="imageModal" >
     <div class="modal__wrap">
@@ -105,7 +105,6 @@ get_header();
 
 <!-- 2023年度画像 -->
 <section class="galleryArchive -off" id="js-gallery2023">
-  <div class="inner">
     <h2 class="galleryArchive__title">2023年度EBR</h2>
     <div class="galleryArchive__list">
       <?php  
@@ -150,7 +149,6 @@ get_header();
     ?>
       <p>ギャラリー画像はありません。</p>
     <?php endif; ?>
-  </div>
   <!-- モーダル -->
   <div class="modal" id="imageModal" >
     <div class="modal__wrap">
@@ -159,9 +157,10 @@ get_header();
     <div id="caption"></div>
     </div>
   </div>
+  </div>
 </section>
-
 </div>
+
 
 <!-- 2023年度画像ここまで -->
 
