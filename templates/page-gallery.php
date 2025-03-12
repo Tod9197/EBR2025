@@ -93,13 +93,13 @@ get_header();
     <?php endif; ?>
   
   <!-- モーダル -->
-  <div class="modal" id="imageModal" >
+  <!-- <div class="modal" id="imageModal" >
     <div class="modal__wrap">
     <span class="modal__close">&times;</span>
     <img class="modal__content" id="modalImage">
     <div id="caption"></div>
     </div>
-  </div>
+  </div> -->
 </section>
 <!-- 2024年度画像ここまで -->
 
@@ -149,7 +149,10 @@ get_header();
     ?>
       <p>ギャラリー画像はありません。</p>
     <?php endif; ?>
-  <!-- モーダル -->
+  </div>
+</section>
+
+ <!-- モーダル -->
   <div class="modal" id="imageModal" >
     <div class="modal__wrap">
     <span class="modal__close">&times;</span>
@@ -157,8 +160,7 @@ get_header();
     <div id="caption"></div>
     </div>
   </div>
-  </div>
-</section>
+
 </div>
 
 

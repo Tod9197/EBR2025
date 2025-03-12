@@ -13,8 +13,9 @@
   color: #000;
   background-color: #fff;
   padding: 1rem 0;
-  border: 1px solid #ffd700;
-  border-radius: 4px 4px 0 0;
+  border: 3px solid #ffd700;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
   letter-spacing: 0.1em;
   margin-right: 1rem;
 }
@@ -22,14 +23,18 @@
   cursor: pointer;
 }
 .galleryTab__button.-active {
-  background-color: #ffd700;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 242, 58, 1),
+    rgba(224, 162, 8, 1) 80%
+  );
 }
 
 .galleryArchive {
   padding: 5rem 3rem;
   background-color: #fff;
-  border: 1px solid #ffd700;
-  border-top: none;
+  border: 3px solid #ffd700;
+  border-radius: 0px 6px 6px 6px;
 }
 .galleryArchive.-show {
   display: block;
