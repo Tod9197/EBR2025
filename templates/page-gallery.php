@@ -111,7 +111,7 @@ get_header();
       $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
       $args = array(
         'post_type' => 'gallery',
-        'posts_per_page' => 16,
+        'posts_per_page' => 20,
         'category_name' => 'ebr2023',
         'paged' => $paged
       );
@@ -152,7 +152,7 @@ get_header();
   </div>
 </section>
 
- <!-- モーダル -->
+<!-- モーダル -->
   <div class="modal" id="imageModal" >
     <div class="modal__wrap">
     <span class="modal__close">&times;</span>
