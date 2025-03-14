@@ -21,4 +21,18 @@ function create_gallery_post_type(){
     );
 }
 add_action('init', 'create_gallery_post_type');
+
+// メディアライブラリ用のカスタムタクソノミーを作成
+function add_media_category_taxonomy(){
+    register_taxonomy(
+        'media_category',
+        'attachment',
+        array(
+            'label' => 'メディアカテゴリ',
+            'hierarchial' => true,
+            'rewrite' => array('slug' => 'media-category'),
+        )
+        );
+}
+add_action('init','add_media_category_taxonomy');
 ?>

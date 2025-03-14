@@ -464,25 +464,31 @@ $the_query = new WP_Query($args);
 
 <div class="galleryImg__list">
   <?php  
-  $args = array(
-    'post_type' => 'gallery',
-    'posts_per_page' => 6,
-    'orderby' => 'rand'//ランダムに表示
+  $galleryArgs = array(
+    'post_type' => 'attachment',
+    'post_mime_type' => 'image',
+    'post_status' => 'inherit',
+    'posts_per_page' => 20,
+    'orderby' => 'rand',
+    'tax_query' => array(
+      array(
+        'taxonomy' => 'media_category',
+        'field' => 'slug',
+        'terms' => 'ebr2023'
+      ),
+    ),
   );
-  $gallery_query = new WP_Query($args);
-
-  if($gallery_query->have_posts()) : 
-    while($gallery_query->have_posts()) : $gallery_query->the_post();
-    if(has_post_thumbnail()) :
+  $media_items = get_posts($galleryArgs);
   
+  if($media_items):
+    foreach($media_items as $media) :
+      $img_url = wp_get_attachment_url($media->ID, 'full');
   ?>
   <div class="galleryImg__listItem">
-  <?php the_post_thumbnail('full',array('class'=>'')); ?>
+    <img src="<?php echo esc_url($img_url); ?>" alt="当日の画像">
   </div>
-<?php  
-endif;
-endwhile;
-wp_reset_postdata();
+<?php
+endforeach;
 else :
 ?>
 </div>
