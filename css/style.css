@@ -77,6 +77,40 @@ img {
   color: #000;
   background-color: #ddd;
 }
+.toTop__button {
+  display: block;
+  font-size: 2rem;
+  font-family: "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
+  font-weight: 400;
+  color: #000;
+  border: 2px solid #ffd700;
+  text-align: center;
+  padding: 2rem;
+  max-width: 30rem;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+.toTop__button:hover {
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 242, 58, 1),
+    rgba(224, 162, 8, 1) 80%
+  );
+}
+@media (max-width: 768px) {
+  .toTop__button {
+    font-size: 1.8rem;
+    padding: 1rem 5rem;
+  }
+}
+@media (max-width: 480px) {
+  .toTop__button {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+}
 
 /* レスポンシブ */
 @media (max-width: 1024px) {
@@ -187,13 +221,16 @@ img {
   font-weight: 500;
   text-wrap: wrap;
   letter-spacing: 0.1em;
-  line-height: 1.8;
+  line-height: 2;
 }
 .appreciateText.-second {
   font-size: 1.8rem;
   font-weight: bold;
   text-align: center;
   margin-top: 5rem;
+}
+.appreciateText span {
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   .appreciateText {
@@ -462,9 +499,10 @@ img {
     width: 100%;
   }
   .requestText {
-    font-size: 2rem;
+    font-size: 1.6rem;
     top: -4rem;
-    padding: 1rem 0.5rem 1rem 1rem;
+    padding: 1rem;
+    line-height: 1.6;
   }
   .requestText.-about {
     font-size: 2rem;
@@ -652,8 +690,6 @@ img {
   .contestContents__link,
   .contestContents__link.-about {
     font-size: 1.4rem;
-  }
-  .contestContents__link.-about {
     margin-top: 3rem;
     margin-bottom: 0;
   }
@@ -913,11 +949,14 @@ img {
 /* 昨年の感想 */
 .impression {
   width: 100%;
+  height: auto;
   padding-right: 1rem;
   padding-left: 1rem;
-  background-color: #fff;
-  padding: 10rem 0 0;
-  position: relative;
+  background-image: url(../img/bg02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem 0;
 }
 .impression__title {
   font-size: 6rem;
@@ -946,31 +985,17 @@ img {
   color: #000;
   margin-bottom: 5rem;
 }
-.impression__bg {
-  width: 100%;
-  height: 100rem;
-  top: 0;
-  left: 0;
-  position: absolute;
-  background-image: url(../img/party02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.4;
-}
 
 .impressionWords {
   width: 100%;
-  height: 66rem;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 10rem;
+  max-width: 100%;
+  height: auto;
 }
 .impressionWords__item {
   font-size: 2rem;
-  width: 30%;
+  width: 100%;
   color: #000;
   opacity: 0;
-  position: absolute;
   letter-spacing: 0.2em;
   line-height: 1.8;
   padding: 2rem;
@@ -978,23 +1003,6 @@ img {
   border-radius: 20px;
   border: 2px solid #ffd700;
 }
-/* @keyframes rizing {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-} */
 
 /* 20250306追記 2024年参加者の声*/
 .impression__inner {
@@ -1047,68 +1055,12 @@ img {
   bottom: 2rem;
   right: 2rem;
 }
-/* .impressionWords__item.-first {
-  text-align: left;
-  animation: rizing 15s infinite alternate;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-.impressionWords__item.-second {
-  left: 1.5rem;
-  animation: rizing 12s infinite alternate;
-  animation-delay: 1s;
-  background-image: unset;
+@media (max-width: 1200px) {
+  .impressionList {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-.impressionWords__item.-third {
-  top: 1rem;
-  right: 6rem;
-  animation: rizing 12s infinite alternate;
-  animation-delay: 1s;
-}
-.impressionWords__item.-fourth {
-  bottom: 1rem;
-  left: 3rem;
-  animation: rizing 12s infinite alternate;
-  animation-delay: 4s;
-}
-.impressionWords__item.-fifth {
-  bottom: 23rem;
-  left: 7rem;
-  animation: rizing 14s infinite alternate;
-  animation-delay: 5s;
-}
-.impressionWords__item.-sixth {
-  bottom: 1rem;
-  right: 2rem;
-  animation: rizing 13s infinite alternate;
-  animation-delay: 7s;
-}
-.impressionWords__item.-seventh {
-  bottom: 10rem;
-  left: 45rem;
-  animation: rizing 12s infinite alternate;
-  animation-delay: 7s;
-}
-.impressionWords__item.-eight {
-  bottom: 25rem;
-  right: 3rem;
-  animation: rizing 15s infinite alternate;
-  animation-delay: 3s;
-}
-.impressionWords__item.-ninth {
-  top: 14rem;
-  right: 38rem;
-  animation: rizing 15s infinite alternate;
-  animation-delay: 5s;
-}
-.impressionWords__item.-tenth {
-  top: 10rem;
-  left: 13rem;
-  animation: rizing 16s infinite alternate;
-  animation-delay: 2s;
-} */
 
 @media (max-width: 1024px) {
   .impression__title {
@@ -1118,31 +1070,15 @@ img {
     font-size: 1.8rem;
   }
   .impressionWords {
-    height: 67.5rem;
     overflow: unset;
   }
   .impressionWords__item {
     font-size: 1.6rem;
   }
-  .impressionWords__item.-seventh {
-    left: 38rem;
-  }
-  .impressionWords__item.-ninth {
-    right: 31rem;
-  }
-  .impressionWords__item.-tenth {
-    left: 3rem;
-  }
 }
 @media (max-width: 768px) {
   .impression {
-    padding: 7rem 0 0;
-  }
-  .impression__bg {
-    height: 85.5rem;
-  }
-  .impressionWords {
-    height: 56rem;
+    padding: 7rem 0;
   }
   .impression__title {
     font-size: 3.5rem;
@@ -1152,86 +1088,26 @@ img {
     font-size: 1.4rem;
     margin-bottom: 4rem;
   }
-  .impressionWords__item {
-    width: 40%;
-    font-size: 1.4rem;
-  }
-  .impressionWords__item.-third {
-    right: 3rem;
-  }
-  .impressionWords__item.-fourth {
-    bottom: -4rem;
-  }
-  .impressionWords__item.-fifth {
-    bottom: 14rem;
-  }
-  .impressionWords__item.-seventh {
-    left: 28rem;
-  }
-  .impressionWords__item.-eight {
-    bottom: 22rem;
-  }
-  .impressionWords__item.-ninth {
-    top: 5rem;
-    right: 28rem;
-  }
-  .impressionWords__item.-tenth {
-    top: 14rem;
-    left: 1rem;
+  .impressionList {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (max-width: 480px) {
-  .impression__bg {
-    height: 108.5rem;
-  }
   .impression__title::after {
     width: 35%;
   }
   .impression__subTitle {
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
-  .impressionWords {
-    height: 73rem;
+  .impressionWords__itemText {
+    font-size: 1.4rem;
   }
-  .impressionWords__item {
-    width: 50%;
-    font-size: 1.2rem;
-    padding: 1rem 1.5rem;
+  .impressionList {
+    padding-right: 0;
+    padding-left: 0;
   }
-  .impressionWords__item.-first {
-    top: 45%;
-    left: 35%;
-  }
-  .impressionWords__item.-second {
-    top: -7rem;
-  }
-  .impressionWords__item.-third {
-    right: 1rem;
-  }
-  .impressionWords__item.-fourth {
-    bottom: -7rem;
-    left: 2rem;
-  }
-  .impressionWords__item.-fifth {
-    left: 2rem;
-    bottom: 17rem;
-  }
-  .impressionWords__item.-sixth {
-    bottom: 0;
-  }
-  .impressionWords__item.-seventh {
-    left: 15rem;
-  }
-  .impressionWords__item.-eight {
-    bottom: 22rem;
-  }
-  .impressionWords__item.-ninth {
-    top: 7rem;
-    right: 15.5rem;
-  }
-  .impressionWords__item.-tenth {
-    top: 11rem;
-    left: 7rem;
+  .impressionWords__itemContent {
+    padding: 2rem 2rem 2rem;
   }
 }
 
@@ -2391,6 +2267,9 @@ img {
     font-size: 3.5rem;
     padding-bottom: 2rem;
   }
+  .galleryTitle.-lower {
+    font-size: 2.8rem;
+  }
   .galleryTitle::after {
     top: 4rem;
   }
@@ -2399,16 +2278,16 @@ img {
     margin-top: -1rem;
     margin-bottom: 5rem;
   }
+  .gallery__text.-lower {
+    margin-top: 0;
+  }
   .galleryImg__list {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1;
+    gap: 1rem;
     margin-bottom: 3rem;
   }
   .galleryImg__listItem {
     width: 100%;
-  }
-  .galleryImg__listItem:nth-child(n + 5) {
-    display: none;
   }
   .galleryImg__link {
     font-size: 1.4rem;

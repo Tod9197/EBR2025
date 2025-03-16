@@ -222,13 +222,13 @@ document.addEventListener("DOMContentLoaded", function () {
           items.forEach((item, index) => {
             setTimeout(() => {
               item.classList.add("show");
-            }, index * 500);
+            }, index * 700);
           });
           observer.unobserve(entry.target);
         }
       });
     },
-    { threshold: 0.2 }
+    { threshold: [0, 0.1, 0.2], rootMargin: "0px 0px -10% 0px" }
   );
 
   const section = document.querySelector(".impression");

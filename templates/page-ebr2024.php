@@ -1,6 +1,6 @@
 <?php  
 /*
-Template Name: EBR2023 ギャラリー
+Template Name: EBR2024 ギャラリー
 */
 get_header();
 ?>
@@ -12,8 +12,8 @@ get_header();
 
 <section class="gallery" id="gallery">
   <div class="inner">
-    <h2 class="galleryTitle -lower">GALLERY (EBR2023)</h2>
-    <p class="gallery__text -lower">過去開催の写真 (EBR2023)</p>
+    <h2 class="galleryTitle -lower">GALLERY (EBR2024)</h2>
+    <p class="gallery__text -lower">過去開催の写真 (EBR2024)</p>
 
     <div class="galleryImg__list -lower">
       <?php  
@@ -22,14 +22,14 @@ get_header();
         'post_type'      => 'attachment',
         'post_mime_type' => 'image',
         'post_status'    => 'inherit',
-        'posts_per_page' => 20,
+        'posts_per_page' => 5,
         'paged'          => $paged,
         'orderby'        => 'rand',
         'tax_query'      => array(
           array(
             'taxonomy' => 'media_category',
             'field'    => 'slug',
-            'terms'    => 'ebr2023', // 固定
+            'terms'    => 'ebr2024', // 固定
           ),
         ),
       );

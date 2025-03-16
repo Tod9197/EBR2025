@@ -78,13 +78,10 @@ get_header(); ?>
     <span class="Timer__text" id="timer-sec"></span>秒
   </div>
   <div class="Timer__scheduleWrap">
-    <p class="Timer__scheduleText">【開催日時】2026年01月31日(金)<br class="sp-only02"> 時間未定</p>
+    <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2026年01月31日(土)時間未定</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
-    <p class="Timer__schedulePrice">【参加費用】
-      <!-- コンテスト&パーティー -->
-      <br class="sp-only02"> 未定</p>
-    <p class="Timer__schedulePlace">
-      【開催場所】未定
+    <p class="Timer__schedulePrice">【参加費用】未定</p>
+    <p class="Timer__schedulePlace">【開催場所】未定
       <!-- ザ・グラン銀座 -->
       <br class="sp-only02">
     </p>
@@ -93,9 +90,13 @@ get_header(); ?>
 
    <div class="requestWrap">
     <div class="requestInner__line">
-  <p class="requestText">2024年EBRを終えて</p>
+  <p class="requestText">大人が本気で<br>学び、遊び、挑み、魅せる</p>
   <div class="appreciateText__wrap">
-  <p class="appreciateText">2024年12月24日にザ・グラン銀座にて行われたEBR2024は大成功にて終えることができました。<br>競技者の熱い戦いに参加者された皆様の心強い応援。1日を通して笑顔が絶えない楽しい会となりました。<br>この会が素晴らしい会となったのもひとえに参加された方々や、応援金・その他様々なサポートをしていただいた皆様のおかげです。<br>改めて心より感謝の気持ちを表明いたします。<br>そしてこの会はまた1年後に開催されます。2026年1月31日と日程は決まっておりますが、開催時間や場所等は未定ですので、決まり次第追ってお知らせします。今後ともEBRをどうぞよろしくお願いいたします。
+  <p class="appreciateText">2025年升砲館は創立10周年を迎えます。<br>節目の年に行われる<span>EBR2025(English Battle Royal 2025)</span> <br>創立以来、<span>館長Shawn</span>の教えのもと、多くの門下生が本気で英語を学び、自身の限界に挑み、成長してきました。<br>今年は10周年を迎える記念すべきEBR2025を原点に立ち返り、門下生が今まで以上に真剣にコンテストに向けて稽古を行っていきます。そして私達EBR実行委員会は記念すべきEBR2025年に一つのスローガンを掲げました！<br><span>「大人が本気で学び、遊び、挑み、魅せる」</span>
+  <br>大人になってからでもネイティブ文化に根ざした英語を話せることを目指して本気で学ぶ、
+  大人であっても照れることなく本気で遊戯性を楽しむ、大人がそれぞれ本気で勝利獲得を目指して挑戦する、
+  そうやって、大人が本気でやっているEBRで、観客を余すところなく魅了する。
+  <br>そうそれこそが升砲館門下生のあり方。大人達が子供のように無邪気に楽しみ、まるでネイティブ、いやネイティブを超える英語のスピーチを披露し、熱い闘いを繰り広げる。この記念すべきEBR2025に参加することは必ずあなたのこれからの人生に良い影響を与えます！ぜひご参加ください！
   </p>
   <p class="appreciateText -second">升砲館EBR実行委員会</p>
   </div>
@@ -131,7 +132,7 @@ get_header(); ?>
 
 <!-- 昨年の声 -->
 <section class="impression">
-  <div class="impression__bg"></div>
+  <!-- <div class="impression__bg"></div> -->
   <div class="impression__inner">
   <h2 class="impression__title">VOICEs</h2>
   <p class="impression__subTitle"> 2024年参加者の感想</p>
@@ -140,30 +141,45 @@ get_header(); ?>
       <li class="impressionList__item">
       <div class="impressionWords__itemContent">
         <p class="impressionWords__itemText">本番に向けてのデリバリー出場者との密な稽古がとても楽しかったです。<br>通常稽古ではない、同じ目標に向けて頑張る、時には12時を超えたこともありましたが、学生時代の文化祭のような感じでとても楽しかったです。<br>楽しいだけではなく、ネイティブならではのリズムやアクセントが身につき、今でも夢に見ることがあります笑 EBRを通じて英語話者としての感覚も身につけられる貴重な機会でした。</p>
-        <span class="impressionWords__itemName">升砲館門下生 Mitchel</span>
+        <span class="impressionWords__itemName">升砲館門下生 M</span>
       </div>
       </li>
       <li class="impressionList__item">
       <div class="impressionWords__itemContent">
-        <p class="impressionWords__itemText">EBRに、参加するなら、やはり勝ちたい。<br> 前年は、負けているので尚更勝ちたい。<br>通常の稽古とは違い、グループでポイントを競い勝ち負けがつきます。 勝負なので、競技種目が難しい。難しいけれど、それをどのようにしたら上手くできるのかと考え、稽古するので、私にとっては、なかなか良い刺激になりました。<br>競技種目は、アテレコでしたが、会話の間、声のトーンなど俳優になりきってやってみるのが面白かったです。</p>
-        <span class="impressionWords__itemName">升砲館門下生 Jess</span>
+        <p class="impressionWords__itemText">EBRに、参加するなら、やはり勝ちたい。前年は、負けているので尚更勝ちたい。<br>通常の稽古とは違い、グループでポイントを競い勝ち負けがつきます。 勝負なので、競技種目が難しい。難しいけれど、それをどのようにしたら上手くできるのかと考え、稽古するので、私にとっては、なかなか良い刺激になりました。<br>競技種目は、アテレコでしたが、会話の間、声のトーンなど俳優になりきってやってみるのが面白かったです。</p>
+        <span class="impressionWords__itemName">升砲館門下生 J</span>
       </div>
       </li>
       <li class="impressionList__item">
       <div class="impressionWords__itemContent">
-        <p class="impressionWords__itemText">EBRは1年に1度の体育祭のようでした<br>
-        個人戦も団体戦もあり､自分1人のためではなく､チームが勝つための作戦を練り練習をしました。<br>その場で考えて､それを形にしていくことの楽しさと団結力で勝ち抜こうとする気持ちが芽生え、第二の青春を味わうことができました。</p>
-        <span class="impressionWords__itemName">升砲館門下生 Hannah</span>
+        <p class="impressionWords__itemText">EBRは1年に1度の体育祭のようでした。個人戦も団体戦もあり､自分1人のためではなく､チームが勝つための作戦を練り練習をしました。その場で考えて､それを形にしていくことの楽しさと団結力で勝ち抜こうとする気持ちが芽生え、第二の青春を味わうことができました。</p>
+        <span class="impressionWords__itemName">升砲館門下生 H</span>
       </div>
       </li>
       <li class="impressionList__item">
       <div class="impressionWords__itemContent">
-        aaa
+        <p class="impressionWords__itemText">初めて参加したEBRを一言で言うなら、間違いなく「最高！！」でした。よくわからないまま音節分化にエントリーすると、あっという間にチームのメンバーが「一緒に稽古しない？」と声をかけてくださる、この環境。学生時代みたいでとても楽しいと思いました。そして稽古を続けているうちに楽しいだけではなく、ドラマを見ている時にゴニョゴニョとしか聞こえなかった英語のセリフが、ところどころ英語として聞こえる時があることに気が付きました。音節分化って、すごい！！個人の向上を目指して始めた稽古も、EBRが近づくにつれてチームの勝利の為にとより熱が入りました。この一体感も、体育祭や文化祭的で楽しめました。</p>
+        <span class="impressionWords__itemName">升砲館門下生 A</span>
       </div>
       </li>
       <li class="impressionList__item">
       <div class="impressionWords__itemContent">
-        aaa
+         <p class="impressionWords__itemText">そして、何よりよかったのはやはり本番です。
+          仲間たちがあの立派なステージ上やモニターの中で
+          自分の種目を堂々と、かっこよく、ぶっ放していく姿に心躍りました。
+          そして、いざ自分の番。残念ながら、音節分化の注意点は頭から抜けてしまって
+          「しゃべれる人間のフリをする」「ぺこぺこしない、場の支配権を取りに行け」
+          この二つだけをよりどころに、"k_ar_as_um_i" をぶっ放しました。
+          もちろん、気分は最高！でした。
+          さあ、来年のEBRではどんな自分になれるだろうか。
+          そんなワクワクと成長を与えてくれるのが私にとってのEBRです。</p>
+        <span class="impressionWords__itemName">升砲館門下生 A</span>
+      </div>
+      </li>
+       <li class="impressionList__item">
+      <div class="impressionWords__itemContent">
+         <p class="impressionWords__itemText">EBRまでの稽古で自身にとってブレイクスルーとなる出来事が2つありました。1つ目はEBRに向けたShawnによる特別稽古でご指導いただいた時、ネイティヴが話す英語とは何ぞやということが真に腹に落ちました。2つ目はEBRに向けたチーム対抗の歌の稽古をしている時、門下生の仲間がくれたアドバイスで喉を開くことができ、以来軽々とお腹から発声できるようになりました。当日は素晴らしく楽しいものであったのは言うまでもなく、本番に向かうまでに師匠と門下生の仲間と過ごした時間は財産です。今年も昨年を上回る濃い時間を過ごしていきたいですね。</p>
+        <span class="impressionWords__itemName">升砲館門下生 T</span>
       </div>
       </li>
       
@@ -468,7 +484,7 @@ $the_query = new WP_Query($args);
     'post_type' => 'attachment',
     'post_mime_type' => 'image',
     'post_status' => 'inherit',
-    'posts_per_page' => 20,
+    'posts_per_page' => 6,
     'orderby' => 'rand',
     'tax_query' => array(
       array(
