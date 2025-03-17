@@ -15,6 +15,12 @@ get_header();
     <h2 class="galleryTitle -lower">GALLERY (EBR2024)</h2>
     <p class="gallery__text -lower">過去開催の写真 (EBR2024)</p>
 
+     <!-- 年代を選択 -->
+    <div class="galleryCategory">
+      <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2024', home_url('/gallerylist2024'))); ?>">EBR2024の画像を<br class="sp-only">もっと見る</a>
+      <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2023', home_url('/gallerylist2023'))); ?>">EBR2023の画像を<br class="sp-only">もっと見る</a>
+    </div>
+
     <div class="galleryImg__list -lower">
       <?php  
       $paged = get_query_var('paged') ? get_query_var('paged') : 1;
@@ -24,7 +30,7 @@ get_header();
         'post_status'    => 'inherit',
         'posts_per_page' => 5,
         'paged'          => $paged,
-        'orderby'        => 'rand',
+        'orderby'        => 'DESC',
         'tax_query'      => array(
           array(
             'taxonomy' => 'media_category',
@@ -73,8 +79,7 @@ get_header();
       <div id="caption"></div>
     </div>
   </div>
-
-
+<a class="toTop__button" href="../">TOPへ戻る</a>
 </section>
 
 <?php get_footer(); ?>

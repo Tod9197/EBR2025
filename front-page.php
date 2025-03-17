@@ -306,26 +306,6 @@ get_header(); ?>
   </div>
 </section>
 
-<!-- 昨年の声
-<section class="impression">
-  <div class="impression__bg"></div>
-  <h2 class="impression__title">VOICEs</h2>
-  <p class="impression__subTitle">昨年参加された方々の感想</p>
-  <div class="impressionWords">
-    <p class="impressionWords__item -first">その雰囲気と感動はその場でしか味わえない、まさにアメージング！</p>
-    <p class="impressionWords__item -second">EBR1ヶ月後、母国語のように英語が喋れるようになりました🎵</p>
-    <p class="impressionWords__item -third">単なる英語発表会じゃない、英語文化を体現する場がそこに在った。興奮した！</p>
-    <p class="impressionWords__item -fourth">ペア競技のスタバ、最初は全く噛み合わなかったのに、本番では意外と肝が座っていて、うまくぶっ放せた！</p>
-     <p class="impressionWords__item -fifth">EBRに向けた稽古で上手くなること間違いなし!</p>
-     <p class="impressionWords__item -sixth">ステージの上でプレゼンなんて、、、と言っていた門下生が本番で輝いていて、素敵だった！！！</p>
-     <p class="impressionWords__item -seventh">執行部はじめ門下生全員で準備したEBRが成功し、とても嬉しかった!!</p>
-     <p class="impressionWords__item -eight">EBRに向けての集中稽古や自主練習を通して、英語が自分のものになっていく感覚がありました。本番は夢のような時間でした。忘れられない一日となりました。</p>
-     <p class="impressionWords__item -ninth">笑いあり涙ありで感動の一日でした!!</p>
-     <p class="impressionWords__item -tenth">みんなが人前で堂々とネイティブのように英語を話す姿を見て感動しました！改めて升砲館は凄いなと思いましたし、一員で入れて嬉しかったです！！</p>
-  </div>
-</section> -->
-
-
 <!-- ShowDown -->
 <div class="showDown__bar">
       <div class="showDown__barWrap">
@@ -477,6 +457,11 @@ $the_query = new WP_Query($args);
   <div class="inner">
     <h2 class="galleryTitle" data-en="画像集">GALLERY</h2>
     <p class="gallery__text">過去開催の写真</p>
+       <!-- 年代を選択 -->
+    <div class="galleryCategory">
+      <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2024', home_url('/gallerylist2024'))); ?>">EBR2024の画像を<br class="sp-only">もっと見る</a>
+      <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2023', home_url('/gallerylist2023'))); ?>">EBR2023の画像を<br class="sp-only">もっと見る</a>
+    </div>
 
 <div class="galleryImg__list">
   <?php  

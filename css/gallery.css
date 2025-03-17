@@ -1,6 +1,7 @@
 .galleryCategory {
   display: flex;
-  margin: 3rem auto;
+  justify-content: center;
+  margin: 3rem auto 10rem;
 }
 .galleryCategory__link {
   font-family: "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
@@ -13,6 +14,7 @@
   );
   padding: 2rem;
   margin-right: 1rem;
+  box-shadow: 4px 3px 5px #333;
 }
 .galleryCategory__link:hover {
   opacity: 0.8;
@@ -40,7 +42,7 @@
   background-color: #000;
 }
 
-/* 2023年画像集 */
+/* 2023年,2024年画像集 */
 .galleryImg__list.-lower {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -164,11 +166,18 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
+  .galleryImg__list.-lower {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .galleryCategory {
+    justify-content: space-evenly;
+  }
   .galleryCategory__link {
     font-size: 1.2rem;
     padding: 1rem;
     text-align: center;
     line-height: 1.6;
+    margin-right: unset;
   }
   .galleryCategory__title {
     font-size: 1.6rem;

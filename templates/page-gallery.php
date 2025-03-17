@@ -44,10 +44,10 @@ get_header();
     <h2 class="galleryTitle -lower" data-en="画像集">GALLERY</h2>
     <p class="gallery__text -lower">過去開催の写真</p>
 
-    <!-- カテゴリの選択 -->
+    <!-- 年代を選択 -->
     <div class="galleryCategory">
-      <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2024', home_url('/gallerylist2024'))); ?>">EBR2024の画像をもっと見る</a>
-      <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2023', home_url('/gallerylist2023'))); ?>">EBR2023の画像をもっと見る</a>
+      <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2024', home_url('/gallerylist2024'))); ?>">EBR2024の画像を<br class="sp-only">もっと見る</a>
+      <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2023', home_url('/gallerylist2023'))); ?>">EBR2023の画像を<br class="sp-only">もっと見る</a>
     </div>
     
     <!-- 2024年画像集 -->
