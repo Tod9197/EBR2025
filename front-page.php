@@ -35,7 +35,6 @@ get_header(); ?>
     </div>
 </div> -->
  <!-- 応援金ここまで -->
-
 </section>
 
 <!-- タイマー -->
@@ -66,8 +65,6 @@ get_header(); ?>
   <a href="#" class="backToTop__button -mobile" id="backToTop">↑</a>
 </div> -->
 <!-- 申し込みリンクここまで -->
-
-
   <div class="Timer__wrap">
   <div class="inner">  
     <h2 class="Timer__title"><span>NEXT <br class="Timer__title__spOnly">STAGE</span><br>次の闘いまで</h2>
@@ -182,13 +179,10 @@ get_header(); ?>
         <span class="impressionWords__itemName">升砲館門下生 T</span>
       </div>
       </li>
-      
     </ul>
   </div>
   </div>
 </section>
-
-
 
 <!-- About -->
 <section class="about" id="about">
