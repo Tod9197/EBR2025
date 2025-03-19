@@ -132,7 +132,7 @@ get_header(); ?>
   <!-- <div class="impression__bg"></div> -->
   <div class="impression__inner">
   <h2 class="impression__title">VOICEs</h2>
-  <p class="impression__subTitle"> 2024年参加者の感想</p>
+  <p class="impression__subTitle"> 2024年参加者の声</p>
   <div class="impressionWords">
     <ul class="impressionList">
       <li class="impressionList__item">
@@ -161,7 +161,7 @@ get_header(); ?>
       </li>
       <li class="impressionList__item">
       <div class="impressionWords__itemContent">
-         <p class="impressionWords__itemText">そして、何よりよかったのはやはり本番です。
+         <p class="impressionWords__itemText">何よりよかったのはやはり本番です。
           仲間たちがあの立派なステージ上やモニターの中で
           自分の種目を堂々と、かっこよく、ぶっ放していく姿に心躍りました。
           そして、いざ自分の番。残念ながら、音節分化の注意点は頭から抜けてしまって
@@ -304,9 +304,9 @@ get_header(); ?>
 <div class="showDown__bar">
       <div class="showDown__barWrap">
         <div class="showDown__Flex">
-          <p class="showDown__barTitle -first">Team<br class="sp-only"> H. Blacks</p>
-          <p class="showDown__barTitle -second">VS</p>
           <p class="showDown__barTitle -third">Team<br class="sp-only02"> e-Go!</p> 
+          <p class="showDown__barTitle -second">VS</p>
+          <p class="showDown__barTitle -first">Team<br class="sp-only"> H. Blacks</p>
         </div>
         <div class="showDown__barImg"></div>
       <div class="showDown__barImg -second"></div>
@@ -315,7 +315,7 @@ get_header(); ?>
       </div>
 </div>
 
-<section class="showDown__Description">
+<!-- <section class="showDown__Description">
   <div class="inner">
     <h2 class="showDown__title">連覇か!!王座奪還か!?</h2>
     <div class="showDown__textRight">
@@ -341,7 +341,7 @@ get_header(); ?>
 <div class="showDown__DescriptionImg -second"></div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- 当日のスケジュール -->
 <!-- <section class="timeTable" id="timetable">

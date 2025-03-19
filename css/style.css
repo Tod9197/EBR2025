@@ -1118,7 +1118,7 @@ img {
   bottom: 0;
   box-sizing: border-box;
   z-index: 10000;
-  background-image: url(../img/thunder.jpg);
+  background-image: url(../img/bg-purple.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5rem 0;
@@ -1139,12 +1139,13 @@ img {
 .showDown__barTitle.-first {
   font-size: 15rem;
   width: 100%;
-  text-align: left;
+  text-align: right;
   background-image: linear-gradient(
     90deg,
-    rgba(128, 128, 128, 1),
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 1)
+    rgba(192, 192, 192, 1),
+    /* 明るいシルバー */ rgba(128, 128, 128, 1),
+    /* グレー */ rgba(64, 64, 64, 1),
+    /* ダークグレー */ rgba(0, 0, 0, 1) /* 黒 */
   );
   /* テキストにのみ背景色を適用 */
   -webkit-background-clip: text;
@@ -1154,17 +1155,29 @@ img {
   margin-bottom: 15rem;
 }
 .showDown__barTitle.-second {
-  font-size: 12rem;
+  font-size: 7rem;
   width: 100%;
   position: relative;
   color: #fff;
   text-shadow: 3px 3px 3px #000;
+  position: relative;
+}
+.showDown__barTitle.-second:after {
+  display: block;
+  content: "最終　決戦";
+  font-size: 10rem;
+  letter-spacing: 0.2em;
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
 }
 
 .showDown__barTitle.-third {
   font-size: 15rem;
   width: 100%;
-  text-align: right;
+  text-align: left;
   background-image: radial-gradient(
     circle,
     rgba(255, 242, 58, 1),
@@ -1187,7 +1200,7 @@ img {
   margin: auto;
   position: relative;
 }
-.showDown__barImg {
+/* .showDown__barImg {
   width: 65rem;
   height: 75rem;
   background-image: url(../img/sherry02.png);
@@ -1219,7 +1232,7 @@ img {
   background-size: contain;
   background-position: center center;
   z-index: 2;
-}
+} */
 .sp-only,
 .sp-only02 {
   display: none;

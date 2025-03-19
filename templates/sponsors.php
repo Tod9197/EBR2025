@@ -13,7 +13,7 @@ get_header();
 </section>
 
 <!-- 申し込みリンク -->
-<div class="requestLink">
+<!-- <div class="requestLink">
   <div class="requestLink__flex">
     <a class="requestLink__item -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeN66tRCIuVy8_pssjk8pJMNnZeN5tHjHtCJwJsNybvOeVeBw/viewform" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text">(ゲストの方)<br>　申し込む</p>
@@ -35,7 +35,7 @@ get_header();
     </a>
   </div>
   <a href="#" class="backToTop__button -mobile" id="backToTop">↑</a>
-</div>
+</div> -->
 <!-- 申し込みリンクここまで -->
 
 <!-- Sponser -->
