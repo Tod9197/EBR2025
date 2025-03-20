@@ -144,16 +144,21 @@ img {
 }
 .requestText {
   display: inline-block;
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.2em;
   padding: 1rem 1rem 1rem 2rem;
   position: relative;
-  top: -6rem;
+  top: -7rem;
   right: -50%;
   transform: translateX(-50%);
   background-color: #fff;
+}
+.requestText span {
+  font-family: "Yuji Syuku", "Yuji Mai", "Sawarabi Mincho", "Noto Serif JP",
+    serif;
+  font-size: 4.5rem;
 }
 .requestText.-about {
   font-size: 4rem;
@@ -430,8 +435,11 @@ img {
     padding: 3rem 1.5rem;
   }
   .requestText {
+    font-size: 2.4rem;
+    top: -6rem;
+  }
+  .requestText span {
     font-size: 3.2rem;
-    top: -5rem;
   }
   .requestText.-about {
     font-size: 3.2rem;
@@ -499,10 +507,13 @@ img {
     width: 100%;
   }
   .requestText {
-    font-size: 1.6rem;
-    top: -4rem;
-    padding: 1rem;
+    font-size: 1.4rem;
+    top: -5rem;
+    padding: 1rem 0.5rem;
     line-height: 1.6;
+  }
+  .requestText span {
+    font-size: 1.8rem;
   }
   .requestText.-about {
     font-size: 2rem;
@@ -1242,14 +1253,14 @@ img {
   .showDown__barTitle.-third {
     font-size: 13rem;
   }
-  .showDown__barImg {
+  /* .showDown__barImg {
     width: 60rem;
     height: 70rem;
   }
   .showDown__barImg.-second {
     width: 50rem;
     height: 70rem;
-  }
+  } */
 }
 @media (max-width: 1024px) {
   .showDown__barTitle.-first,
@@ -1259,28 +1270,29 @@ img {
   .showDown__barTitle.-second {
     font-size: 8rem;
   }
-  .showDown__barImg {
+  /* .showDown__barImg {
     width: 55rem;
     height: 65rem;
   }
   .showDown__barImg.-second {
     width: 45rem;
     height: 65rem;
-  }
+  } */
 }
 @media (max-width: 768px) {
-  .showDown__barTitle.-first,
+  .showDown__barTitle.-first {
+    font-size: 7.5rem;
+    margin-top: 2rem;
+  }
   .showDown__barTitle.-third {
     font-size: 7.5rem;
+    margin-bottom: 2rem;
   }
-  .showDown__barImg {
-    display: none;
+  .showDown__barTitle.-second {
+    font-size: 4rem;
   }
-  .showDown__barImg.-second {
-    display: none;
-  }
-  .showDown__barImg.-third {
-    display: block;
+  .showDown__barTitle.-second:after {
+    font-size: 6rem;
   }
   .sp-only {
     display: block;
@@ -1296,26 +1308,32 @@ img {
   }
   .showDown__barTitle.-first,
   .showDown__barTitle.-third {
-    font-size: 5.5rem;
+    font-size: 5rem;
     line-height: 1.2;
   }
   .showDown__barTitle.-first {
-    margin-bottom: 11rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
   }
   .showDown__barTitle.-second {
-    font-size: 6rem;
+    font-size: 2.4rem;
+  }
+  .showDown__barTitle.-second::after {
+    font-size: 3.6rem;
   }
   .showDown__barTitle.-third {
     margin-top: 8rem;
-    text-align: right;
+    text-align: center;
+    margin-bottom: 2rem;
   }
   .sp-only02 {
     display: block;
   }
-  .showDown__barImg.-third {
+  /* .showDown__barImg.-third {
     left: -1rem;
     top: -2rem;
-  }
+  } */
 }
 
 /* showDown__Description */

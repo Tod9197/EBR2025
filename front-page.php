@@ -87,7 +87,7 @@ get_header(); ?>
 
    <div class="requestWrap">
     <div class="requestInner__line">
-  <p class="requestText">大人が本気で<br>学び、遊び、挑み、魅せる</p>
+  <p class="requestText"><span>大人</span>が<span>本気</span>で<br><span>学び、遊び、挑み、魅せる</span></p>
   <div class="appreciateText__wrap">
   <p class="appreciateText">2025年升砲館は創立10周年を迎えます。<br>節目の年に行われる<span>EBR2025(English Battle Royal 2025)</span> <br>創立以来、<span>館長Shawn</span>の教えのもと、多くの門下生が本気で英語を学び、自身の限界に挑み、成長してきました。<br>今年は10周年を迎える記念すべきEBR2025を原点に立ち返り、門下生が今まで以上に真剣にコンテストに向けて稽古を行っていきます。そして私達EBR実行委員会は記念すべきEBR2025年に一つのスローガンを掲げました！<br><span>「大人が本気で学び、遊び、挑み、魅せる」</span>
   <br>大人になってからでもネイティブ文化に根ざした英語を話せることを目指して本気で学ぶ、
@@ -304,9 +304,9 @@ get_header(); ?>
 <div class="showDown__bar">
       <div class="showDown__barWrap">
         <div class="showDown__Flex">
-          <p class="showDown__barTitle -third">Team<br class="sp-only02"> e-Go!</p> 
+          <p class="showDown__barTitle -third">Team e-Go!</p> 
           <p class="showDown__barTitle -second">VS</p>
-          <p class="showDown__barTitle -first">Team<br class="sp-only"> H. Blacks</p>
+          <p class="showDown__barTitle -first">Team<br class="sp-only02"> H. Blacks</p>
         </div>
         <div class="showDown__barImg"></div>
       <div class="showDown__barImg -second"></div>

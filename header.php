@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
     <?php bloginfo('name'); ?></title>
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/style.css')); ?>?v=<?php echo filemtime(get_theme_file_path('/css/style.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/mainvisual.css')); ?>?v=<?php echo filemtime(get_theme_file_path('/css/style.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/about.css')); ?>" type="text/css">
