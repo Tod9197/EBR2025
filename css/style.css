@@ -98,6 +98,11 @@ img {
     rgba(224, 162, 8, 1) 80%
   );
 }
+.text-center {
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+}
 @media (max-width: 768px) {
   .toTop__button {
     font-size: 1.8rem;
