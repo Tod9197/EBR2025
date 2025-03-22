@@ -125,11 +125,30 @@ get_header(); ?>
 <!-- 応援金ここまで -->
   </div>
   </div>
+
+  <div class="TimerImg__wrap">
+    <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-02.jpg')); ?>" alt="EBR2024">
+     <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-01.jpeg')); ?>" alt="EBR2024">
+    <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-03.jpg')); ?>" alt="EBR2024">
+  </div>
+
+</section>
+
+<section class="ourGoals">
+  <div class="inner">
+    <h2 class="ourGoals__title">GOALs
+    </h2>
+    <p class="ourGoals__subTitle">私たちがEBRを通して目指すもの</p>
+    <p class="ourGoals__text">EBRの開催自体は1日だけですが、升砲館門下生のこの1日に向けて1年間稽古を繰り返し、英語発音、スピーチ、プレゼンの技術などを向上させていきます。ただ単にうまくなるだけではなく、升砲館門下生にしか目指せない領域を狙い日々研鑽を積んでいるのです。そしてEBRへの活動を通して私たち門下生が目指しているところは次の2点に集約されます。</p>
+    <ul class="ourGoals__list">
+      <li class="ourGoals__item">① 1年に一度の大きな舞台「EBR」での勝利を目標に据えることで、自身の成長を加速する</li>
+      <li class="ourGoals__item">② ネイティブを超える英語プレゼン力をEBRで披露し、升砲館の凄さを世に見せつける</li>
+    </ul>
+  </div>
 </section>
 
 <!-- 昨年の声 -->
 <section class="impression">
-  <!-- <div class="impression__bg"></div> -->
   <div class="impression__inner">
   <h2 class="impression__title">VOICEs</h2>
   <p class="impression__subTitle"> 2024年参加者の声</p>

@@ -855,7 +855,13 @@ img {
   font-size: 2rem;
   margin-top: -1rem;
 }
-
+.TimerImg__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.TimerImg {
+  width: 33%;
+}
 @media (max-width: 1024px) {
   .Timer__title {
     font-size: 4.2rem;
@@ -2574,4 +2580,78 @@ img {
   font-weight: bold;
   text-align: center;
   margin-bottom: 5rem;
+}
+
+/* 私たちが目指すのもの・意義 */
+.ourGoals {
+  padding: 10rem 0;
+}
+.ourGoals__title {
+  font-size: 6rem;
+  font-family: "Sharp", serif;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.ourGoals__title::after {
+  display: block;
+  content: "";
+  width: 15%;
+  height: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffd700;
+  position: absolute;
+}
+.ourGoals__subTitle {
+  font-family: "Sharp", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+  margin-bottom: 5rem;
+}
+.ourGoals__text {
+  font-size: 2rem;
+  font-weight: 500;
+  text-wrap: wrap;
+  letter-spacing: 0.1em;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+.ourGoals__list {
+  line-height: 2;
+}
+.ourGoals__item {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+@media (max-width: 1024px) {
+  .ourGoals__title {
+    font-size: 5rem;
+  }
+  .ourGoals__subTitle {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .ourGoals__title {
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+  }
+  .ourGoals__subTitle {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 480px) {
+  .ourGoals__title::after {
+    width: 35%;
+  }
+  .ourGoals__subTitle {
+    margin-bottom: 5rem;
+  }
 }
