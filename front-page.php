@@ -488,7 +488,7 @@ $the_query = new WP_Query($args);
       array(
         'taxonomy' => 'media_category',
         'field' => 'slug',
-        'terms' => 'ebr2023'
+        'terms' => 'ebr2024'
       ),
     ),
   );
