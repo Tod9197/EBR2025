@@ -89,7 +89,7 @@ get_header(); ?>
     <div class="requestInner__line">
   <p class="requestText"><span>大人</span>が<span>本気</span>で<br><span>学び、遊び、挑み、魅せる</span></p>
   <div class="appreciateText__wrap">
-  <p class="appreciateText">2025年升砲館は創立10周年を迎えます。<br>節目の年に行われる<span>EBR2025(English Battle Royal 2025)</span> <br>創立以来、<span>館長Shawn</span>の教えのもと、多くの門下生が本気で英語を学び、自身の限界に挑み、成長してきました。<br>今年は10周年を迎える記念すべきEBR2025を原点に立ち返り、門下生が今まで以上に真剣にコンテストに向けて稽古を行っていきます。そして私達EBR実行委員会は記念すべきEBR2025年に一つのスローガンを掲げました！<br><span class="text-center">「大人が本気で<br class="sp-only">学び、遊び、挑み、魅せる」</span>
+  <p class="appreciateText">2025年<span>升砲館</span>は<span>創立10周年</span>を迎えます。<br>節目の年に行われる<span>EBR2025(English Battle Royal 2025)</span> <br>創立以来、<span>館長Shawn</span>の教えのもと、多くの門下生が本気で英語を学び、自身の限界に挑み、成長してきました。<br>今年は10周年を迎える記念すべきEBR2025を原点に立ち返り、門下生が今まで以上に真剣にコンテストに向けて稽古を行っていきます。そして私達EBR実行委員会は記念すべきEBR2025年に一つのスローガンを掲げました！<br><span class="text-center">「大人が本気で<br class="sp-only">学び、遊び、挑み、魅せる」</span>
   大人になってからでもネイティブ文化に根ざした英語を話せることを目指して本気で学ぶ、
   大人であっても照れることなく本気で遊戯性を楽しむ、大人がそれぞれ本気で勝利獲得を目指して挑戦する、
   そうやって、大人が本気でやっているEBRで、観客を余すところなく魅了する。
@@ -126,15 +126,15 @@ get_header(); ?>
   </div>
   </div>
 
-  <div class="TimerImg__wrap">
+  <!-- <div class="TimerImg__wrap">
     <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-02.jpg')); ?>" alt="EBR2024">
      <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-01.jpeg')); ?>" alt="EBR2024">
     <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-03.jpg')); ?>" alt="EBR2024">
-  </div>
+  </div> -->
 
 </section>
 
-<section class="ourGoals">
+<!-- <section class="ourGoals">
   <div class="inner">
     <h2 class="ourGoals__title">GOALs
     </h2>
@@ -145,7 +145,7 @@ get_header(); ?>
       <li class="ourGoals__item">② ネイティブを超える英語プレゼン力をEBRで披露し、升砲館の凄さを世に見せつける</li>
     </ul>
   </div>
-</section>
+</section> -->
 
 <!-- 昨年の声 -->
 <section class="impression">
