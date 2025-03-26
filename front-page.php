@@ -126,15 +126,15 @@ get_header(); ?>
   </div>
   </div>
 
-  <!-- <div class="TimerImg__wrap">
+  <div class="TimerImg__wrap">
     <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-02.jpg')); ?>" alt="EBR2024">
      <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-01.jpeg')); ?>" alt="EBR2024">
     <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-03.jpg')); ?>" alt="EBR2024">
-  </div> -->
+  </div>
 
 </section>
 
-<!-- <section class="ourGoals">
+<section class="ourGoals">
   <div class="inner">
     <h2 class="ourGoals__title">GOALs
     </h2>
@@ -144,8 +144,9 @@ get_header(); ?>
       <li class="ourGoals__item">① 1年に一度の大きな舞台「EBR」での勝利を目標に据えることで、自身の成長を加速する</li>
       <li class="ourGoals__item">② ネイティブを超える英語プレゼン力をEBRで披露し、升砲館の凄さを世に見せつける</li>
     </ul>
+    <p class="ourGoals__text">ネイティブを超える英語なんて人によっては冗談だと思うかもしれません。<br>しかし升砲館に一度でも触れたことのある方はそれが冗談ではないと知っています。大人になって英語を習得するのが難しいという世間的な考えをよそ目に私たち升砲館門下生は今この瞬間も英語話者として日々を生きています。<br>そしてネイティブを超えるといったからには半端なことはできません。最高の晴れ舞台であるEBR2025に向けて楽しみながら猛稽古を繰り返しているのです。ここまで読んでもうEBR2025を見に来たくなったのではないですか？<br>さあ、升砲館創立10周年を迎える特別な年に開催されるEBR2025。ぜひご参加ください！</p>
   </div>
-</section> -->
+</section>
 
 <!-- 昨年の声 -->
 <section class="impression">
