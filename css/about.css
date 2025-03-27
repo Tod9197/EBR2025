@@ -158,7 +158,7 @@
 .aboutText {
   color: #000;
   font-family: "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: left;
   letter-spacing: 0.2em;
   line-height: 2.5;
@@ -275,7 +275,7 @@
     margin-bottom: 5rem;
   }
   .aboutText {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .aboutImg.-first {
     height: 55rem;
@@ -383,7 +383,7 @@
   }
   .aboutText,
   .aboutText.-second {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-right: 0;
   }
   .aboutPictures__listItem img {
