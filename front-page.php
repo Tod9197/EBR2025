@@ -131,7 +131,80 @@ get_header(); ?>
      <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-01.jpeg')); ?>" alt="EBR2024">
     <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-03.jpg')); ?>" alt="EBR2024">
   </div>
+</section>
 
+<!-- Topics -->
+<section class="topics" id="topics">
+
+<?php  
+$paged = (get_query_var('paged')) ? get_query_var('paged') : (get_query_var('page') ? get_query_var('page') : 1);
+$args = [
+  'page_type' => 'post',
+  'posts_per_page' => 3,
+  'order' => 'DESC',
+  'paged' => $paged
+];
+$the_query = new WP_Query($args);
+?>
+
+  <div class="inner">
+  <h2 class="topicsTitle" data-en="お知らせ">TOPICs</h2>
+  <div class="topicsSubTitle">お知らせ</div>
+  <?php if($the_query -> have_posts()) : ?>
+    
+    <ul class="topicsPost__list">
+    <?php while($the_query -> have_posts()) : $the_query -> the_post(); ?>
+    <li class="topicsPost__listItem">
+    <a class="topicsPost__listLink" href="<?php the_permalink(); ?>">
+    <?php if(has_post_thumbnail()) : ?>
+      <?php the_post_thumbnail('thumbnail',['class' => 'topicsPost__img']) ?>
+    <?php else: ?>
+        <img class="topicsPost__img" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/ebr2023-33.png" alt="代替画像">
+    <?php endif; ?>
+    <div class="topicsPost__wrap">
+    <div class="topicsPost__flex">
+      <div class="topicsPost__date"><?php echo get_the_date('Y.m.d') ?></div>
+      <?php  
+        $custom_author = get_post_meta(get_the_ID(), 'custom_author_name',true);
+        if($custom_author) : 
+        ?>
+        <div class="topicsPost__author">投稿者: <?php echo esc_html($custom_author); ?></div>
+        <?php else : ?>
+        <div class="topicsPost__author">投稿者: <?php the_author(); ?></div>
+        <?php endif; ?>
+      </div>
+      <div class="topicsPost__title">
+        <?php $title = get_the_title(); 
+        if(mb_strlen($title) > 27){
+          echo mb_strimwidth($title,0,40,'...');
+        } else {
+          echo esc_html($title);
+        }
+        ?>
+      </div>
+      </div>
+    </a>
+    </li>
+    <?php endwhile; ?>
+    <?php wp_reset_postdata(); ?>
+    </ul>
+
+    <!-- ページネーション -->
+    <div class="galleryArchive__pagination">
+      <?php  
+      echo paginate_links(array(
+        'total' => $the_query ->max_num_pages,
+        'current' => max(1,get_query_var('paged')),
+        'prev_text' => __('←'),
+        'next_text' => __('→'),
+      ));
+      ?>
+    </div>
+
+    <?php else: ?>
+      <p class="topicsPost__noPost">まだ投稿はありません。</p>
+  <?php endif; ?>
+  </div>
 </section>
 
 <section class="ourGoals">
@@ -389,81 +462,6 @@ get_header(); ?>
   </div>
   </div>
 </section> -->
-
-
-<!-- Topics -->
-<section class="topics" id="topics">
-
-<?php  
-$paged = (get_query_var('paged')) ? get_query_var('paged') : (get_query_var('page') ? get_query_var('page') : 1);
-$args = [
-  'page_type' => 'post',
-  'posts_per_page' => 3,
-  'order' => 'DESC',
-  'paged' => $paged
-];
-$the_query = new WP_Query($args);
-?>
-
-  <div class="inner">
-  <h2 class="topicsTitle" data-en="お知らせ">TOPICs</h2>
-  <div class="topicsSubTitle">お知らせ</div>
-  <?php if($the_query -> have_posts()) : ?>
-    
-    <ul class="topicsPost__list">
-    <?php while($the_query -> have_posts()) : $the_query -> the_post(); ?>
-    <li class="topicsPost__listItem">
-    <a class="topicsPost__listLink" href="<?php the_permalink(); ?>">
-    <?php if(has_post_thumbnail()) : ?>
-      <?php the_post_thumbnail('thumbnail',['class' => 'topicsPost__img']) ?>
-    <?php else: ?>
-        <img class="topicsPost__img" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/ebr2023-33.png" alt="代替画像">
-    <?php endif; ?>
-    <div class="topicsPost__wrap">
-    <div class="topicsPost__flex">
-      <div class="topicsPost__date"><?php echo get_the_date('Y.m.d') ?></div>
-      <?php  
-        $custom_author = get_post_meta(get_the_ID(), 'custom_author_name',true);
-        if($custom_author) : 
-        ?>
-        <div class="topicsPost__author">投稿者: <?php echo esc_html($custom_author); ?></div>
-        <?php else : ?>
-        <div class="topicsPost__author">投稿者: <?php the_author(); ?></div>
-        <?php endif; ?>
-      </div>
-      <div class="topicsPost__title">
-        <?php $title = get_the_title(); 
-        if(mb_strlen($title) > 27){
-          echo mb_strimwidth($title,0,40,'...');
-        } else {
-          echo esc_html($title);
-        }
-        ?>
-      </div>
-      </div>
-    </a>
-    </li>
-    <?php endwhile; ?>
-    <?php wp_reset_postdata(); ?>
-    </ul>
-
-    <!-- ページネーション -->
-    <div class="galleryArchive__pagination">
-      <?php  
-      echo paginate_links(array(
-        'total' => $the_query ->max_num_pages,
-        'current' => max(1,get_query_var('paged')),
-        'prev_text' => __('←'),
-        'next_text' => __('→'),
-      ));
-      ?>
-    </div>
-
-    <?php else: ?>
-      <p class="topicsPost__noPost">まだ投稿はありません。</p>
-  <?php endif; ?>
-  </div>
-</section>
 
 
 <!-- Gallery -->
