@@ -1998,8 +1998,9 @@ img {
 }
 .topicsPost__list {
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 .topicsPost__listItem {
   margin-bottom: 2rem;
@@ -2007,6 +2008,7 @@ img {
 .topicsPost__listLink {
   width: 100%;
   display: flex;
+  flex-direction: column;
   margin-left: auto;
   cursor: pointer;
   padding-bottom: 2rem;
@@ -2016,36 +2018,37 @@ img {
   opacity: 0.8;
 }
 .topicsPost__wrap {
-  margin-left: 2rem;
+  margin-left: 0;
 }
 .topicsPost__flex {
   display: flex;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  margin-bottom: 1rem;
 }
 .topicsPost__date {
   font-family: "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   color: #000;
   letter-spacing: 0.1em;
 }
 .topicsPost__author {
   font-family: "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   color: #000;
   letter-spacing: 0.1em;
-  margin-left: 2rem;
 }
 .topicsPost__title {
   font-family: "Hiragino Kaku Gothic Pro", "Arial", sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   color: #000;
   letter-spacing: 0.1em;
 }
 .topicsPost__img {
-  width: 20rem;
+  width: 100%;
   height: auto;
   object-fit: cover;
   aspect-ratio: 150/120;
+  margin-bottom: 1rem;
 }
 .topicsPost__noPost {
   font-size: 3rem;
@@ -2061,6 +2064,11 @@ img {
   .topicsTitle::after {
     top: 6rem;
   }
+  .topicsPost__date,
+  .topicsPost__author,
+  .topicsPost__title {
+    font-size: 1.4rem;
+  }
   .topicsPost__noPost {
     font-size: 2.8rem;
   }
@@ -2072,18 +2080,12 @@ img {
   .topicsTitle::after {
     top: 6rem;
   }
-  .topicsPost__img {
-    width: 15rem;
+  .topicsPost__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
   .topicsPost__flex {
     margin-bottom: 2rem;
-  }
-  .topicsPost__title {
-    font-size: 2.4rem;
-  }
-  .topicsPost__date,
-  .topicsPost__author {
-    font-size: 1.8rem;
   }
   .topicsPost__date {
     margin-bottom: 0.5rem;
@@ -2108,9 +2110,15 @@ img {
     font-size: 1.4rem;
     margin-bottom: 5rem;
   }
+  .topicsPost__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
   .topicsPost__img {
-    width: 9rem;
-    aspect-ratio: 100/100;
+    aspect-ratio: 120/150;
+    height: 20rem;
   }
   .topicsPost__flex {
     flex-direction: column;
@@ -2118,15 +2126,14 @@ img {
   }
   .topicsPost__date,
   .topicsPost__author {
-    font-size: 1.2rem;
-    margin-left: 0;
-    margin-bottom: 0;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
   }
   .topicsPost__title {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .topicsPost__noPost {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 }
 

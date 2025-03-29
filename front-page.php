@@ -140,7 +140,7 @@ get_header(); ?>
 $paged = (get_query_var('paged')) ? get_query_var('paged') : (get_query_var('page') ? get_query_var('page') : 1);
 $args = [
   'page_type' => 'post',
-  'posts_per_page' => 3,
+  'posts_per_page' => 6,
   'order' => 'DESC',
   'paged' => $paged
 ];
