@@ -2000,13 +2000,14 @@ img {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 3rem;
 }
 .topicsPost__listItem {
   margin-bottom: 2rem;
 }
 .topicsPost__listLink {
   width: 100%;
+  min-height: 30rem;
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -2064,6 +2065,9 @@ img {
   .topicsTitle::after {
     top: 6rem;
   }
+  .topicsPost__listLink {
+    min-height: 28rem;
+  }
   .topicsPost__date,
   .topicsPost__author,
   .topicsPost__title {
@@ -2118,7 +2122,7 @@ img {
   }
   .topicsPost__img {
     aspect-ratio: 120/150;
-    height: 20rem;
+    height: 24rem;
   }
   .topicsPost__flex {
     flex-direction: column;
@@ -2154,7 +2158,7 @@ img {
 .galleryTitle {
   display: inline-block;
   font-family: "Sharp", serif;
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -2279,7 +2283,7 @@ img {
 
 @media (max-width: 1024px) {
   .galleryTitle {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 @media (max-width: 768px) {
@@ -2636,6 +2640,8 @@ img {
   font-size: 2rem;
   font-weight: bold;
   letter-spacing: 0.1em;
+  text-indent: -1.5em;
+  padding-left: 1.5em;
 }
 @media (max-width: 1024px) {
   .ourGoals__title {
@@ -2654,6 +2660,12 @@ img {
     font-size: 1.4rem;
     margin-bottom: 4rem;
   }
+  .ourGoals__text {
+    font-size: 1.6rem;
+  }
+  .ourGoals__item {
+    font-size: 1.8rem;
+  }
 }
 @media (max-width: 480px) {
   .ourGoals__title::after {
@@ -2661,5 +2673,11 @@ img {
   }
   .ourGoals__subTitle {
     margin-bottom: 5rem;
+  }
+  .ourGoals__text {
+    font-size: 1.4rem;
+  }
+  .ourGoals__item {
+    font-size: 1.6rem;
   }
 }
