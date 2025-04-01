@@ -217,7 +217,12 @@ $the_query = new WP_Query($args);
       <li class="ourGoals__item">① 1年に一度の大きな舞台「EBR」での勝利を目標に据えることで、自身の成長を加速する</li>
       <li class="ourGoals__item">② ネイティブを超える英語プレゼン力をEBRで披露し、升砲館の凄さを世に見せつける</li>
     </ul>
-    <p class="ourGoals__text">ネイティブを超える英語なんて人によっては冗談だと思うかもしれません。<br>しかし升砲館に一度でも触れたことのある方はそれが冗談ではないと知っています。大人になって英語を習得するのが難しいという世間的な考えをよそ目に私たち升砲館門下生は今この瞬間も英語話者として日々を生きています。<br>そしてネイティブを超えるといったからには半端なことはできません。最高の晴れ舞台であるEBR2025に向けて楽しみながら猛稽古を繰り返しているのです。ここまで読んでもうEBR2025を見に来たくなったのではないですか？<br>さあ、升砲館創立10周年を迎える特別な年に開催されるEBR2025。</p>
+    <p class="ourGoals__text">ネイティブを超える英語なんて、人によっては冗談だと思うかもしれません。<br>しかし升砲館に一度でも触れたことのある方はそれが冗談ではないと知っています。大人になって英語を習得するのが難しいという世間的な考えをよそ目に、私たち升砲館門下生は今この瞬間も英語話者として日々を生きています。<br>そしてネイティブを超えるといったからには半端なことはできません。最高の晴れ舞台であるEBR2025に向けて楽しみながら猛稽古を繰り返しているのです。<br>升砲館創立10周年を迎える特別な年に開催されるEBR2025。参加する全ての人にとって特別な1日となることでしょう</p>
+  </div>
+  <div class="TimerImg__wrap">
+    <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-14.jpg')); ?>" alt="EBR2024">
+     <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-13.jpeg')); ?>" alt="EBR2024">
+    <img class="TimerImg" src="<?php echo esc_url(get_theme_file_uri('img/ebr2024/ebr2024-12.jpeg')); ?>" alt="EBR2024">
   </div>
 </section>
 
@@ -527,7 +532,7 @@ else :
   <div class="inner">
     <h2 class="accessTitle">ACCESS</h2>
     <div class="accessSubTitle">開催場所</div>
-    <h3 class="accessText">未定</h3>
+    <h3 class="accessText">京都予定</h3>
     <!-- <h3 class="accessText">ザ・グラン銀座<br class="sp-only02">（GINZA SIX 13階）</h3> -->
     <!-- <div class="accessMap">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12965.18691448534!2d139.7636564!3d35.669695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be639f83e41%3A0x480b874be69c390e!2sTHE%20GRAND%20GINZA!5e0!3m2!1sja!2sjp!4v1731926963464!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

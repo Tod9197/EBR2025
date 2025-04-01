@@ -18,8 +18,8 @@
         <a href="<?php echo esc_url(home_url('/gallerylist')); ?>">2023年度の画像</a>
       </li>
       <li class="footerList__item">
-        <p class="footerList__itemTitle">TIME TABLE</p>
-        <a href="<?php echo esc_url(home_url('/#timetable')); ?>">当日の流れ</a>
+        <!-- <p class="footerList__itemTitle">TIME TABLE</p>
+        <a href="<?php echo esc_url(home_url('/#timetable')); ?>">当日の流れ</a> -->
         <p class="footerList__itemTitle -contest">CONTEST</p>
         <a href="<?php echo esc_url(home_url('/contest')); ?>">競技種目一覧</a>
       </li>
