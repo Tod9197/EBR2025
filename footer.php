@@ -15,11 +15,11 @@
         <p class="footerList__itemTitle">ACCESS</p>
         <a href="<?php echo esc_url(home_url('/#access')); ?>">開催場所</a>
         <p class="footerList__itemTitle -gallery">GALLERY</p>
-        <a href="<?php echo esc_url(home_url('/gallerylist')); ?>">2023年度の画像</a>
+        <a href="<?php echo esc_url(home_url('/gallerylist')); ?>">過去開催の画像</a>
       </li>
       <li class="footerList__item">
-        <!-- <p class="footerList__itemTitle">TIME TABLE</p>
-        <a href="<?php echo esc_url(home_url('/#timetable')); ?>">当日の流れ</a> -->
+        <p class="footerList__itemTitle">TIME TABLE</p>
+        <a href="<?php echo esc_url(home_url('/#timetable')); ?>">当日の流れ</a>
         <p class="footerList__itemTitle -contest">CONTEST</p>
         <a href="<?php echo esc_url(home_url('/contest')); ?>">競技種目一覧</a>
       </li>
