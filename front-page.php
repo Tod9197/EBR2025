@@ -157,7 +157,7 @@ $the_query = new WP_Query($args);
     <li class="topicsPost__listItem">
     <a class="topicsPost__listLink" href="<?php the_permalink(); ?>">
     <?php if(has_post_thumbnail()) : ?>
-      <?php the_post_thumbnail('thumbnail',['class' => 'topicsPost__img']) ?>
+      <?php the_post_thumbnail('full',['class' => 'topicsPost__img']) ?>
     <?php else: ?>
         <img class="topicsPost__img" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/ebr2023-33.png" alt="代替画像">
     <?php endif; ?>
