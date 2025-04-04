@@ -43,7 +43,7 @@ get_header(); ?>
     <div class="singleTopics__wrap">
       <div class="singleTopics__line">
         <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-
+        <h1 class="singleTopics__title"><?php the_title(); ?></h1>
         <div class="singleTopics__flex">
         <?php  
         $custom_author = get_post_meta(get_the_ID(), 'custom_author_name',true);
@@ -55,7 +55,6 @@ get_header(); ?>
         <?php endif; ?>
         <div class="singleTopics__date">投稿日 : <?php echo get_the_date('Y.m.d'); ?></div>
         </div>
-      <h1 class="singleTopics__title"><?php the_title(); ?></h1>
       
       <?php if(has_post_thumbnail()) : ?>
         <div class="singleTopics__img">
