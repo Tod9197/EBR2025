@@ -9,7 +9,7 @@
   padding: 1rem;
 }
 .singleTopics__line {
-  padding: 7rem 2rem;
+  padding: 5rem 2rem;
   border: 2px solid #eee;
 }
 .singleTopics__title {
@@ -25,16 +25,16 @@
 }
 .singleTopics__author {
   color: #333;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: 0.1em;
 }
 .singleTopics__date {
   color: #333;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: 0;
-  margin-left: 5rem;
+  margin-left: 4rem;
 }
 .singleTopics__img {
   width: 100%;
