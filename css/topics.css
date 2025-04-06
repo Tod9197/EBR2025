@@ -56,7 +56,7 @@
   line-height: 1.8;
 }
 .singleTopics__content p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 @media (max-width: 1024px) {
   .singleTopics {
@@ -68,12 +68,12 @@
     margin-bottom: 2rem;
   }
   .singleTopics__title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
   .singleTopics__author,
   .singleTopics__date {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .singleTopics__img img {
     max-height: 350px;
@@ -85,24 +85,24 @@
 @media (max-width: 480px) {
   .singleTopics__wrap {
     margin-top: 7rem;
+    margin-bottom: 7rem;
   }
   .singleTopics__line {
-    padding: 5rem 1rem;
+    padding: 4rem 1rem;
   }
   .singleTopics__flex {
-    flex-direction: column;
     margin-bottom: 2rem;
   }
   .singleTopics__author {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
   }
   .singleTopics__date {
-    font-size: 1.6rem;
-    margin-left: 0;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
   }
   .singleTopics__title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
   }
   .singleTopics__img img {
