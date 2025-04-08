@@ -98,11 +98,18 @@
   height: 90vh;
   background-image: url(../img/ebr2023-30.jpg);
 }
+.mainVisual.-award {
+  height: 90vh;
+  background-image: url(../img/award-img02.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 .mainVisual.-gallery::after,
 .mainVisual.-sponsors::after,
 .mainVisual.-contest::after,
-.mainVisual.-topics::after {
+.mainVisual.-topics::after,
+.mainVisual.-award::after {
   content: "";
   position: absolute;
   top: 0;
@@ -114,8 +121,9 @@
 .mainVisual__title.-gallery,
 .mainVisual__title.-sponsors,
 .mainVisual__title.-contest,
-.mainVisual__title.-topics {
-  font-size: 9rem;
+.mainVisual__title.-topics,
+.mainVisual__title.-award {
+  font-size: 8rem;
   text-transform: uppercase;
   animation: unset;
   z-index: 1000;
@@ -124,7 +132,7 @@
 .mainVisual__title.-gallery::before {
   display: block;
   content: "画像一覧";
-  font-size: 3rem;
+  font-size: 2.4rem;
   bottom: -6rem;
   opacity: 1;
   animation: unset;
@@ -132,7 +140,7 @@
 .mainVisual__title.-sponsors::before {
   display: block;
   content: "協賛一覧";
-  font-size: 3rem;
+  font-size: 2.4rem;
   bottom: -6rem;
   opacity: 1;
   animation: unset;
@@ -140,7 +148,7 @@
 .mainVisual__title.-topics::before {
   display: block;
   content: "お知らせ";
-  font-size: 3rem;
+  font-size: 2.4rem;
   bottom: -6rem;
   opacity: 1;
   animation: unset;
@@ -148,7 +156,15 @@
 .mainVisual__title.-contest::before {
   display: block;
   content: "競技種目一覧";
-  font-size: 3rem;
+  font-size: 2.4rem;
+  bottom: -6rem;
+  opacity: 1;
+  animation: unset;
+}
+.mainVisual__title.-award::before {
+  display: block;
+  content: "過去の受賞歴";
+  font-size: 2.4rem;
   bottom: -6rem;
   opacity: 1;
   animation: unset;
@@ -156,7 +172,8 @@
 .mainVisual__title.-gallery::after,
 .mainVisual__title.-sponsors::after,
 .mainVisual__title.-contest::after,
-.mainVisual__title.-topics::after {
+.mainVisual__title.-topics::after,
+.mainVisual__title.-award::after {
   display: none;
 }
 
