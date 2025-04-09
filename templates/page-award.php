@@ -44,7 +44,43 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h2 class="awardTitle">団体戦</h2>
+        <h3 class="awardTitle">団体戦</h3>
+        <table class="awardTable">
+          <tbody>
+            <tr>
+              <th class="awardTable__bold">開催年</th>
+              <th class="awardTable__bold">優勝</th>
+              <th class="awardTable__bold">優勝チーム<br>キャプテン</th>
+              <th class="awardTable__bold">準優勝</th>
+              <th class="awardTable__bold">準優勝チーム<br>キャプテン</th>
+              <th class="awardTable__bold">開催場所</th>
+            </tr>
+            <tr>
+              <th>2023年</th>
+              <th>Team e-Go!</th>
+              <th>Serry</th>
+              <th>Team H.Blacks</th>
+              <th>Kirk</th>
+              <th>東京</th>
+            </tr>
+            <tr>
+              <th>2024年</th>
+              <th>Team H.Blacks</th>
+              <th>Kirk</th>
+              <th>Team e-Go!</th>
+              <th>Serry</th>
+              <th>東京</th>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="awardWrap">
+      <div class="award__outLine">
+        <div class="award__InLine">
+        <h3 class="awardTitle">個人戦</h3>
         <table class="awardTable">
           <tbody>
             <tr>

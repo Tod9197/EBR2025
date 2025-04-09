@@ -10,9 +10,10 @@
 .awardWrap {
   width: 100%;
   background-color: #fff;
-  height: 400px;
+  height: auto;
   margin: 0 auto;
   padding: 30px;
+  margin-bottom: 5rem;
 }
 .award__outLine {
   width: 100%;
@@ -45,7 +46,7 @@
   text-align: center;
 }
 .awardTable tr:first-of-type th {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
   letter-spacing: 0.1em;
   background-color: #f0f0f0; /* 背景色もつけて見やすく */
