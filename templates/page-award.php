@@ -92,6 +92,30 @@ get_header();
               <th class="awardTable__bold">開催場所</th>
             </tr>
             <tr>
+              <th>2024年</th>
+              <th>デリバリー</th>
+              <th>Sherry</th>
+              <th>Kirk</th>
+              <th>Mitchell</th>
+              <th>東京</th>
+            </tr>
+            <tr>
+              <th></th>
+              <th>アテレコ</th>
+              <th>Sherry</th>
+              <th>Jess</th>
+              <th>Simon</th>
+              <th>東京</th>
+            </tr>
+            <tr>
+              <th></th>
+              <th>ビデオレター</th>
+              <th>Hannah</th>
+              <th></th>
+              <th>?</th>
+              <th>東京</th>
+            </tr>
+            <tr>
               <th>2023年</th>
               <th>スタバ</th>
               <th>Sherry & Larry</th>
