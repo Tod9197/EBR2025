@@ -44,7 +44,7 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h3 class="awardTitle">団体戦</h3>
+        <h3 class="awardTitle">チーム対決結果</h3>
         <table class="awardTable">
           <tbody>
             <tr>
@@ -80,7 +80,7 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h3 class="awardTitle">個人戦</h3>
+        <h3 class="awardTitle">個人結果</h3>
         <table class="awardTable">
           <tbody>
             <tr>
@@ -93,51 +93,75 @@ get_header();
             </tr>
             <tr>
               <th>2024年</th>
-              <th>デリバリー</th>
+              <th>デリバリー (個人)</th>
               <th>Sherry</th>
               <th>Kirk</th>
               <th>Mitchell</th>
-              <th>東京</th>
+              <th></th>
             </tr>
             <tr>
               <th></th>
-              <th>アテレコ</th>
+              <th>引用文 (個人)<br>(エドワード・T・ホール)</th>
+              <th>Kaki</th>
+              <th>-</th>
+              <th>-</th>
+              <th>-</th>
+            </tr>
+            <tr>
+              <th></th>
+              <th>アテレコ (個人-ビデオ)</th>
               <th>Sherry</th>
               <th>Jess</th>
               <th>Simon</th>
-              <th>東京</th>
+              <th></th>
             </tr>
             <tr>
               <th></th>
-              <th>ビデオレター</th>
+              <th>ビデオレター (個人-ビデオ)</th>
               <th>Hannah</th>
               <th></th>
               <th>?</th>
-              <th>東京</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th></th>
+              <th>音節分化 (チーム)</th>
+              <th>Team H.Blacks</th>
+              <th>Team e-Go!</th>
+              <th>-</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th></th>
+              <th>歌合戦 (チーム)</th>
+              <th>Team H.Blacks</th>
+              <th>Team e-Go!</th>
+              <th>-</th>
+              <th></th>
             </tr>
             <tr>
               <th>2023年</th>
-              <th>スタバ</th>
+              <th>スタバでリズム (チーム)</th>
               <th>Sherry & Larry</th>
               <th>?</th>
               <th>?</th>
-              <th>東京</th>
+              <th></th>
             </tr>
             <tr>
               <th></th>
-              <th>ドリル</th>
-              <th>Sherry & Larry</th>
+              <th>アテレコ(個人-ビデオ)</th>
+              <th>Sherry</th>
               <th>?</th>
               <th>?</th>
-              <th>東京</th>
+              <th></th>
             </tr>
             <tr>
               <th></th>
-              <th>ドリル</th>
+              <th>ドリル早読み(チーム)</th>
               <th>Sherry & Larry</th>
               <th>?</th>
               <th>?</th>
-              <th>東京</th>
+              <th></th>
             </tr>
           </tbody>
         </table>
