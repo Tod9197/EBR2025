@@ -80,7 +80,7 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h3 class="awardTitle">個人結果</h3>
+        <h3 class="awardTitle">各種競技結果</h3>
         <table class="awardTable">
           <tbody>
             <tr>
@@ -149,6 +149,14 @@ get_header();
             </tr>
             <tr>
               <th></th>
+              <th>ドリル早読み(チーム)</th>
+              <th>Mick & Adam & </th>
+              <th>?</th>
+              <th>?</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th></th>
               <th>アテレコ(個人-ビデオ)</th>
               <th>Sherry</th>
               <th>?</th>
@@ -157,9 +165,9 @@ get_header();
             </tr>
             <tr>
               <th></th>
-              <th>ドリル早読み(チーム)</th>
-              <th>Sherry & Larry</th>
-              <th>?</th>
+              <th>E3 紹介プレゼン(個人-ビデオ)</th>
+              <th>Nao</th>
+              <th>Kumiko</th>
               <th>?</th>
               <th></th>
             </tr>
