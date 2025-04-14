@@ -150,7 +150,15 @@ get_header();
             <tr>
               <th></th>
               <th>ドリル早読み(チーム)</th>
-              <th>Mick & Adam & </th>
+              <th>Mick & Adam & Kaede</th>
+              <th>?</th>
+              <th>?</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th></th>
+              <th>引用文(個人)<br>(エドワード・T・ホール)</th>
+              <th>Katy</th>
               <th>?</th>
               <th>?</th>
               <th></th>
