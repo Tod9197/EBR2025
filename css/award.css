@@ -1,7 +1,7 @@
 /* Award */
 .award {
   height: 3000px;
-  padding: 20rem 0 10rem 0;
+  padding: 15rem 0 10rem 0;
   background-image: url(../img/bg05.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,6 +41,7 @@
 .awardTable th,
 .awardTable td {
   font-size: 1.4rem;
+  font-weight: 500;
   border: 1px solid #ddd; /* 黒いボーダー */
   padding: 10px;
   text-align: center;

@@ -105,7 +105,7 @@ get_header();
               <th>Kaki</th>
               <th>-</th>
               <th>-</th>
-              <th>-</th>
+              <th></th>
             </tr>
             <tr>
               <th></th>
@@ -167,8 +167,8 @@ get_header();
               <th></th>
               <th>アテレコ(個人-ビデオ)</th>
               <th>Sherry</th>
-              <th>?</th>
-              <th>?</th>
+              <th></th>
+              <th></th>
               <th></th>
             </tr>
             <tr>
@@ -176,7 +176,7 @@ get_header();
               <th>E3 紹介プレゼン(個人-ビデオ)</th>
               <th>Nao</th>
               <th>Kumiko</th>
-              <th>?</th>
+              <th></th>
               <th></th>
             </tr>
           </tbody>
