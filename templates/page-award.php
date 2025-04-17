@@ -44,7 +44,7 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h3 class="awardTitle">チーム対決結果</h3>
+        <h3 class="awardTitle">チーム対戦結果</h3>
         <table class="awardTable">
           <tbody>
             <tr>
@@ -143,7 +143,7 @@ get_header();
               <th>2023年</th>
               <th>スタバでリズム (チーム)</th>
               <th>Sherry & Larry</th>
-              <th>?</th>
+              <th>Sam & Larry</th>
               <th>?</th>
               <th></th>
             </tr>
