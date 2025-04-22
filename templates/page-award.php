@@ -77,35 +77,6 @@ get_header();
       </div>
     </div>
 
-    <section style="height:1200px">
-  <div style="display: flex;">
-    <!-- スクロール追従する要素 -->
-    <div style="position: sticky; top: 0; align-self: flex-start; padding: 10px; background: white;">
-      <h1>タイトル</h1>
-      <h2>スクロール追従要素</h2>
-      <p>テキスト</p>
-    </div>
-
-    <!-- 画像とテキスト -->
-     <div style="display:flex;flex-direction:column; height:100vh;">
-    <div>
-      <img src="" alt="">
-      <p>画像テキスト</p>
-    </div>
-
-
-  <div >
-    <img  alt="">
-    <p>画像テキスト</p>
-  </div>
-
-  <div>
-    <img src="" alt="">
-    <p>画像テキスト</p>
-  </div>
-  </div>
-</section>
-
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
