@@ -80,7 +80,7 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h3 class="awardTitle">各種競技結果</h3>
+        <h3 class="awardTitle">各種目競技結果</h3>
         <table class="awardTable">
           <tbody>
             <tr>
@@ -119,8 +119,8 @@ get_header();
               <th></th>
               <th>ビデオレター (個人-ビデオ)</th>
               <th>Hannah</th>
-              <th></th>
-              <th>?</th>
+              <th>Kaki</th>
+              <th>Mitchelle</th>
               <th></th>
             </tr>
             <tr>
