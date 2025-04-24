@@ -185,7 +185,7 @@ get_header();
       </div>
     </div>
   </div>
-  <a class="toTop__button" href="../">TOPへ戻る</a>
+  <a class="toTop__button -award" href="../">TOPへ戻る</a>
 </section>
 
 <?php get_footer(); ?>
