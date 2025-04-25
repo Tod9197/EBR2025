@@ -56,7 +56,7 @@
 }
 .toTop__button.-award {
   background: #fff;
-  border: none;
+  border: 1px solid #fff;
 }
 .toTop__button.-award:hover {
   background-image: radial-gradient(
