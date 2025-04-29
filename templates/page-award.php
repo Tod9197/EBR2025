@@ -44,7 +44,7 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h3 class="awardTitle">チーム対抗戦結果</h3>
+        <h3 class="awardTitle">チーム対戦結果</h3>
         <table class="awardTable">
           <tbody>
             <tr>
@@ -80,7 +80,7 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h3 class="awardTitle">各種目競技結果</h3>
+        <h3 class="awardTitle">各種目競技結果(団体・個人)</h3>
         <table class="awardTable">
           <tbody>
             <tr>
