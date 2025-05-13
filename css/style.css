@@ -2696,3 +2696,14 @@ img {
     font-size: 1.6rem;
   }
 }
+
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}

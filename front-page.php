@@ -84,7 +84,7 @@ get_header(); ?>
   </div>
   <!-- 申し込み -->
 
-   <div class="requestWrap">
+   <div class="requestWrap fade-in-left">
     <div class="requestInner__line">
   <p class="requestText"><span>大人</span>が<span>本気</span>で<br><span>学び、遊び、挑み、魅せる</span></p>
   <div class="appreciateText__wrap">
@@ -206,7 +206,7 @@ $the_query = new WP_Query($args);
   </div>
 </section>
 
-<section class="ourGoals">
+<section class="ourGoals fade-in-left">
   <div class="inner">
     <h2 class="ourGoals__title">GOALs
     </h2>

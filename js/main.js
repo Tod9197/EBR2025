@@ -234,3 +234,24 @@ document.addEventListener("DOMContentLoaded", function () {
   const section = document.querySelector(".impression");
   if (section) observer.observe(section);
 });
+
+// フェードイン
+document.addEventListener("DOMContentLoaded", () => {
+  const targets = document.querySelectorAll(".fade-in-left");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+          // observer.unobserve(entry.target); // ← 一度だけアニメーションさせたいならこれもOK
+        }
+      });
+    },
+    {
+      threshold: 0.3,
+    }
+  );
+
+  targets.forEach((target) => observer.observe(target));
+});

@@ -1,0 +1,86 @@
+.points {
+  padding: 20rem 0 10rem 0;
+  background-image: url(../img/bg06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pointsTitle {
+  font-family: "Sharp", serif;
+  font-size: 7rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px #333;
+  text-transform: uppercase;
+  z-index: 1000;
+  position: relative;
+  margin-bottom: 7rem;
+}
+.pointsTitle::after {
+  display: block;
+  content: "年間ポイント";
+  font-size: 2rem;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.pointsText {
+  font-size: 1.8rem;
+  color: #000;
+  text-align: center;
+  line-height: 1.8;
+  margin-bottom: 4rem;
+}
+.pointsWrap {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  margin: 0 auto;
+  padding: 25px;
+}
+.points__outLine {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #a5a5a5;
+  padding: 7px;
+}
+.points__InLine {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #a5a5a5;
+  padding: 3rem 0;
+}
+.pointsTable {
+  width: 92%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+.pointsTable th,
+.pointsTable td {
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: 1px solid #eee;
+  padding: 5px 7px;
+  text-align: center;
+}
+.pointsTable tr:first-of-type th {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  background-color: #f0f0f0; /* 背景色もつけて見やすく */
+}
+
+.toTop__button.-points {
+  background: #fff;
+  border: 1px solid #fff;
+  margin-top: 3rem;
+}
+.toTop__button.-points:hover {
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 242, 58, 1),
+    rgba(224, 162, 8, 1) 80%
+  );
+  border: 1px solid #ffd700;
+}

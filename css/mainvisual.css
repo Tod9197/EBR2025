@@ -104,6 +104,12 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+.mainVisual.-points {
+  height: 90vh;
+  background-image: url(../img/bg06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .mainVisual.-gallery::after,
 .mainVisual.-sponsors::after,
@@ -122,7 +128,8 @@
 .mainVisual__title.-sponsors,
 .mainVisual__title.-contest,
 .mainVisual__title.-topics,
-.mainVisual__title.-award {
+.mainVisual__title.-award,
+.mainVisual__title.-points {
   font-size: 8rem;
   text-transform: uppercase;
   animation: unset;

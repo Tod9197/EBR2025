@@ -15,11 +15,12 @@
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/sponsors.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/topics.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/award.css')); ?>" type="text/css">
+  <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/points.css')); ?>" type="text/css">
 </head>
 
 <body>
   <?php wp_body_open(); ?>
-  <header class="header <?php if(is_page(array('sponsors','gallery','contest'))) echo 'black'; ?>">
+  <header class="header <?php if(is_page(array('sponsors','gallery','contest','points'))) echo 'black'; ?>">
     <div class="header__wrapper">
         <div class="header__menuLeft">
         <ul class="header__listLeft">
