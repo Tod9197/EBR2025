@@ -15,7 +15,7 @@ get_header();
         <div class="points__InLine">
           <h2 class="points__subTitle">年間ポイントとは？</h2>
         <p class="pointsText">稽古への参加や昇級・昇段審査を受信するなど升砲館の活動に参加した時や、<br class="pc-only02">自身の保持する段位・級位に応じてポイントが付与される。<br class="pc-only02">このポイントを年間を通じて積み上げ、EBR当日の順位に応じて<br class="pc-only02">配点されたポイントと併せて年間の優勝チームが決定する。<br class="pc-only02">EBRは当日の勝負だけではなく、1年をかけたチーム総合力の闘いである。</p>
-        <p class="pointsTag">★ ★ ★ 戦闘力ポイント ★ ★ ★</p>
+        <p class="pointsTag">★★★戦闘力ポイント★★★</p>
         <span class="pointsTag__text">※ただし、STATは1.5倍</span>
         <table class="pointsTable -fisrt">
           <tbody>
