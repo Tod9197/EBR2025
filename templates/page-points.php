@@ -10,12 +10,14 @@ get_header();
 <section class="points">
   <div class="inner">
     <h1 class="pointsTitle">POINTS</h1>
-
     <div class="pointsWrap">
       <div class="points__outLine">
         <div class="points__InLine">
-        <p class="pointsText">稽古への参加や昇級・昇段審査を受信するなど升砲館の活動に参加した時や、<br>自身の保持する段位・級位に応じてポイントが付与される。<br>このポイントを年間を通じて積み上げ、EBR当日の順位に応じて<br>配点されたポイントと併せて年間の優勝チームが決定する。<br>EBRは当日の勝負だけではなく、日々の活動を通したチーム総合力の闘いである。</p>
-        <table class="pointsTable">
+          <h2 class="points__subTitle">年間ポイントとは？</h2>
+        <p class="pointsText">稽古への参加や昇級・昇段審査を受信するなど升砲館の活動に参加した時や、<br class="pc-only02">自身の保持する段位・級位に応じてポイントが付与される。<br class="pc-only02">このポイントを年間を通じて積み上げ、EBR当日の順位に応じて<br class="pc-only02">配点されたポイントと併せて年間の優勝チームが決定する。<br class="pc-only02">EBRは当日の勝負だけではなく、1年をかけたチーム総合力の闘いである。</p>
+        <p class="pointsTag">★ ★ ★ 戦闘力ポイント ★ ★ ★</p>
+        <span class="pointsTag__text">※ただし、STATは1.5倍</span>
+        <table class="pointsTable -fisrt">
           <tbody>
             <tr>
               <th class="pointsTable__bold">戦闘力</th>
@@ -47,6 +49,88 @@ get_header();
             </tr>
           </tbody>
         </table>
+
+        <p class="pointsTag -second">☆ ☆ ☆ 活動ポイント ☆ ☆ ☆</p>
+        <table class="pointsTable -second">
+          <tbody>
+            <tr>
+              <th class="pointsTable__bold">活動ポイント</th>
+              <th class="pointsTable__bold">GP</th>
+            </tr>
+            <tr>
+              <th>SPE参加<br class="sp-480only">（現地）</th>
+              <th>3</th>
+            </tr>
+            <tr>
+              <th>SPE参加<br class="sp-480only">（ONLINE）</th>
+              <th>2</th>
+            </tr>
+            <tr>
+              <th>SPE遅刻早退<br class="sp-480only">（現地）</th>
+              <th>1.5</th>
+            </tr>
+            <tr>
+              <th>SPE遅刻早退<br class="sp-480only">（ONLINE）</th>
+              <th>1</th>
+            </tr>
+            <tr>
+              <th>入門セミナー参加<br class="sp-480only">（現地）</th>
+              <th>3</th>
+            </tr>
+            <tr>
+              <th>入門セミナー参加<br class="sp-480only">（ONLINE）</th>
+              <th>2</th>
+            </tr>
+            <tr>
+              <th>紹介者が入門セミナー参加</th>
+              <th>2</th>
+            </tr>
+            <tr>
+              <th>紹介者が入門<br class="sp-480only">（SPEアド）</th>
+              <th>4</th>
+            </tr>
+            <tr>
+              <th>紹介者が入門<br class="sp-480only">（SPEマスター）</th>
+              <th>2</th>
+            </tr>
+            <tr>
+              <th>紹介者が入門<br class="sp-480only">（ZOO）</th>
+              <th>3</th>
+            </tr>
+            <tr>
+              <th>紹介者が入門<br class="sp-480only">（オンライン正規）</th>
+              <th>2</th>
+            </tr>
+            <tr>
+              <th>紹介者が入門<br class="sp-480only">（MyWorld）</th>
+              <th>2</th>
+            </tr>
+            <tr>
+              <th>紹介者が入門<br class="sp-480only">（オンライン準）</th>
+              <th>1</th>
+            </tr>
+            <tr>
+              <th>昇級審査受審<br class="sp-480only">（24年12月-25年12月まで）</th>
+              <th>3</th>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="pointsTag">★ ★ ★ 特別稽古ポイント ★ ★ ★</p>
+        <span class="pointsTag__text">時間および現地参加により都度設定&事前連絡</span>
+        <table class="pointsTable -third">
+          <tbody>
+            <tr>
+              <th class="pointsTable__bold">活動ポイント(過去分)</th>
+              <th class="pointsTable__bold">GP</th>
+            </tr>
+            <tr>
+              <th>0202新春特別稽古</th>
+              <th>5</th>
+            </tr>
+          </tbody>
+        </table>
+
         </div>
       </div>
       <a class="toTop__button -points" href="../">TOPへ戻る</a>
