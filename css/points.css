@@ -5,15 +5,16 @@
   background-repeat: no-repeat;
 }
 .pointsTitle {
+  font-family: "Sharp", serif;
   font-size: 7rem;
   color: #fff;
   text-align: center;
-  text-shadow: 1px 1px 1px #333;
+  text-shadow: 2px 2px 2px #333;
   text-transform: uppercase;
   z-index: 1000;
   position: relative;
   margin-bottom: 15rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
 }
 .pointsTitle::after {
   display: block;
@@ -47,9 +48,6 @@
   margin-bottom: 1rem;
   letter-spacing: 0.1em;
 }
-.pointsTag.-second {
-  margin-bottom: 3rem;
-}
 .pointsTag__text {
   display: block;
   text-align: center;
@@ -62,7 +60,7 @@
   background-color: #fff;
   height: auto;
   margin: 0 auto;
-  padding: 25px;
+  padding: 20px;
 }
 .points__outLine {
   width: 100%;
@@ -92,7 +90,7 @@
 }
 .pointsTable th,
 .pointsTable td {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 500;
   border: 1px solid #eee;
   padding: 1rem 0;
@@ -216,12 +214,29 @@
     font-size: 1.2rem;
     margin-bottom: 2rem;
   }
-  .pointsTable.-fisrt,
-  .pointsTable.-second {
-    margin-bottom: 3rem;
+  .pointsTable th,
+  .pointsTable td {
+    font-size: 1.4rem;
+  }
+  .pointsTable.-third {
+    margin-bottom: 0;
   }
   .toTop__button.-points {
+    font-size: 1.4rem;
+    max-width: 15rem;
     margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 375px) {
+  .pointsTag {
+    font-size: 1.3rem;
+  }
+  .pointsTable th {
+    font-size: 1.3rem;
+    line-height: 1.8;
+  }
+  .pointsTable td {
+    font-size: 1.3rem;
   }
 }

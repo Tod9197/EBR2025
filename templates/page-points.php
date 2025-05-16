@@ -15,8 +15,8 @@ get_header();
         <div class="points__InLine">
           <h2 class="points__subTitle">年間ポイントとは？</h2>
         <p class="pointsText">稽古への参加や昇級・昇段審査を受信するなど升砲館の活動に参加した時や、<br class="pc-only02">自身の保持する段位・級位に応じてポイントが付与される。<br class="pc-only02">このポイントを年間を通じて積み上げ、EBR当日の順位に応じて<br class="pc-only02">配点されたポイントと併せて年間の優勝チームが決定する。<br class="pc-only02">EBRは当日の勝負だけではなく、1年をかけたチーム総合力の闘いである。</p>
-        <p class="pointsTag">★★★戦闘力ポイント★★★</p>
-        <span class="pointsTag__text">※ただし、STATは1.5倍</span>
+        <p class="pointsTag">★ ★ ★ 戦闘力ポイント ★ ★ ★</p>
+        <span class="pointsTag__text">自身の保持する段位・級位に対して付与 <br class="sp-480only">※ただし、STATは1.5倍</span>
         <table class="pointsTable -fisrt">
           <tbody>
             <tr>
@@ -47,10 +47,27 @@ get_header();
               <th>4級</th>
               <th>30</th>
             </tr>
+            <tr>
+              <th>5級</th>
+              <th>20</th>
+            </tr>
+            <tr>
+              <th>6級</th>
+              <th>10</th>
+            </tr>
+            <tr>
+              <th>無級</th>
+              <th>0</th>
+            </tr>
+            <tr>
+              <th>退会</th>
+              <th>0</th>
+            </tr>
           </tbody>
         </table>
 
         <p class="pointsTag -second">☆ ☆ ☆ 活動ポイント ☆ ☆ ☆</p>
+        <span class="pointsTag__text">SPEに参加、審査を受審するなどした時に付与</span>
         <table class="pointsTable -second">
           <tbody>
             <tr>

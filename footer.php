@@ -18,9 +18,9 @@
         <a href="<?php echo esc_url(home_url('/gallerylist')); ?>">過去開催の画像</a>
       </li>
       <li class="footerList__item">
-        <p class="footerList__itemTitle">TIME TABLE</p>
-        <a href="<?php echo esc_url(home_url('/#timetable')); ?>">当日の流れ</a>
-        <p class="footerList__itemTitle -contest">CONTEST</p>
+        <p class="footerList__itemTitle">POINTS</p>
+        <a href="<?php echo esc_url(home_url('/points')); ?>">年間ポイント</a>
+          <p class="footerList__itemTitle -contest">CONTEST</p>
         <a href="<?php echo esc_url(home_url('/contest')); ?>">競技種目一覧</a>
       </li>
       <li class="footerList__item">
