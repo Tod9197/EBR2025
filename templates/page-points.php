@@ -14,14 +14,14 @@ get_header();
       <div class="points__outLine">
         <div class="points__InLine">
           <h2 class="points__subTitle">年間ポイントとは？</h2>
-        <p class="pointsText">稽古への参加や昇級・昇段審査を受信するなど升砲館の活動に参加した時や、<br class="pc-only02">自身の保持する段位・級位に応じてポイントが付与される。<br class="pc-only02">このポイントを年間を通じて積み上げ、EBR当日の順位に応じて<br class="pc-only02">配点されたポイントと併せて年間の優勝チームが決定する。<br class="pc-only02">EBRは当日の勝負だけではなく、1年をかけたチーム総合力の闘いである。</p>
+        <p class="pointsText">稽古への参加や昇級・昇段審査を受審するなど升砲館の活動に参加した時や、<br class="pc-only02">自身の保持する段位・級位に応じてポイントが付与される。<br class="pc-only02">このポイントを年間を通じて積み上げ、EBR当日の順位に応じて<br class="pc-only02">配点されたポイントと併せて年間の優勝チームが決定する。<br class="pc-only02">EBRは当日の勝負だけではなく、1年をかけたチーム総合力の闘いである。</p>
         <p class="pointsTag">★ ★ ★ 戦闘力ポイント ★ ★ ★</p>
         <span class="pointsTag__text">自身の保持する段位・級位に対して付与 <br class="sp-480only">※ただし、STATは1.5倍</span>
         <table class="pointsTable -fisrt">
           <tbody>
             <tr>
               <th class="pointsTable__bold">戦闘力</th>
-              <th class="pointsTable__bold">GP</th>
+              <th class="pointsTable__bold">Point</th>
             </tr>
             <tr>
               <th>2段</th>
@@ -66,13 +66,14 @@ get_header();
           </tbody>
         </table>
 
-        <p class="pointsTag -second">☆ ☆ ☆ 活動ポイント ☆ ☆ ☆</p>
+        <p class="pointsTag -second">☆ ☆ ☆ 活動ポイント<span class="pc-only">(2025年度分) </span>☆ ☆ ☆</p>
+        <span class="pointsTag__sp480only">(2025年度分) </span>
         <span class="pointsTag__text">SPEに参加、審査を受審するなどした時に付与</span>
         <table class="pointsTable -second">
           <tbody>
             <tr>
               <th class="pointsTable__bold">活動ポイント</th>
-              <th class="pointsTable__bold">GP</th>
+              <th class="pointsTable__bold">Point</th>
             </tr>
             <tr>
               <th>SPE参加<br class="sp-480only">（現地）</th>
@@ -139,10 +140,10 @@ get_header();
           <tbody>
             <tr>
               <th class="pointsTable__bold">活動ポイント(過去分)</th>
-              <th class="pointsTable__bold">GP</th>
+              <th class="pointsTable__bold">Point</th>
             </tr>
             <tr>
-              <th>0202新春特別稽古</th>
+              <th>0202新春特別稽古（現地）</th>
               <th>5</th>
             </tr>
           </tbody>

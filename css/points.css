@@ -48,6 +48,9 @@
   margin-bottom: 1rem;
   letter-spacing: 0.1em;
 }
+.pointsTag__sp480only {
+  display: none;
+}
 .pointsTag__text {
   display: block;
   text-align: center;
@@ -55,6 +58,7 @@
   margin-bottom: 3rem;
   letter-spacing: 0.1em;
 }
+
 .pointsWrap {
   width: 100%;
   background-color: #fff;
@@ -171,6 +175,9 @@
   .pointsTable th {
     padding: 1rem 0.5rem;
   }
+  .pointsTag {
+    letter-spacing: 0.05em;
+  }
 }
 @media (max-width: 480px) {
   .points {
@@ -210,6 +217,17 @@
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
   }
+  .pointsTag.-second {
+    margin-bottom: 0;
+  }
+  .pointsTag__sp480only {
+    display: block;
+    font-family: "Inter", serif;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+  }
   .pointsTag__text {
     font-size: 1.2rem;
     margin-bottom: 2rem;
@@ -231,6 +249,9 @@
 @media (max-width: 375px) {
   .pointsTag {
     font-size: 1.3rem;
+  }
+  .pointsTag__sp480only {
+    font-size: 1.2rem;
   }
   .pointsTable th {
     font-size: 1.3rem;
