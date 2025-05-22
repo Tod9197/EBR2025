@@ -40,12 +40,12 @@ get_header(); ?>
 <!-- タイマー -->
 <section class="Timer">
 <!-- 申し込みリンク -->
-<!-- <div class="requestLink">
+<div class="requestLink">
   <div class="requestLink__flex">
-    <a class="requestLink__item -guest" href="https://docs.google.com/forms/d/e/1FAIpQLScz-y88pjXqvP2gWjCGlr7LqggBdRvFXqW9cdBiWuRk3Pxg8Q/viewform" id="js-request-guest" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text">(ゲストの方)<br>　申し込む</p>
     </a>
-    <a class="requestLink__item -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" id="js-request-student" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" id="js-request-student" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text -student">(門下生)<br>申し込む</p>
     </a>
   </div>
@@ -54,16 +54,16 @@ get_header(); ?>
 
 <div class="requestLink -mobile">
   <div class="requestLink__flex -mobile">
-    <a class="requestLink__item -guest" href="https://docs.google.com/forms/d/e/1FAIpQLScz-y88pjXqvP2gWjCGlr7LqggBdRvFXqW9cdBiWuRk3Pxg8Q/viewform" id="js-request-guest"
+    <a class="requestLink__item -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" id="js-request-guest"
     target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text">申し込む<br>(ゲストの方)</p>
     </a>
-    <a class="requestLink__item -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" id="js-request-student" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" id="js-request-student" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text -student">申し込む<br>(門下生)</p>
     </a>
   </div>
   <a href="#" class="backToTop__button -mobile" id="backToTop">↑</a>
-</div> -->
+</div>
 <!-- 申し込みリンクここまで -->
   <div class="Timer__wrap">
   <div class="inner">  
@@ -77,7 +77,7 @@ get_header(); ?>
   <div class="Timer__scheduleWrap">
     <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2026年01月31日(土)時間未定</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
-    <p class="Timer__schedulePrice">【参加費用】未定</p>
+    <p class="Timer__schedulePrice">【参加費用】18,000円前後</p>
     <p class="Timer__schedulePlace">【開催場所】京都
       <br class="sp-only02">
     </p>
@@ -99,15 +99,15 @@ get_header(); ?>
   </div> 
   </div>
   
-  <!-- <div class="requestWrap">
+  <div class="requestWrap">
     <div class="requestInner__line">
-  <p class="requestText">EBRに申し込む</p>
+  <p class="requestText -apply">EBRに申し込む</p>
   <div class="requestButton__flex">
-  <a class="requestButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLScz-y88pjXqvP2gWjCGlr7LqggBdRvFXqW9cdBiWuRk3Pxg8Q/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
-  <a class="requestButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+  <a class="requestButton -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+  <a class="requestButton -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div> 
-  </div> -->
+  </div>
    <!-- 申し込みここまで -->
 
 <!-- 応援金ここから -->
@@ -380,19 +380,19 @@ $the_query = new WP_Query($args);
         <img src="<?php echo esc_url(get_theme_file_uri('/img/ebr2023-20.jpg')); ?>" alt="パーティー画像3">
       </li>
     </ul>
-    <p class="aboutPrice">【参加費】未定
-        <!-- <br>コンテスト＆パーティ：20,000円 -->
+    <p class="aboutPrice">【参加費】
+        <br>コンテスト＆パーティ：18,000円前後
   </p>
   </div>
-  <!-- <div class="requestWrap -about">
+  <div class="requestWrap -about">
     <div class="requestInner__line">
   <p class="requestText -about">EBRに申し込む</p>
   <div class="requestButton__flex -about">
-  <a class="requestButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLScz-y88pjXqvP2gWjCGlr7LqggBdRvFXqW9cdBiWuRk3Pxg8Q/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
-  <a class="requestButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSdB7oQH7ayFtWY23RTtxR809xoHlZo_noQ2SdcgFE87GA0DIw/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+  <a class="requestButton -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+  <a class="requestButton -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div>
-  </div> -->
+  </div>
 
   </div>
 </section>

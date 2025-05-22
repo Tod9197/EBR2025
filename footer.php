@@ -25,7 +25,7 @@
       </li>
       <li class="footerList__item">
         <p class="footerList__itemTitle">TOPICs</p>
-        <a href="#topics">お知らせ</a>
+        <a href="<?php echo esc_url(home_url('/#topics')); ?>">お知らせ</a>
         <p class="footerList__itemTitle  -sponsors">SPONSORs</p>
         <a href="<?php echo esc_url(home_url('/sponsors')); ?>">協賛</a>
       </li>

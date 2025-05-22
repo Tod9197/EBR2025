@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/gallery.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/sponsors.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/topics.css')); ?>" type="text/css">
-  <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/award.css')); ?>" type="text/css">
+  <!-- <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/award.css')); ?>" type="text/css"> -->
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/points.css')); ?>" type="text/css">
 </head>
 
