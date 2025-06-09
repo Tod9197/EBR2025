@@ -370,7 +370,7 @@ img {
   transition: opacity 0.5s ease, transform 0.5s ease;
   position: fixed;
   z-index: 3000;
-  top: 20rem;
+  top: 10rem;
   right: 0;
 }
 .requestLink.show {
@@ -418,13 +418,18 @@ img {
 }
 
 .requestLink__text {
+  display: block;
   font-size: 1.4rem;
   font-weight: bold;
   color: #000;
   writing-mode: vertical-rl;
   letter-spacing: 0.2em;
-  padding: 4rem 1rem;
+  padding: 3rem 3.5rem 3rem 1.5rem;
   transition: 0.5s all;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
 }
 .requestLink__text.-student {
   color: #fff;

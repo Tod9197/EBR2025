@@ -43,10 +43,10 @@ get_header(); ?>
 <div class="requestLink">
   <div class="requestLink__flex">
     <a class="requestLink__item -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
-      <p class="requestLink__text">(ゲストの方)<br>　申し込む</p>
+      <div class="requestLink__text">(ゲストの方)申し込む</div>
     </a>
     <a class="requestLink__item -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" id="js-request-student" target="_blank" rel="noopener noreferrer">
-      <p class="requestLink__text -student">(門下生)<br>申し込む</p>
+      <div class="requestLink__text -student">(門下生)申し込む</div>
     </a>
   </div>
   <a href="#" class="backToTop__button" id="backToTop">↑</a>
