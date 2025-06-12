@@ -44,11 +44,11 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h3 class="awardTitle">チーム対抗戦の結果</h3>
+        <h3 class="awardTitle">チーム戦結果</h3>
         <table class="awardTable">
           <tbody>
             <tr>
-              <th class="awardTable__bold">開催年度</th>
+              <th class="awardTable__bold">開催年</th>
               <th class="awardTable__bold">優勝</th>
               <th class="awardTable__bold">優勝チーム<br>キャプテン</th>
               <th class="awardTable__bold">準優勝</th>
@@ -80,11 +80,11 @@ get_header();
     <div class="awardWrap">
       <div class="award__outLine">
         <div class="award__InLine">
-        <h3 class="awardTitle">各種目競技結果(団体 & 個人)</h3>
+        <h3 class="awardTitle">各種目競技結果(団体・個人)</h3>
         <table class="awardTable">
           <tbody>
             <tr>
-              <th class="awardTable__bold">開催年度</th>
+              <th class="awardTable__bold">開催年</th>
               <th class="awardTable__bold">競技種目</th>
               <th class="awardTable__bold">優勝</th>
               <th class="awardTable__bold">準優勝</th>
