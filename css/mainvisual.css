@@ -81,7 +81,7 @@
   animation-fill-mode: forwards;
 }
 
-/* 投稿・画像一覧・協賛.競技一覧ページメインビジュアル */
+/* 投稿・画像一覧・協賛.競技一覧ページ.ポイント速報メインビジュアル */
 .mainVisual.-topics {
   height: 90vh;
   background-image: url(../img/ebr2023-32.jpg);
@@ -110,6 +110,18 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.mainVisual.-pointsBattle {
+  height: 90vh;
+  background-image: linear-gradient(
+    150deg,
+    rgba(247, 166, 12, 1) 10%,
+    rgba(255, 34, 87, 1) 40%,
+    rgba(154, 39, 238, 1) 68%,
+    rgba(35, 102, 247, 1) 90%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .mainVisual.-gallery::after,
 .mainVisual.-sponsors::after,
@@ -129,7 +141,8 @@
 .mainVisual__title.-contest,
 .mainVisual__title.-topics,
 .mainVisual__title.-award,
-.mainVisual__title.-points {
+.mainVisual__title.-points,
+.mainVisual__title.-pointsBattle {
   font-size: 8rem;
   text-transform: uppercase;
   animation: unset;
@@ -176,11 +189,20 @@
   opacity: 1;
   animation: unset;
 }
+.mainVisual__title.-pointsBattle::before {
+  display: block;
+  content: "ポイント速報";
+  font-size: 2.4rem;
+  bottom: -6rem;
+  opacity: 1;
+  animation: unset;
+}
 .mainVisual__title.-gallery::after,
 .mainVisual__title.-sponsors::after,
 .mainVisual__title.-contest::after,
 .mainVisual__title.-topics::after,
-.mainVisual__title.-award::after {
+.mainVisual__title.-award::after,
+.mainVisual__title.-pointsBattle::after {
   display: none;
 }
 
@@ -200,20 +222,23 @@
   .mainVisual__title.-gallery,
   .mainVisual__title.-sponsors,
   .mainVisual__title.-contest,
-  .mainVisual__title.-topics {
+  .mainVisual__title.-topics,
+  .mainVisual__title.-pointsBattle {
     font-size: 8rem;
   }
   .mainVisual__title.-gallery::before,
   .mainVisual__title.-sponsors::before,
   .mainVisual__title.-contest::before,
-  .mainVisual__title.-topics::before {
+  .mainVisual__title.-topics::before,
+  .mainVisual__title.-pointsBattle::before {
     font-size: 2.8rem;
     bottom: -5rem;
   }
   .mainVisual.-gallery,
   .mainVisual.-sponsors,
   .mainVisual.-contest,
-  .mainVisual.-topics {
+  .mainVisual.-topics,
+  .mainVisual.-pointsBattle {
     height: 80vh;
   }
 }
@@ -238,13 +263,15 @@
   .mainVisual__title.-gallery,
   .mainVisual__title.-sponsors,
   .mainVisual__title.-contest,
-  .mainVisual__title.-topics {
+  .mainVisual__title.-topics,
+  .mainVisual__title.-pointsBattle {
     font-size: 7rem;
   }
   .mainVisual__title.-gallery::before,
   .mainVisual__title.-sponsors::before,
   .mainVisual__title.-contest::before,
-  .mainVisual__title.-topics::before {
+  .mainVisual__title.-topics::before,
+  .mainVisual__title.-pointsBattle::before {
     font-size: 2.4rem;
     bottom: -4rem;
   }
@@ -272,19 +299,22 @@
   .mainVisual.-gallery,
   .mainVisual.-sponsors,
   .mainVisual.-contest,
-  .mainVisual.-topics {
+  .mainVisual.-topics,
+  .mainVisual__title.-pointsBattle {
     height: 70vh;
   }
   .mainVisual__title.-gallery,
   .mainVisual__title.-sponsors,
   .mainVisual__title.-contest,
-  .mainVisual__title.-topics {
+  .mainVisual__title.-topics,
+  .mainVisual__title.-pointsBattle {
     font-size: 4.5rem;
   }
   .mainVisual__title.-gallery::before,
   .mainVisual__title.-sponsors::before,
   .mainVisual__title.-contest::before,
-  .mainVisual__title.-topics::before {
+  .mainVisual__title.-topics::before,
+  .mainVisual__title.-pointsBattle::before {
     font-size: 1.8rem;
     bottom: -3rem;
   }
