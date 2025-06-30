@@ -289,12 +289,12 @@
   border-radius: 16px 16px 0 0;
 }
 .pointsBattle__chartItem.-HB {
-  width: 40%;
+  width: 30%;
   height: 500px;
-  background-color: #800000;
+  background-color: rebeccapurple;
 }
 .pointsBattle__chartItem.-EG {
-  width: 40%;
+  width: 30%;
   height: 300px;
-  background-color: aqua;
+  background-color: greenyellow;
 }
