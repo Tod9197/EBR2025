@@ -264,37 +264,108 @@
 
 /* ポイント速報ページ */
 .pointsBattle {
-  padding: 5rem 0;
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../img/bg07.jpg);
+  background-color: #333;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
 }
+
 .pointsBattle__title {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: bold;
-  color: #800000;
+  color: #fff;
   text-align: center;
   letter-spacing: 0.05em;
-  margin-bottom: 3rem;
+  margin-bottom: 15rem;
+}
+.pointsBattle__title .ego {
+  font-size: 5rem;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 242, 58, 1),
+    rgba(224, 162, 8, 1) 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-right: 1rem;
+}
+.pointsBattle__title .hb {
+  font-size: 5rem;
+  background-image: linear-gradient(
+    90deg,
+    #d9d9d9,
+    #f0f0f0,
+    #a8a8a8,
+    #f0f0f0,
+    #d9d9d9
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-left: 1rem;
 }
 .pointsBattle__area {
-  padding: 2rem 2rem;
-  border: 1px solid #eee;
+  border-bottom: 2px solid #eee;
 }
 .pointsBattle__chart {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
 }
 .pointsBattle__chart {
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
   border-radius: 16px 16px 0 0;
 }
-.pointsBattle__chartItem.-HB {
+.pointsBattle__chartItem {
   width: 30%;
-  height: 500px;
-  background-color: rebeccapurple;
 }
-.pointsBattle__chartItem.-EG {
-  width: 30%;
+.pointsBattle__chartBar.-ego {
   height: 300px;
-  background-color: greenyellow;
+  background: linear-gradient(180deg, #ff6d3a, #ffc107);
+}
+.pointsBattle__chartBar.-hb {
+  height: 500px;
+  background: linear-gradient(180deg, #9a27ee, #00e0ff);
+}
+.pointsBattle__chartText {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.pointsBattle__chartText.-ego {
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 242, 58, 1),
+    rgba(224, 162, 8, 1) 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.pointsBattle__chartText.-hb {
+  background-image: linear-gradient(
+    90deg,
+    #d9d9d9,
+    #f0f0f0,
+    #a8a8a8,
+    #f0f0f0,
+    #d9d9d9
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

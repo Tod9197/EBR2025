@@ -12,14 +12,17 @@ get_header();
 
 <section class="pointsBattle">
   <div class="inner">
-    <h2 class="pointsBattle__title">Team H.Blacks VS Team e-Go!</h2>
+    <h2 class="pointsBattle__title">
+      <span class="ego">Team e-Go!</span> VS <span class="hb">Team H.Blacks</span>  </h2>
     <div class="pointsBattle__area">
       <ul class="pointsBattle__chart">
-      <p>Team H.Blacks</p>
-        <div class="pointsBattle__chartItem -HB">
-        </div>
-        <p>Team e-Go!</p>
-        <li class="pointsBattle__chartItem -EG">
+        <li class="pointsBattle__chartItem">
+          <span class="pointsBattle__chartText -ego">Team e-Go!</span>
+          <p class="pointsBattle__chartBar -ego"></p>
+        </li>
+        <li class="pointsBattle__chartItem">
+          <span class="pointsBattle__chartText -hb">Team H.Blacks</span>
+          <p class="pointsBattle__chartBar -hb"></p>
         </li>
       </ul>
     </div>
