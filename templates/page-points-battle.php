@@ -34,5 +34,6 @@ get_header();
         </li>
       </ul>
     </div>
+    <p class="pointsBattle__anotation">※2025年6月末時点</p>
   </div>
 </section>
