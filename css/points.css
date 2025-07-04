@@ -336,7 +336,7 @@
   background: linear-gradient(180deg, #ff6d3a, #ffc107);
 }
 .pointsBattle__chartBar.-hb {
-  height: 60rem;
+  height: 65rem;
   background: linear-gradient(180deg, #9a27ee, #00e0ff);
 }
 .pointsBattle__chartText {
@@ -378,7 +378,7 @@
 }
 .pointsBattle__chartPoint {
   display: block;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   background-image: linear-gradient(
