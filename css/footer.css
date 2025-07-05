@@ -62,10 +62,17 @@
   margin-bottom: 1.5rem;
 }
 .footerList__itemTitle.-gallery,
-.footerList__itemTitle.-contest,
 .footerList__itemTitle.-interview,
-.footerList__itemTitle.-sponsors {
+.footerList__itemTitle.-sponsors,
+.footerList__itemTitle.-points {
   margin-top: 5rem;
+}
+.footerPoints__link.-points,
+.footerPoints__link.-points__battle {
+  display: block;
+}
+.footerPoints__link.-points {
+  margin-bottom: 1rem;
 }
 
 .footerList__item a {
@@ -107,7 +114,7 @@
     margin-right: 2rem;
   }
   .footerList__itemTitle.-gallery,
-  .footerList__itemTitle.-contest,
+  .footerList__itemTitle.-points,
   .footerList__itemTitle.-interview,
   .footerList__itemTitle.-sponsors {
     margin-top: 2rem;

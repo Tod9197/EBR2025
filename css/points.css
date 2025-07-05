@@ -331,6 +331,14 @@
 .pointsBattle__chartItem {
   width: 40%;
 }
+.pointsBattle__chartBar {
+  transform-origin: bottom;
+  transform: scaleY(0);
+  transition: transform 1.5s ease-out;
+}
+.pointsBattle__chartBar.is-visible {
+  transform: scaleY(1);
+}
 .pointsBattle__chartBar.-ego {
   height: 50rem;
   background: linear-gradient(180deg, #ff6d3a, #ffc107);
@@ -345,7 +353,7 @@
   font-weight: bold;
   text-align: center;
   margin: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .pointsBattle__chartText.-ego {
   background-image: radial-gradient(
@@ -398,4 +406,112 @@
   text-align: right;
   margin-top: 1rem;
   letter-spacing: 0.05em;
+}
+.toPointLink {
+  display: block;
+  width: 100%;
+  max-width: 30rem;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  margin-top: 10rem;
+  padding: 1.5rem 2rem;
+  border: 1px solid #fff;
+}
+.toPointLink.-toTop {
+  margin-top: 3rem;
+}
+.toPointLink:hover {
+  color: #000;
+  background-color: #fff;
+}
+@media (max-width: 1024px) {
+  .pointsBattle {
+    padding: 10rem 0;
+  }
+  .pointsBattle__title {
+    margin-bottom: 10rem;
+  }
+  .pointsBattle__chart {
+    width: 50%;
+  }
+  .pointsBattle__title .ego,
+  .pointsBattle__title .hb {
+    font-size: 4rem;
+  }
+  .pointsBattle__chartText {
+    font-size: 2rem;
+  }
+  .pointsBattle__anotation {
+    font-size: 1.6rem;
+  }
+  .toPointLink {
+    font-size: 1.6rem;
+    margin-top: 7rem;
+  }
+}
+@media (max-width: 768px) {
+  .pointsBattle__title {
+    margin-bottom: 5rem;
+  }
+  .pointsBattle__title .ego,
+  .pointsBattle__title .hb {
+    font-size: 3rem;
+  }
+  .pointsBattle__chart {
+    width: 70%;
+  }
+  .pointsBattle__chartItem.-ego {
+    margin-right: 2rem;
+  }
+  .pointsBattle__chartItem.-hb {
+    margin-left: 2rem;
+  }
+  .pointsBattle__chartPoint {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 480px) {
+  .pointsBattle {
+    padding: 5rem 0;
+  }
+  .pointsBattle__title {
+    margin-bottom: 3rem;
+  }
+  .pointsBattle__title .ego,
+  .pointsBattle__title .hb {
+    font-size: 2.6rem;
+  }
+  .pointsBattle__chart {
+    width: 90%;
+  }
+  .pointsBattle__chartItem {
+    width: 45%;
+  }
+  .pointsBattle__chartBar.-ego {
+    height: 25rem;
+  }
+  .pointsBattle__chartBar.-hb {
+    height: 40rem;
+    background: linear-gradient(180deg, #9a27ee, #00e0ff);
+  }
+  .pointsBattle__chartItem.-ego {
+    margin-right: 0;
+  }
+  .pointsBattle__chartItem.-hb {
+    margin-left: 0;
+  }
+  .pointsBattle__chartText {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .pointsBattle__anotation {
+    font-size: 1.4rem;
+  }
+  .toPointLink {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    max-width: 25rem;
+  }
 }

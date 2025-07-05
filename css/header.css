@@ -294,10 +294,11 @@
     width: 80%;
   }
   .hamburgerNav__listItem__link {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    padding: 1rem 0 3rem;
   }
   .hamburgerNav__listItem__link::before {
     font-size: 1.2rem;
-    bottom: 3rem;
+    bottom: 2.5rem;
   }
 }

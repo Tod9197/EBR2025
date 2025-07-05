@@ -255,3 +255,53 @@ document.addEventListener("DOMContentLoaded", () => {
 
   targets.forEach((target) => observer.observe(target));
 });
+
+// ポイント速報ページ ポイントバー
+document.addEventListener("DOMContentLoaded", () => {
+  const PointTarget = document.querySelector(".pointsBattle__area");
+  const PointBars = document.querySelectorAll(".pointsBattle__chartBar");
+  const PointValues = document.querySelectorAll(".pointsBattle__chartPoint");
+
+  const PointCountUp = (el, end) => {
+    let start = 0;
+    const duration = 1500;
+    const startTime = performance.now();
+
+    const step = (now) => {
+      const progress = Math.min((now - startTime) / duration, 1);
+      const value = (end * progress).toFixed(1);
+      el.textContent = value;
+
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        el.textContent = end.toFixed(1);
+      }
+    };
+
+    requestAnimationFrame(step);
+  };
+
+  const PointObserver = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        PointBars.forEach((PointBar) => PointBar.classList.add("is-visible"));
+
+        PointValues.forEach((pointEl) => {
+          const endValue = parseFloat(pointEl.textContent);
+          PointCountUp(pointEl, endValue);
+        });
+
+        PointObserver.unobserve(PointTarget);
+      }
+    },
+    {
+      root: null,
+      threshold: 0.7,
+    }
+  );
+
+  if (PointTarget) {
+    PointObserver.observe(PointTarget);
+  }
+});

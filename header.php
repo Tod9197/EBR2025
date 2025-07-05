@@ -70,6 +70,9 @@
           <li class="hamburgerNav__listItem">
             <a class="hamburgerNav__listItem__link" href="<?php echo esc_url(home_url('/sponsors')); ?>" data-before="協賛">sponsors</a>
           </li>
+          <li class="hamburgerNav__listItem">
+            <a class="hamburgerNav__listItem__link" href="<?php echo esc_url(home_url('/points')); ?>" data-before="年間ポイント">points</a>
+          </li>
         </ul>
       </nav>
 

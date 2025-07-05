@@ -146,12 +146,17 @@ get_header();
               <th>0202新春特別稽古（現地）</th>
               <th>5</th>
             </tr>
+            <tr>
+              <th>EBR種目稽古としてのVPSクラス</th>
+              <th>1</th>
+            </tr>
           </tbody>
         </table>
 
         </div>
       </div>
       <a class="toTop__button -points" href="../">TOPへ戻る</a>
+      <a class="toTop__button -points" href="<?php echo esc_url(home_url('/points-battle')); ?>">ポイント速報ページへ</a>
     </div>
 </section>
 
