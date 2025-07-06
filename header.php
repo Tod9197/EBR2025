@@ -28,7 +28,7 @@
         <ul class="header__listLeft">
           <li class="header__listItem"><a href="<?php echo esc_url(home_url('/#about')); ?>">About</a></li>
           <li class="header__listItem"><a href="<?php echo esc_url(home_url('/#topics')); ?>">topics</a></li>
-          <!-- <li class="header__listItem"><a href="<?php echo esc_url(home_url('/#timetable')); ?>">time table</a></li> -->
+          <li class="header__listItem"><a href="<?php echo esc_url(home_url('/points-battle')); ?>">points</a></li>
         </ul>
         </div>
         <div class="header__menuRight">
@@ -59,7 +59,7 @@
             <a class="hamburgerNav__listItem__link" href="<?php echo esc_url(home_url('/#topics')); ?>" data-before="トピック">topics</a>
           </li>
           <!-- <li class="hamburgerNav__listItem">
-            <a class="hamburgerNav__listItem__link" href="<?php echo esc_url(home_url('/#timetable')); ?>" data-before="当日の流れ">time table</a>
+            <a class="hamburgerNav__listItem__link" href="<?php echo esc_url(home_url('/points-battle')); ?>" data-before="ポイント速報">points</a>
           </li> -->
           <li class="hamburgerNav__listItem">
             <a class="hamburgerNav__listItem__link" href="<?php echo esc_url(home_url('/gallerylist')); ?>" data-before="過去開催の画像">gallery</a>
