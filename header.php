@@ -26,7 +26,7 @@
     <div class="header__wrapper">
         <div class="header__menuLeft">
         <ul class="header__listLeft">
-          <li class="header__listItem"><a href="<?php echo esc_url(home_url('/#about')); ?>">About</a></li>
+          <li class="header__listItem"><a href="<?php echo esc_url(home_url('/#about')); ?>">about</a></li>
           <li class="header__listItem"><a href="<?php echo esc_url(home_url('/#topics')); ?>">topics</a></li>
           <li class="header__listItem"><a href="<?php echo esc_url(home_url('/points-battle')); ?>">points</a></li>
         </ul>
@@ -53,7 +53,7 @@
         <nav class="hamburgerNav" id="js-hamburger-nav">
         <ul class="hamburgerNav__list">
           <li class="hamburgerNav__listItem">
-            <a class="hamburgerNav__listItem__link" href="<?php echo esc_url(home_url('/#about')); ?>" data-before="EBRについて">About</a>
+            <a class="hamburgerNav__listItem__link" href="<?php echo esc_url(home_url('/#about')); ?>" data-before="EBRについて">about</a>
           </li>
           <li class="hamburgerNav__listItem">
             <a class="hamburgerNav__listItem__link" href="<?php echo esc_url(home_url('/#topics')); ?>" data-before="トピック">topics</a>
