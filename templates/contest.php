@@ -9,7 +9,7 @@ get_header();
 
 <!-- メインビジュアル -->
 <section class="mainVisual -contest">
-    <h1 class="mainVisual__title -contest">Contest</h1>
+    <h1 class="mainVisual__title -contest">contest</h1>
 </section>
 
 <!-- Sponser -->
@@ -20,8 +20,9 @@ get_header();
       <div class="timeTable__wrap">
         <div class="timeTable__outline">
           <div class="timeTable__inline">
-            <h2 class="sponsors__title">Contest</h2>
-            <p class="contest__subTitle">Comming Soon!!</p>            
+            <h2 class="sponsors__title">contest</h2>
+            <p class="contest__subTitle">comming soon!</p>
+            <p>詳細は追ってお知らせします</p>            
           </div>
         </div>
       </div>
