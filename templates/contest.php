@@ -21,8 +21,8 @@ get_header();
         <div class="timeTable__outline">
           <div class="timeTable__inline">
             <h2 class="sponsors__title">Contest</h2>
-            <p class="contest__subTitle">Comming Soon!</p>
-            <p>詳細は追って後日、お知らせします</p>            
+            <p class="contest__subTitle">Comming Soon! Wait!!</p>
+            <p>詳細は追ってお知らせします</p>            
           </div>
         </div>
       </div>
