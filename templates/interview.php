@@ -27,8 +27,8 @@ get_header();
       <div class="timeTable__wrap">
         <div class="timeTable__outline">
           <div class="timeTable__inline">
-            <h2 class="sponsors__title">Interview</h2>
-            <p class="contest__subTitle">comming soon!</p>            
+            <h2 class="sponsors__title">interview</h2>
+            <p class="contest__subTitle">Comming Soon!</p>            
           </div>
         </div>
       </div>
