@@ -1,17 +1,8 @@
-<?php
-/*
-Template Name: インタビューページ
-*/
-get_header();
-?>
-
 <?php  
-
 /*
 Template Name: 競技種目ページ
 */
 get_header();
-
 ?>
 <!-- メインビジュアル -->
 <section class="mainVisual -interview">
@@ -34,6 +25,5 @@ get_header();
 </div>
   </div>
 </section>
-
 <!-- フッター -->
 <?php get_footer(); ?>
