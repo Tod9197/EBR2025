@@ -4,11 +4,12 @@ Template Name: 競技種目ページ
 */
 get_header();
 ?>
+
 <!-- メインビジュアル -->
 <section class="mainVisual -interview">
     <h1 class="mainVisual__title -intreview">Contest</h1>
 </section>
-<!-- Sponser -->
+
 <section class="sponcers">
   <div class="inner">
     <div class="singleTopics__wrap">
@@ -17,7 +18,7 @@ get_header();
         <div class="timeTable__outline">
           <div class="timeTable__inline">
             <h2 class="sponsors__title">Interview</h2>
-            <p class="contest__subTitle">comming soon!</p>            
+            <p class="contest__subTitle">Comming soon!</p>            
           </div>
         </div>
       </div>
@@ -25,5 +26,6 @@ get_header();
 </div>
   </div>
 </section>
+
 <!-- フッター -->
 <?php get_footer(); ?>
