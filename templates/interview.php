@@ -4,10 +4,9 @@ Template Name: 競技種目ページ
 */
 get_header();
 ?>
-
 <!-- メインビジュアル -->
 <section class="mainVisual -interview">
-    <h1 class="mainVisual__title -intreview">Contest</h1>
+    <h1 class="mainVisual__title -intreview">contest</h1>
 </section>
 
 <section class="sponcers">
@@ -17,8 +16,8 @@ get_header();
       <div class="timeTable__wrap">
         <div class="timeTable__outline">
           <div class="timeTable__inline">
-            <h2 class="sponsors__title">Interview</h2>
-            <p class="contest__subTitle">Comming soon!</p>            
+            <h2 class="sponsors__title">interview</h2>
+            <p class="contest__subTitle">comming soon!</p>            
           </div>
         </div>
       </div>
