@@ -18,7 +18,7 @@ get_header();
           <div class="timeTable__inline">
             <h2 class="sponsors__title">Interview</h2>
             <p class="contest__subTitle">Comming Soon!</p>    
-            <p>詳細は追って連絡いたします。</p>        
+            <p>詳細は後日、追って連絡いたします。</p>        
           </div>
         </div>
       </div>
@@ -26,5 +26,6 @@ get_header();
 </div>
   </div>
 </section>
+
 <!-- フッター -->
 <?php get_footer(); ?>
