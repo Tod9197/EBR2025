@@ -6,7 +6,7 @@ get_header();
 ?>
 <!-- メインビジュアル -->
 <section class="mainVisual -interview">
-    <h1 class="mainVisual__title -intreview">Interview Subject</h1>
+    <h1 class="mainVisual__title -intreview">interview subject</h1>
 </section>
 
 <section class="sponcers">
@@ -17,7 +17,7 @@ get_header();
         <div class="timeTable__outline">
           <div class="timeTable__inline">
             <h2 class="interview__title">Interview</h2>
-            <p class="contest__subTitle">Comming soon!</p>    
+            <p class="interview__subTitle">Comming soon!</p>    
             <p>詳細は後日連絡いたします。</p>        
           </div>
         </div>
