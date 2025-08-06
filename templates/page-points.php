@@ -150,6 +150,10 @@ get_header();
               <th>EBR種目稽古としてのVPSクラス</th>
               <th>1</th>
             </tr>
+            <tr>
+              <th>夏合宿参加（現地）</th>
+              <th>6</th>
+            </tr>
           </tbody>
         </table>
 
