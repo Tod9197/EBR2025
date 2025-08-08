@@ -159,7 +159,7 @@ get_header();
               <th>4</th>
             </tr>
             <tr>
-              <th>夏合宿参加（Zoom）</th>
+              <th>夏合宿参加（オンライン）</th>
               <th>4</th>
             </tr>
           </tbody>
