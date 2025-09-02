@@ -128,8 +128,20 @@ get_header();
               <th>1</th>
             </tr>
             <tr>
-              <th>昇級審査受審<br class="sp-480only">（24年12月-25年12月まで）</th>
+              <th>昇級審査受審3級まで<br class="sp-480only">（24年12月-25年12月まで）</th>
               <th>3</th>
+            </tr>
+            <tr>
+              <th>昇級審査受審2級<br class="sp-480only">（24年12月-25年12月まで）</th>
+              <th>5</th>
+            </tr>
+            <tr>
+              <th>昇級審査受審1級<br class="sp-480only">（24年12月-25年12月まで）</th>
+              <th>6</th>
+            </tr>
+            <tr>
+              <th>昇段審査受審初級<br class="sp-480only">（24年12月-25年12月まで）</th>
+              <th>20</th>
             </tr>
           </tbody>
         </table>
