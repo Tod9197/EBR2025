@@ -151,6 +151,10 @@ get_header();
               <th>昇段審査受審初級<br class="sp-480only">（24年12月-25年12月まで）</th>
               <th>20</th>
             </tr>
+            <tr>
+              <th>EBR添削提出</th>
+              <th>5</th>
+            </tr>
           </tbody>
         </table>
 
