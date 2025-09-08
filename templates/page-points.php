@@ -68,7 +68,7 @@ get_header();
 
         <p class="pointsTag -second">☆ ☆ ☆ 活動ポイント<span class="pc-only">(2025年度分) </span>☆ ☆ ☆</p>
         <span class="pointsTag__sp480only">(2025年度分) </span>
-        <span class="pointsTag__text">SPEに参加、審査を受審するなどした時に付与</span>
+        <span class="pointsTag__text">SPEに参加・審査を受審するなどした時に付与</span>
         <table class="pointsTable -second">
           <tbody>
             <tr>
@@ -175,15 +175,15 @@ get_header();
               <th>1</th>
             </tr>
             <tr>
-              <th>夏合宿<br>（京都本部道場・オフライン）</th>
+              <th>夏合宿<br class="sp-480only">（京都本部道場・オフライン）</th>
               <th>6</th>
             </tr>
             <tr>
-              <th>夏合宿<br>（東京会場・オンライン）</th>
+              <th>夏合宿<br class="sp-480only">（東京会場・オンライン）</th>
               <th>4</th>
             </tr>
             <tr>
-              <th>夏合宿<br>（Zoom・オンライン）</th>
+              <th>夏合宿<br class="sp-480only">（Zoom・オンライン）</th>
               <th>4</th>
             </tr>
           </tbody>
