@@ -148,8 +148,12 @@ get_header();
               <th>6</th>
             </tr>
             <tr>
-              <th>昇段審査受審・初段<br class="sp-480only">（24年12月-25年12月まで）</th>
+              <th>昇段審査受審（初段）<br class="sp-480only">（24年12月-25年12月まで）</th>
               <th>20</th>
+            </tr>
+            <tr>
+              <th>昇段審査受審（弍段）<br class="sp-480only">（24年12月-25年12月まで）</th>
+              <th>30</th>
             </tr>
             <tr>
               <th>EBR添削提出</th>
