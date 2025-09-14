@@ -88,12 +88,12 @@ get_header();
               <th>1.5</th>
             </tr>
             <tr>
-              <th>SPE遅刻早退<br class="sp-480only">（ONLINE）</th>
-              <th>1</th>
-            </tr>
-            <tr>
               <th>BC参加（STAT）</th>
               <th>2</th>
+            </tr>
+            <tr>
+              <th>SPE遅刻早退<br class="sp-480only">（ONLINE）</th>
+              <th>1</th>
             </tr>
             <tr>
               <th>BC参加</th>
