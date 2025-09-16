@@ -20,7 +20,7 @@ get_header();
           <span class="pointsBattle__chartText -ego">Team e-Go!</span>
           <p class="pointsBattle__chartBar -ego">
           <span class="pointsBattle__chartPointWrapper">
-          <span class="pointsBattle__chartPoint">1497</span>
+          <span class="pointsBattle__chartPoint">1497.0</span>
           </span>
           </p>
         </li>
@@ -28,7 +28,7 @@ get_header();
           <span class="pointsBattle__chartText -hb">Team H.Blacks</span>
           <p class="pointsBattle__chartBar -hb">
           <span class="pointsBattle__chartPointWrapper">
-          <span class="pointsBattle__chartPoint">1910</span>
+          <span class="pointsBattle__chartPoint">1910.0</span>
           </span>
           </p>
         </li>
