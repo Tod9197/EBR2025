@@ -179,7 +179,7 @@ get_header();
               <th>1</th>
             </tr>
             <tr>
-              <th>夏合宿 2025<br class="sp-480only">（京都本部道場・オフライン）</th>
+              <th>夏合宿 2025<br class="sp-480only">（京都本部道場）</th>
               <th>6</th>
             </tr>
             <tr>
@@ -187,7 +187,7 @@ get_header();
               <th>4</th>
             </tr>
             <tr>
-              <th>夏合宿 2025<br class="sp-480only">（Zoom・オンライン）</th>
+              <th>夏合宿 2025<br class="sp-480only">（オンライン）</th>
               <th>4</th>
             </tr>
           </tbody>
