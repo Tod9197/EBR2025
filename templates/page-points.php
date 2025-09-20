@@ -92,12 +92,12 @@ get_header();
               <th>1</th>
             </tr>
             <tr>
-              <th>BC参加</th>
-              <th>1</th>
-            </tr>
-            <tr>
               <th>BC参加（STAT）</th>
               <th>2</th>
+            </tr>
+            <tr>
+              <th>BC参加</th>
+              <th>1</th>
             </tr>
             <tr>
               <th>入門セミナー参加<br class="sp-480only">（現地）</th>
@@ -161,7 +161,6 @@ get_header();
             </tr>
           </tbody>
         </table>
-
         <p class="pointsTag">★ ★ ★ 特別稽古ポイント ★ ★ ★</p>
         <span class="pointsTag__text">時間および現地参加により都度設定&事前連絡</span>
         <table class="pointsTable -third">
@@ -192,7 +191,6 @@ get_header();
             </tr>
           </tbody>
         </table>
-
         </div>
       </div>
       <a class="toTop__button -points" href="../">TOPへ戻る</a>
