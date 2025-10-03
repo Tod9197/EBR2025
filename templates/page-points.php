@@ -66,7 +66,7 @@ get_header();
           </tbody>
         </table>
 
-        <p class="pointsTag -second">☆ ☆ ☆ 活動ポイント<span class="pc-only">(2025年度分) </span>☆ ☆ ☆</p>
+        <p class="pointsTag -second">☆ ☆ 活動ポイント<span class="pc-only">(2025年度分) </span>☆ ☆ </p>
         <span class="pointsTag__sp480only">(2025年度分) </span>
         <span class="pointsTag__text">SPEに参加・審査を受審するなどした時に付与</span>
         <table class="pointsTable -second">
@@ -161,7 +161,7 @@ get_header();
             </tr>
           </tbody>
         </table>
-        <p class="pointsTag">★ ★ ★ 特別稽古ポイント ★ ★ ★</p>
+        <p class="pointsTag">★ ★  特別稽古ポイント  ★ ★</p>
         <span class="pointsTag__text">時間および現地参加により都度設定&事前連絡</span>
         <table class="pointsTable -third">
           <tbody>
