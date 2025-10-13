@@ -42,7 +42,7 @@ function countDown(due) {
 
 // 升砲館EBR日程を定義
 //2026/01/31
-const goal1 = new Date(2026, 0, 31);
+const goal1 = new Date(2026, 0, 25);
 
 function recalc() {
   // Timer セクションが存在する場合のみタイマーを更新

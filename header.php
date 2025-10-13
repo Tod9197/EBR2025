@@ -9,7 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/style.css')); ?>?v=<?php echo filemtime(get_theme_file_path('/css/style.css')); ?>" type="text/css">
-  <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/mainvisual.css')); ?>?v=<?php echo filemtime(get_theme_file_path('/css/style.css')); ?>" type="text/css">
+  <link 
+  rel="stylesheet" 
+  href="<?php echo esc_url( get_theme_file_uri('/css/mainvisual.css') ); ?>?v=<?php echo filemtime( get_theme_file_path('/css/mainvisual.css') ); ?>" 
+  type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/about.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/header.css')); ?>" type="text/css">
   <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('/css/footer.css')); ?>" type="text/css">

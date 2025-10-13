@@ -75,10 +75,10 @@ get_header(); ?>
     <span class="Timer__text" id="timer-sec"></span>秒
   </div>
   <div class="Timer__scheduleWrap">
-    <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2026年01月31日(土)時間未定</p>
+    <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2026年01月25日(土)14:00開始予定</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
     <p class="Timer__schedulePrice">【参加費用】18,000円前後</p>
-    <p class="Timer__schedulePlace">【開催場所】京都
+    <p class="Timer__schedulePlace">【開催場所】京都 KOTOWA中村楼
       <br class="sp-only02">
     </p>
   </div>
@@ -211,7 +211,7 @@ $the_query = new WP_Query($args);
     <h2 class="ourGoals__title">GOALs
     </h2>
     <p class="ourGoals__subTitle">EBRを通して目指すもの</p>
-    <p class="ourGoals__text">2026年1月31日に開催されるEBR。升砲館門下生はこの1日に向けて1年間稽古を繰り返し、英語発音、スピーチ、プレゼンの技術などを向上させていきます。ただ単にうまくなるだけではなく、升砲館門下生にしか目指せない領域を狙い日々研鑽を積んでいます。そしてEBRへの活動を通して私たち門下生が目指しているところは次の2点に集約されます。</p>
+    <p class="ourGoals__text">2026年1月25日に開催されるEBR。升砲館門下生はこの1日に向けて1年間稽古を繰り返し、英語発音、スピーチ、プレゼンの技術などを向上させていきます。ただ単にうまくなるだけではなく、升砲館門下生にしか目指せない領域を狙い日々研鑽を積んでいます。そしてEBRへの活動を通して私たち門下生が目指しているところは次の2点に集約されます。</p>
     <ul class="ourGoals__list">
       <li class="ourGoals__item">① 1年に一度の大きな舞台「EBR」での勝利を目標に据えることで、自身の成長を加速する</li>
       <li class="ourGoals__item">② ネイティブを超える英語プレゼン力をEBRで披露し、升砲館の凄さを世に見せつける</li>
@@ -531,16 +531,15 @@ else :
   <div class="inner">
     <h2 class="accessTitle">ACCESS</h2>
     <div class="accessSubTitle">開催場所</div>
-    <h3 class="accessText">京都予定</h3>
-    <!-- <h3 class="accessText">ザ・グラン銀座<br class="sp-only02">（GINZA SIX 13階）</h3> -->
+    <h3 class="accessText">KOTOWA 京都 中村楼</h3>
     <!-- <div class="accessMap">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12965.18691448534!2d139.7636564!3d35.669695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be639f83e41%3A0x480b874be69c390e!2sTHE%20GRAND%20GINZA!5e0!3m2!1sja!2sjp!4v1731926963464!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <p class="accessText -second">東京都中央区銀座六丁目10番1号　GINZA SIX 13階</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.1542215820764!2d135.7761929757577!3d35.00284437281397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109a8ddb6b1b5%3A0xeea117a8559ce1f7!2zS09UT1dBIOS6rOmDvSDkuK3mnZHmpbw!5e0!3m2!1sja!2sjp!4v1760350247040!5m2!1sja!2sjp" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> -->
+    <!-- <p class="accessText -second">東京都中央区銀座六丁目10番1号　GINZA SIX 13階</p>
     <p class="accessText -second">東京メトロ 銀座線・丸ノ内線・日比谷線「銀座駅」A3 出口より徒歩2分</p>
     <p class="accessText -second">東京メトロ 日比谷線、都営地下鉄 浅草線「東銀座駅」A1出口より徒歩3分</p>
-    <a class="accessLink" href="https://www.grandginza.com/#page1" target="_blank" rel="noopener noreferrer">ザ・グラン銀座公式HPはこちら</a>
-  </div> -->
+    <a class="accessLink" href="https://www.grandginza.com/#page1" target="_blank" rel="noopener noreferrer">ザ・グラン銀座公式HPはこちら</a> -->
+  </div>
 </section>
 
 <!-- 応援金 -->

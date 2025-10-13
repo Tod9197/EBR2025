@@ -50,7 +50,7 @@
 .mainVisual__title::after {
   position: absolute;
   display: block;
-  content: "2026/01/31";
+  content: "2026/01/25";
   color: #000;
   background-image: radial-gradient(
     circle,
@@ -80,7 +80,6 @@
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
-
 /* 投稿・画像一覧・協賛.競技一覧ページ.ポイント速報メインビジュアル */
 .mainVisual.-topics {
   height: 90vh;
@@ -122,7 +121,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .mainVisual.-gallery::after,
 .mainVisual.-sponsors::after,
 .mainVisual.-contest::after,
@@ -148,7 +146,6 @@
   animation: unset;
   z-index: 1000;
 }
-
 .mainVisual__title.-gallery::before {
   display: block;
   content: "画像一覧";
