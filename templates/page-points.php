@@ -92,12 +92,12 @@ get_header();
               <th>1</th>
             </tr>
             <tr>
-              <th>BC参加</th>
-              <th>1</th>
-            </tr>
-            <tr>
               <th>BC参加（STAT）</th>
               <th>2</th>
+            </tr>
+            <tr>
+              <th>BC参加</th>
+              <th>1</th>
             </tr>
             <tr>
               <th>入門セミナー参加<br class="sp-480only">（現地）</th>
