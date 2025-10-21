@@ -878,6 +878,9 @@ img {
 .Timer__schedulePlace {
   margin-bottom: 0;
 }
+.Timer__schedulePlace:hover {
+  opacity: 0.8;
+}
 .Timer__scheduleText.-second {
   font-size: 2rem;
   margin-top: -1rem;
@@ -2435,7 +2438,7 @@ img {
   font-weight: bold;
   color: #000;
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   letter-spacing: 0.1em;
   line-height: 1.8;
 }
@@ -2477,7 +2480,7 @@ img {
 
 .accessMap {
   width: 100%;
-  /* filter: drop-shadow(12px 12px #ffd700); */
+  margin: auto;
   margin-bottom: 5rem;
 }
 .accessMap_google {
@@ -2581,7 +2584,7 @@ img {
   }
   .accessText {
     font-size: 1.6rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
   .accessText.-second {
     font-size: 1.2rem;
@@ -2609,6 +2612,7 @@ img {
     font-size: 1.2rem;
     max-width: 20rem;
     margin-top: 4rem;
+    padding: 1rem;
   }
 }
 

@@ -20,7 +20,7 @@ get_header();
           <span class="pointsBattle__chartText -ego">Team e-Go!</span>
           <p class="pointsBattle__chartBar -ego">
           <span class="pointsBattle__chartPointWrapper">
-          <span class="pointsBattle__chartPoint">1712.0</span>
+          <span class="pointsBattle__chartPoint">1633.0</span>
           </span>
           </p>
         </li>
@@ -28,13 +28,13 @@ get_header();
           <span class="pointsBattle__chartText -hb">Team H.Blacks</span>
           <p class="pointsBattle__chartBar -hb">
           <span class="pointsBattle__chartPointWrapper">
-          <span class="pointsBattle__chartPoint">1996.0</span>
+          <span class="pointsBattle__chartPoint">1943.5</span>
           </span>
           </p>
         </li>
       </ul>
     </div>
-    <p class="pointsBattle__anotation">※2025年10月20日時点</p>
+    <p class="pointsBattle__anotation">※2025年9月末日時点</p>
     <a class="toPointLink" href="<?php echo esc_url(home_url('/points')); ?>">ポイントの換算方法はこちら</a>
     <a class="toPointLink -toTop" href="../">TOPへ戻る</a>
   </div>
@@ -43,10 +43,10 @@ get_header();
 <!-- 申し込みリンク -->
 <div class="requestLink">
   <div class="requestLink__flex">
-    <a class="requestLink__item -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <div class="requestLink__text">(ゲストの方)申し込む</div>
     </a>
-    <a class="requestLink__item -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" id="js-request-student" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" id="js-request-student" target="_blank" rel="noopener noreferrer">
       <div class="requestLink__text -student">(門下生)申し込む</div>
     </a>
   </div>
@@ -55,10 +55,10 @@ get_header();
 
 <div class="requestLink -mobile">
   <div class="requestLink__flex -mobile">
-    <a class="requestLink__item -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text">申し込む<br>(ゲストの方)</p>
     </a>
-    <a class="requestLink__item -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" id="js-request-student" target="_blank">
+    <a class="requestLink__item -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" id="js-request-student" target="_blank">
       <p class="requestLink__text -student">申し込む<br>(門下生)</p>
     </a>
   </div>

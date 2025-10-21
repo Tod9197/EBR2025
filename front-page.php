@@ -42,10 +42,10 @@ get_header(); ?>
 <!-- 申し込みリンク -->
 <div class="requestLink">
   <div class="requestLink__flex">
-    <a class="requestLink__item -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <div class="requestLink__text">(ゲストの方)申し込む</div>
     </a>
-    <a class="requestLink__item -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" id="js-request-student" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" id="js-request-student" target="_blank" rel="noopener noreferrer">
       <div class="requestLink__text -student">(門下生)申し込む</div>
     </a>
   </div>
@@ -54,11 +54,11 @@ get_header(); ?>
 
 <div class="requestLink -mobile">
   <div class="requestLink__flex -mobile">
-    <a class="requestLink__item -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" id="js-request-guest"
+    <a class="requestLink__item -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" id="js-request-guest"
     target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text">申し込む<br>(ゲストの方)</p>
     </a>
-    <a class="requestLink__item -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" id="js-request-student" target="_blank" rel="noopener noreferrer">
+    <a class="requestLink__item -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" id="js-request-student" target="_blank" rel="noopener noreferrer">
       <p class="requestLink__text -student">申し込む<br>(門下生)</p>
     </a>
   </div>
@@ -78,9 +78,8 @@ get_header(); ?>
     <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2026年01月25日(土)14:00開始予定</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
     <p class="Timer__schedulePrice">【参加費用】18,000円前後</p>
-    <p class="Timer__schedulePlace">【開催場所】京都 KOTOWA中村楼
-      <br class="sp-only02">
-    </p>
+    <a href="#access" class="Timer__schedulePlace">【開催場所】KOTOWA 京都 八坂
+    </a>
   </div>
   <!-- 申し込み -->
 
@@ -103,8 +102,8 @@ get_header(); ?>
     <div class="requestInner__line">
   <p class="requestText -apply">EBRに申し込む</p>
   <div class="requestButton__flex">
-  <a class="requestButton -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
-  <a class="requestButton -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+  <a class="requestButton -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+  <a class="requestButton -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div> 
   </div>
@@ -297,7 +296,7 @@ $the_query = new WP_Query($args);
     <p  class="aboutText">そんな英語の達人たちが年に1度日頃の稽古の成果を披露する場</p>
     <p class="aboutText">チーム対抗スピーチコンテスト <br class="sp-only01">
     「English Battle Royale」<br class="sp-only02">(通称EBR)</p>
-    <p class="aboutText">2つのチームに分かれた門下生が5つの種目にエントリーし優勝をかけて熱戦を繰り広げます。<br>升砲館門下生の話す英語はまさにネイティブそのもの！！<br>その威風堂々とした話しぶりに驚嘆し感動を覚えることでしょう！</p>
+    <p class="aboutText">2つのチームに分かれた門下生が6つの種目にエントリーし優勝をかけて熱戦を繰り広げます。<br>升砲館門下生の話す英語はまさにネイティブそのもの！！<br>その威風堂々とした話しぶりに驚嘆し感動を覚えることでしょう！</p>
     <p class="aboutText">英語、スピーチの概念を一変させる記念すべき1日。ぜひご参加ください！</p>
     </div>
     <div class="aboutImg__box -first">
@@ -388,8 +387,8 @@ $the_query = new WP_Query($args);
     <div class="requestInner__line">
   <p class="requestText -about">EBRに申し込む</p>
   <div class="requestButton__flex -about">
-  <a class="requestButton -guest" href="https://forms.gle/nAWdcJC6fD3E1c7y5" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
-  <a class="requestButton -student" href="https://forms.gle/H4oqijU9HuBd2T5ZA" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+  <a class="requestButton -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+  <a class="requestButton -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div>
   </div>
@@ -531,14 +530,11 @@ else :
   <div class="inner">
     <h2 class="accessTitle">ACCESS</h2>
     <div class="accessSubTitle">開催場所</div>
-    <h3 class="accessText">KOTOWA 京都 中村楼</h3>
-    <!-- <div class="accessMap">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.1542215820764!2d135.7761929757577!3d35.00284437281397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109a8ddb6b1b5%3A0xeea117a8559ce1f7!2zS09UT1dBIOS6rOmDvSDkuK3mnZHmpbw!5e0!3m2!1sja!2sjp!4v1760350247040!5m2!1sja!2sjp" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div> -->
-    <!-- <p class="accessText -second">東京都中央区銀座六丁目10番1号　GINZA SIX 13階</p>
-    <p class="accessText -second">東京メトロ 銀座線・丸ノ内線・日比谷線「銀座駅」A3 出口より徒歩2分</p>
-    <p class="accessText -second">東京メトロ 日比谷線、都営地下鉄 浅草線「東銀座駅」A1出口より徒歩3分</p>
-    <a class="accessLink" href="https://www.grandginza.com/#page1" target="_blank" rel="noopener noreferrer">ザ・グラン銀座公式HPはこちら</a> -->
+    <h3 class="accessText">KOTOWA 京都 八坂</h3>
+    <div class="accessMap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.0708920408133!2d135.77531187575764!3d35.00493047281316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001093458379d1f%3A0x594fe3acaa5361a!2zS09UT1dBIOS6rOmDvSDlhavlnYI!5e0!3m2!1sja!2sjp!4v1761041655822!5m2!1sja!2sjp" width="90%" height="450" style="display:block; border:0; margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <a class="accessLink" href="https://www.dearswedding.jp/kotowa-kyoto-yasaka/party/" target="_blank" rel="noopener noreferrer">KOTOWA 京都 八坂 <br class="sp-480only">公式HPはこちら</a>
   </div>
 </section>
 
