@@ -22,7 +22,7 @@ get_header(); ?>
         <button class="fundingModal__close">×</button>
         </div>
         <p class="fundingText">皆様、こんにちは！<br>
-私たち英語道場升砲館は、国際人としての成長を目指す門下生一同によるスピーチコンテストを12月14日（土）に開催いたします。このコンテストは、日々の稽古の成果を発表し、英語発音の重要性を広める貴重な機会です。<br class="pc-only">しかしながら、コンテスト開催には多額の費用が必要です。<br class="pc-only">当日参加する方の参加費だけで賄うには参加費が高額となり、参加者の負担が大きくなるため、皆様に応援金のお願いをしております。皆様のご支援により、英語のスキル向上を目指す仲間たちが力を発揮できる場を作りたいと思います。<br class="pc-only">どうぞご協力いただきますようよろしくお願いいたします。</p>
+私たち英語道場升砲館は、国際人としての成長を目指す門下生一同によるスピーチコンテストを1月25日（日）に開催いたします。このコンテストは、日々の稽古の成果を発表し、英語発音の重要性を広める貴重な機会です。<br class="pc-only">しかしながら、コンテスト開催には多額の費用が必要です。<br class="pc-only">当日参加する方の参加費だけで賄うには参加費が高額となり、参加者の負担が大きくなるため、皆様に応援金のお願いをしております。皆様のご支援により、英語のスキル向上を目指す仲間たちが力を発揮できる場を作りたいと思います。<br class="pc-only">どうぞご協力いただきますようよろしくお願いいたします。</p>
 
  <p class="fundingButton__text">詳しくは下記のリンクをクリックしてください。</p>
  <div class="fundingButton__flex">
@@ -75,7 +75,7 @@ get_header(); ?>
     <span class="Timer__text" id="timer-sec"></span>秒
   </div>
   <div class="Timer__scheduleWrap">
-    <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2026年01月25日(土)14:00開始予定</p>
+    <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2026年01月25日(日)14:00開始予定</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
     <p class="Timer__schedulePrice">【参加費用】18,000円前後</p>
     <a href="#access" class="Timer__schedulePlace">【開催場所】KOTOWA 京都 八坂
