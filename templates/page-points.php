@@ -159,6 +159,18 @@ get_header();
               <th>EBR添削提出</th>
               <th>5</th>
             </tr>
+            <tr>
+              <th>門下生がコンテスト参加</th>
+              <th>5</th>
+            </tr>
+            <tr>
+              <th>門下生がコンテスト/パーティ参加</th>
+              <th>10</th>
+            </tr>
+            <tr>
+              <th>ゲストがコンテスト/パーティ参加</th>
+              <th>20</th>
+            </tr>
           </tbody>
         </table>
         <p class="pointsTag">★ ★ ★  特別稽古ポイント ★ ★ ★</p>
