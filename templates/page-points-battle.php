@@ -34,7 +34,7 @@ get_header();
         </li>
       </ul>
     </div>
-    <p class="pointsBattle__anotation">※2025年12月4日時点</p>
+    <p class="pointsBattle__anotation">※2025年12月5日時点</p>
     <a class="toPointLink" href="<?php echo esc_url(home_url('/points')); ?>">ポイントの換算方法はこちら</a>
     <a class="toPointLink -toTop" href="../">TOPへ戻る</a>
   </div>
