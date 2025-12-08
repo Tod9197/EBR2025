@@ -77,7 +77,7 @@ get_header(); ?>
   <div class="Timer__scheduleWrap">
     <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2026年01月25日(日)14:00開始予定</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
-    <p class="Timer__schedulePrice">【参加費用】18,000円前後</p>
+    <p class="Timer__schedulePrice">【参加費用】18,000円</p>
     <a href="#access" class="Timer__schedulePlace">【開催場所】KOTOWA 京都 八坂
     </a>
   </div>
@@ -380,7 +380,7 @@ $the_query = new WP_Query($args);
       </li>
     </ul>
     <p class="aboutPrice">【参加費】
-        <br>コンテスト＆パーティ：18,000円前後
+        <br>コンテスト＆パーティ：18,000円
   </p>
   </div>
   <div class="requestWrap -about">
