@@ -18,7 +18,7 @@ get_header();
           <div class="timeTable__inline">
             <h2 class="interview__title">Interview</h2>
             <p class="interview__subTitle">Comming soon!</p>    
-            <p>詳細は後日連絡いたします。</p>        
+            <p>詳細は追って後日連絡いたします。</p>        
           </div>
         </div>
       </div>
