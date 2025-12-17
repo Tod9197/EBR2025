@@ -20,7 +20,7 @@ get_header();
           <span class="pointsBattle__chartText -ego">Team e-Go!</span>
           <p class="pointsBattle__chartBar -ego">
           <span class="pointsBattle__chartPointWrapper">
-          <span class="pointsBattle__chartPoint">2098.0</span>
+          <span class="pointsBattle__chartPoint">2091.0</span>
           </span>
           </p>
         </li>
@@ -34,7 +34,7 @@ get_header();
         </li>
       </ul>
     </div>
-    <p class="pointsBattle__anotation">※2025年12月16日時点</p>
+    <p class="pointsBattle__anotation">※2025年12月17日時点</p>
     <a class="toPointLink" href="<?php echo esc_url(home_url('/points')); ?>">ポイントの換算方法はこちら</a>
     <a class="toPointLink -toTop" href="../">TOPへ戻る</a>
   </div>
