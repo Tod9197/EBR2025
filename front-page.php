@@ -12,7 +12,7 @@ get_header(); ?>
     <h1 class="mainVisual__title">Shohokan's<br><span class="title__gold">E</span>nglish<br><span class="title__gold">B</span>attle<br><span class="title__gold">R</span>oyale</h1>
 
     <!-- 応援金 -->
-<!-- <div class="fundingModal__layer">
+<div class="fundingModal__layer">
   <div class="fundingWrap">
     <div class="funding">
       <div class="fundingInner">
@@ -26,14 +26,14 @@ get_header(); ?>
 
  <p class="fundingButton__text">詳しくは下記のリンクをクリックしてください。</p>
  <div class="fundingButton__flex">
-  <a class="fundingButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSfpg-h2_HX_NzEDAngFNsBK8tVygYj_ox8XTKMN_toTxZMV4Q/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
-  <a class="fundingButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSeFABwtbdj6jb9XoogbIfdcJ5Sd_2CbGZvDfFTDcVAGwWg3EQ/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+  <a class="fundingButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeE8Q94MaGwgkdR54S0vfUtDyMnuAxak9G7iCuhI4Zul-6kAw/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+  
   </div>
     <p class="fundingText -second">升砲館EBR実行委員会</p>
         </div>
       </div>
     </div>
-</div> -->
+</div>
  <!-- 応援金ここまで -->
 </section>
 
@@ -110,16 +110,16 @@ get_header(); ?>
    <!-- 申し込みここまで -->
 
 <!-- 応援金ここから -->
-  <!-- <div class="supportWrap">
+  <div class="supportWrap">
     <div class="supportInner__line">
       <p class="supportText">EBR応援金</p>
       <p class="supportDescription">EBRでは皆様からの応援金を募集しています。<br class="sp-only">応援金額に応じて素敵な特典もございます。<br>詳しくは下記のリンクをクリックしてください。</p>
       <div class="supportButton__flex">
-        <a class="supportButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSfpg-h2_HX_NzEDAngFNsBK8tVygYj_ox8XTKMN_toTxZMV4Q/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
-        <a class="supportButton -student" href="https://docs.google.com/forms/d/e/1FAIpQLSeFABwtbdj6jb9XoogbIfdcJ5Sd_2CbGZvDfFTDcVAGwWg3EQ/viewform" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
+        <a class="supportButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeE8Q94MaGwgkdR54S0vfUtDyMnuAxak9G7iCuhI4Zul-6kAw/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+
       </div>
     </div> 
-</div> -->
+</div>
 <!-- 応援金ここまで -->
   </div>
   </div>
