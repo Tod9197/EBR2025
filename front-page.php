@@ -26,8 +26,7 @@ get_header(); ?>
 
  <p class="fundingButton__text">詳しくは下記のリンクをクリックしてください。</p>
  <div class="fundingButton__flex">
-  <a class="fundingButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeE8Q94MaGwgkdR54S0vfUtDyMnuAxak9G7iCuhI4Zul-6kAw/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
-  
+  <a class="fundingButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeE8Q94MaGwgkdR54S0vfUtDyMnuAxak9G7iCuhI4Zul-6kAw/viewform" target="_blank" rel="noopener noreferrer">応援金のご協力はこちら</a>
   </div>
     <p class="fundingText -second">升砲館EBR実行委員会</p>
         </div>
@@ -115,7 +114,7 @@ get_header(); ?>
       <p class="supportText">EBR応援金</p>
       <p class="supportDescription">EBRでは皆様からの応援金を募集しています。<br class="sp-only">応援金額に応じて素敵な特典もございます。<br>詳しくは下記のリンクをクリックしてください。</p>
       <div class="supportButton__flex">
-        <a class="supportButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeE8Q94MaGwgkdR54S0vfUtDyMnuAxak9G7iCuhI4Zul-6kAw/viewform" target="_blank" rel="noopener noreferrer">ゲストの方はこちら</a>
+        <a class="supportButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeE8Q94MaGwgkdR54S0vfUtDyMnuAxak9G7iCuhI4Zul-6kAw/viewform" target="_blank" rel="noopener noreferrer">応援金のご協力はこちら</a>
 
       </div>
     </div> 
