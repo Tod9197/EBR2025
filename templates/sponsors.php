@@ -139,7 +139,7 @@ get_header();
                 <a class="sponsors__link -second" href="https://poodle110.com/" target="_blank" rel="noopener noreferrer">https://poodle110.com/</a>
                 </li>
                 <li class="sponsors__listItem -second">
-                  公益社団法人日本網膜色素変性症協会 様
+                  公益社団法人日本網膜色素変性症協会（山下寄附広告） 様
                 <a class="sponsors__link -second" href="https://jrps.org/" target="_blank" rel="noopener noreferrer">https://jrps.org/</a></li>
                 <li class="sponsors__listItem -second">
                   Refeel 様
