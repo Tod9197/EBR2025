@@ -32,7 +32,7 @@
 }
 .mainVisual__title::before {
   display: block;
-  content: "2025";
+  content: "2027";
   position: absolute;
   font-family: fantasy;
   font-size: 7rem;
@@ -47,7 +47,7 @@
   animation-fill-mode: forwards;
 }
 
-.mainVisual__title::after {
+/* .mainVisual__title::after {
   position: absolute;
   display: block;
   content: "2026/01/25";
@@ -70,7 +70,7 @@
   animation: titleRizing 5s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
-}
+} */
 .title__gold {
   color: #fff;
   text-shadow: 3px 3px 3px #ffd700;
@@ -328,7 +328,9 @@
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.8s ease, visibility 0.8s ease;
+  transition:
+    opacity 0.8s ease,
+    visibility 0.8s ease;
 }
 .fundingModal__layer.is-open {
   z-index: 5000;

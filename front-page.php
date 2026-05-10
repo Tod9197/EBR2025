@@ -12,7 +12,7 @@ get_header(); ?>
     <h1 class="mainVisual__title">Shohokan's<br><span class="title__gold">E</span>nglish<br><span class="title__gold">B</span>attle<br><span class="title__gold">R</span>oyale</h1>
 
     <!-- 応援金 -->
-<div class="fundingModal__layer">
+<!-- <div class="fundingModal__layer">
   <div class="fundingWrap">
     <div class="funding">
       <div class="fundingInner">
@@ -32,14 +32,14 @@ get_header(); ?>
         </div>
       </div>
     </div>
-</div>
+</div> -->
  <!-- 応援金ここまで -->
 </section>
 
 <!-- タイマー -->
 <section class="Timer">
 <!-- 申し込みリンク -->
-<div class="requestLink">
+<!-- <div class="requestLink">
   <div class="requestLink__flex">
     <a class="requestLink__item -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <div class="requestLink__text">(ゲストの方)申し込む</div>
@@ -62,22 +62,22 @@ get_header(); ?>
     </a>
   </div>
   <a href="#" class="backToTop__button -mobile" id="backToTop">↑</a>
-</div>
+</div> -->
 <!-- 申し込みリンクここまで -->
   <div class="Timer__wrap">
   <div class="inner">  
-    <h2 class="Timer__title"><span>NEXT <br class="Timer__title__spOnly">STAGE</span><br>次の闘いまで</h2>
-    <div class="Timer__section">
+    <h2 class="Timer__title"><span>NEXT <br class="Timer__title__spOnly">STAGE</span></h2>
+    <!-- <div class="Timer__section">
     あと<span class="Timer__text" id="timer-day"></span>日
     <span class="Timer__text" id="timer-hours"></span>時間
     <span class="Timer__text" id="timer-min"></span>分
     <span class="Timer__text" id="timer-sec"></span>秒
-  </div>
+  </div> -->
   <div class="Timer__scheduleWrap">
-    <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2026年01月25日(日)14:00開始予定</p>
+    <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2027年1月予定</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
-    <p class="Timer__schedulePrice">【参加費用】18,000円</p>
-    <a href="#access" class="Timer__schedulePlace">【開催場所】KOTOWA 京都 八坂
+    <p class="Timer__schedulePrice">【参加費用】未定</p>
+    <a href="#access" class="Timer__schedulePlace">【開催場所】未定
     </a>
   </div>
   <!-- 申し込み -->
@@ -97,7 +97,7 @@ get_header(); ?>
   </div> 
   </div>
   
-  <div class="requestWrap">
+  <!-- <div class="requestWrap">
     <div class="requestInner__line">
   <p class="requestText -apply">EBRに申し込む</p>
   <div class="requestButton__flex">
@@ -105,11 +105,11 @@ get_header(); ?>
   <a class="requestButton -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div> 
-  </div>
+  </div> -->
    <!-- 申し込みここまで -->
 
 <!-- 応援金ここから -->
-  <div class="supportWrap">
+  <!-- <div class="supportWrap">
     <div class="supportInner__line">
       <p class="supportText">EBR応援金</p>
       <p class="supportDescription">EBRでは皆様からの応援金を募集しています。<br class="sp-only">応援金額に応じて素敵な特典もございます。<br>詳しくは下記のリンクをクリックしてください。</p>
@@ -117,7 +117,7 @@ get_header(); ?>
         <a class="supportButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeE8Q94MaGwgkdR54S0vfUtDyMnuAxak9G7iCuhI4Zul-6kAw/viewform" target="_blank" rel="noopener noreferrer">応援金のご協力はこちら</a>
 
       </div>
-    </div> 
+    </div>  -->
 </div>
 <!-- 応援金ここまで -->
   </div>
@@ -378,11 +378,11 @@ $the_query = new WP_Query($args);
         <img src="<?php echo esc_url(get_theme_file_uri('/img/ebr2023-20.jpg')); ?>" alt="パーティー画像3">
       </li>
     </ul>
-    <p class="aboutPrice">【参加費】
+    <!-- <p class="aboutPrice">【参加費】
         <br>コンテスト＆パーティ：18,000円
-  </p>
+  </p> -->
   </div>
-  <div class="requestWrap -about">
+  <!-- <div class="requestWrap -about">
     <div class="requestInner__line">
   <p class="requestText -about">EBRに申し込む</p>
   <div class="requestButton__flex -about">
@@ -390,7 +390,7 @@ $the_query = new WP_Query($args);
   <a class="requestButton -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" target="_blank" rel="noopener noreferrer">門下生はこちら</a>
   </div>
   </div>
-  </div>
+  </div> -->
 
   </div>
 </section>
@@ -529,12 +529,12 @@ else :
   <div class="inner">
     <h2 class="accessTitle">ACCESS</h2>
     <div class="accessSubTitle">開催場所</div>
-    <h3 class="accessText">KOTOWA 京都 八坂</h3>
-    <div class="accessMap">
+    <h3 class="accessText">未定</h3>
+    <!-- <div class="accessMap">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.0708920408133!2d135.77531187575764!3d35.00493047281316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001093458379d1f%3A0x594fe3acaa5361a!2zS09UT1dBIOS6rOmDvSDlhavlnYI!5e0!3m2!1sja!2sjp!4v1761041655822!5m2!1sja!2sjp" width="90%" height="450" style="display:block; border:0; margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <a class="accessLink" href="https://www.dearswedding.jp/kotowa-kyoto-yasaka/party/" target="_blank" rel="noopener noreferrer">KOTOWA 京都 八坂 <br class="sp-480only">公式HPはこちら</a>
-  </div>
+  </div> -->
 </section>
 
 <!-- 応援金 -->
