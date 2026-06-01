@@ -97,8 +97,8 @@
   font-size: 1.6rem;
   font-weight: 500;
   border: 1px solid #eee;
-  padding: 1rem 0;
-  text-align: center;
+  padding: 1rem 0 1rem 2rem;
+  text-align: left;
 }
 .pointsTable tr:first-of-type th {
   width: 70%;
@@ -106,7 +106,7 @@
   font-weight: bold;
   letter-spacing: 0.1em;
   background-color: #f0f0f0;
-  padding: 1rem 0;
+  padding: 1rem 0 1rem 2rem;
   border-right: 1px solid #ddd;
 }
 
@@ -173,7 +173,7 @@
     max-width: 25rem;
   }
   .pointsTable th {
-    padding: 1rem 0.5rem;
+    padding: 1rem 0.5rem 1rem 2rem;
   }
   .pointsTag {
     letter-spacing: 0.05em;
@@ -265,10 +265,8 @@
 /* ポイント速報ページ */
 .pointsBattle {
   padding: 20rem 0;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.7)
-    ),
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)),
     url(../img/bg07.jpg);
   background-color: #333;
   background-blend-mode: multiply;
@@ -344,7 +342,7 @@
   background: linear-gradient(180deg, #ff6d3a, #ffc107);
 }
 .pointsBattle__chartBar.-hb {
-  height: 65rem;
+  height: 68rem;
   background: linear-gradient(180deg, #9a27ee, #00e0ff);
 }
 .pointsBattle__chartText {
@@ -493,7 +491,7 @@
     height: 39rem;
   }
   .pointsBattle__chartBar.-hb {
-    height: 40rem;
+    height: 43rem;
     background: linear-gradient(180deg, #9a27ee, #00e0ff);
   }
   .pointsBattle__chartItem.-ego {

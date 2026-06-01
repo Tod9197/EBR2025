@@ -20,7 +20,7 @@ get_header();
           <span class="pointsBattle__chartText -ego">Team e-Go!</span>
           <p class="pointsBattle__chartBar -ego">
           <span class="pointsBattle__chartPointWrapper">
-          <span class="pointsBattle__chartPoint">2262.0</span>
+          <span class="pointsBattle__chartPoint">1313.0</span>
           </span>
           </p>
         </li>
@@ -28,20 +28,20 @@ get_header();
           <span class="pointsBattle__chartText -hb">Team H.Blacks</span>
           <p class="pointsBattle__chartBar -hb">
           <span class="pointsBattle__chartPointWrapper">
-          <span class="pointsBattle__chartPoint">2178.0</span>
+          <span class="pointsBattle__chartPoint">1370.0</span>
           </span>
           </p>
         </li>
       </ul>
     </div>
-    <p class="pointsBattle__anotation">※2026年01月23日時点</p>
+    <p class="pointsBattle__anotation">※2026年05月31日時点</p>
     <a class="toPointLink" href="<?php echo esc_url(home_url('/points')); ?>">ポイントの換算方法はこちら</a>
     <a class="toPointLink -toTop" href="../">TOPへ戻る</a>
   </div>
 </section>
 
 <!-- 申し込みリンク -->
-<div class="requestLink">
+<!-- <div class="requestLink">
   <div class="requestLink__flex">
     <a class="requestLink__item -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <div class="requestLink__text">(ゲストの方)申し込む</div>
@@ -63,7 +63,7 @@ get_header();
     </a>
   </div>
   <a href="#" class="backToTop__button -mobile" id="backToTop">↑</a>
-</div>
+</div> -->
 <!-- 申し込みリンクここまで -->
 
 <!-- フッター -->

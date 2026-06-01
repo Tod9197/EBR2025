@@ -16,7 +16,7 @@ get_header();
           <h2 class="points__subTitle">年間ポイントとは？</h2>
         <p class="pointsText">稽古への参加や昇級・昇段審査を受審するなど升砲館の活動に参加した時や、<br class="pc-only02">自身の保持する段位・級位に応じてポイントが付与される。<br class="pc-only02">このポイントを年間を通じて積み上げ、EBR当日の順位に応じて<br class="pc-only02">配点されたポイントと併せて年間の優勝チームが決定する。<br class="pc-only02">EBRは当日の勝負だけではなく、1年をかけたチーム総合力の闘いである。</p>
         <p class="pointsTag">★ ★ ★ 戦闘力ポイント ★ ★ ★</p>
-        <span class="pointsTag__text">自身の保持する段位・級位に対して付与 <br class="sp-480only">※ただし、STATは1.5倍</span>
+        <span class="pointsTag__text">自身の保持する段位・級位に対して付与 <br class="sp-480only">※STATは1.5倍</span>
         <table class="pointsTable -fisrt">
           <tbody>
             <tr>
@@ -24,7 +24,7 @@ get_header();
               <th class="pointsTable__bold">Point</th>
             </tr>
             <tr>
-              <th>2段</th>
+              <th>弐段</th>
               <th>230</th>
             </tr>
             <tr>
@@ -66,8 +66,8 @@ get_header();
           </tbody>
         </table>
 
-        <p class="pointsTag -second">☆ ☆ ☆ 活動ポイント<span class="pc-only">(2025年度分) </span>☆ ☆ ☆</p>
-        <span class="pointsTag__sp480only">(2025年度分) </span>
+        <p class="pointsTag -second">☆ ☆ ☆ 活動ポイント<span class="pc-only">(2026年度分) </span>☆ ☆ ☆</p>
+        <span class="pointsTag__sp480only">(2026年度分) </span>
         <span class="pointsTag__text">SPEに参加・審査を受審するなどした時に付与</span>
         <table class="pointsTable -second">
           <tbody>
@@ -77,19 +77,19 @@ get_header();
             </tr>
             <tr>
               <th>SPE参加<br class="sp-480only">（現地）</th>
-              <th>3</th>
+              <th>4</th>
             </tr>
             <tr>
               <th>SPE参加<br class="sp-480only">（ONLINE）</th>
-              <th>2</th>
+              <th>4</th>
             </tr>
             <tr>
               <th>SPE遅刻早退<br class="sp-480only">（現地）</th>
-              <th>1.5</th>
+              <th>2</th>
             </tr>
             <tr>
               <th>SPE遅刻早退<br class="sp-480only">（ONLINE）</th>
-              <th>1</th>
+              <th>2</th>
             </tr>
             <tr>
               <th>BC参加（STAT）</th>
@@ -100,66 +100,74 @@ get_header();
               <th>1</th>
             </tr>
             <tr>
-              <th>入門セミナー参加<br class="sp-480only">（現地）</th>
-              <th>3</th>
-            </tr>
-            <tr>
-              <th>入門セミナー参加<br class="sp-480only">（ONLINE）</th>
+              <th>EBRシェアセッション参加（STAT）</th>
               <th>2</th>
             </tr>
             <tr>
-              <th>紹介者が入門セミナー参加</th>
-              <th>2</th>
-            </tr>
-            <tr>
-              <th>紹介者が入門<br class="sp-480only">（SPEアド）</th>
-              <th>4</th>
-            </tr>
-            <tr>
-              <th>紹介者が入門<br class="sp-480only">（SPEマスター）</th>
-              <th>2</th>
-            </tr>
-            <tr>
-              <th>紹介者が入門<br class="sp-480only">（ZOO）</th>
-              <th>3</th>
-            </tr>
-            <tr>
-              <th>紹介者が入門<br class="sp-480only">（オンライン正規）</th>
-              <th>2</th>
-            </tr>
-            <tr>
-              <th>紹介者が入門<br class="sp-480only">（MyWorld）</th>
-              <th>2</th>
-            </tr>
-            <tr>
-              <th>紹介者が入門<br class="sp-480only">（オンライン準）</th>
+              <th>EBRシェアセッション参加</th>
               <th>1</th>
             </tr>
             <tr>
-              <th>昇級審査受審3級まで<br class="sp-480only">（24年12月-25年12月まで）</th>
-              <th>3</th>
-            </tr>
-            <tr>
-              <th>昇級審査受審2級<br class="sp-480only">（24年12月-25年12月まで）</th>
+              <th>入門セミナー参加<br class="sp-480only">（現地）</th>
               <th>5</th>
             </tr>
             <tr>
-              <th>昇級審査受審1級<br class="sp-480only">（24年12月-25年12月まで）</th>
-              <th>6</th>
+              <th>入門セミナー参加<br class="sp-480only">（ONLINE）</th>
+              <th>5</th>
             </tr>
             <tr>
-              <th>昇段審査受審（初段）<br class="sp-480only">（24年12月-25年12月まで）</th>
+              <th>紹介者が入門セミナー参加</th>
+              <th>5</th>
+            </tr>
+            <tr>
+              <th>紹介者が入門<br class="sp-480only">（SPEアド）</th>
+              <th>50</th>
+            </tr>
+            <tr>
+              <th>紹介者が入門<br class="sp-480only">（SPEマスター）</th>
               <th>20</th>
             </tr>
             <tr>
-              <th>昇段審査受審（弍段）<br class="sp-480only">（24年12月-25年12月まで）</th>
-              <th>30</th>
+              <th>紹介者が入門<br class="sp-480only">（ZOO）</th>
+              <th>20</th>
+            </tr>
+            <!-- <tr>
+              <th>紹介者が入門<br class="sp-480only">（オンライン正規）</th>
+              <th>2</th>
+            </tr> -->
+            <!-- <tr>
+              <th>紹介者が入門<br class="sp-480only">（MyWorld）</th>
+              <th>2</th>
+            </tr> -->
+            <!-- <tr>
+              <th>紹介者が入門<br class="sp-480only">（オンライン準）</th>
+              <th>1</th>
+            </tr> -->
+            <tr>
+              <th>昇級審査受審3級まで<br class="sp-480only">（26年1月-26年12月まで）</th>
+              <th>3</th>
             </tr>
             <tr>
-              <th>EBR添削提出</th>
+              <th>昇級審査受審2級<br class="sp-480only">（26年1月-26年12月まで）</th>
               <th>5</th>
             </tr>
             <tr>
+              <th>昇級審査受審1級<br class="sp-480only">（26年12月-26年12月まで）</th>
+              <th>6</th>
+            </tr>
+            <tr>
+              <th>昇段審査受審（初段）<br class="sp-480only">（26年1月-26年12月まで）</th>
+              <th>20</th>
+            </tr>
+            <tr>
+              <th>昇段審査受審（弍段）<br class="sp-480only">（26年1月-26年12月まで）</th>
+              <th>30</th>
+            </tr>
+            <!-- <tr>
+              <th>EBR添削提出</th>
+              <th>5</th>
+            </tr> -->
+            <!-- <tr>
               <th>門下生がコンテスト参加</th>
               <th>5</th>
             </tr>
@@ -170,11 +178,11 @@ get_header();
             <tr>
               <th>ゲストがコンテスト/パーティ参加</th>
               <th>20</th>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
         <p class="pointsTag">★ ★ ★  特別稽古ポイント ★ ★ ★</p>
-        <span class="pointsTag__text">時間および現地参加により都度設定&事前連絡</span>
+        <span class="pointsTag__text">都度設定&事前連絡</span>
         <table class="pointsTable -third">
           <tbody>
             <tr>
@@ -182,25 +190,25 @@ get_header();
               <th class="pointsTable__bold">Point</th>
             </tr>
             <tr>
-              <th>0202新春特別稽古（現地）</th>
+              <th>0322新春特別稽古</th>
               <th>5</th>
             </tr>
-            <tr>
+            <!-- <tr>
               <th>EBR種目稽古としてのVPSクラス</th>
               <th>1</th>
-            </tr>
+            </tr> -->
             <tr>
-              <th>夏合宿 2025<br class="sp-480only">（京都本部道場・オフライン）</th>
+              <th>GW特別稽古</th>
               <th>6</th>
             </tr>
-            <tr>
+            <!-- <tr>
               <th>夏合宿 2025<br class="sp-480only">（東京会場・オンライン）</th>
               <th>4</th>
-            </tr>
-            <tr>
+            </tr> -->
+            <!-- <tr>
               <th>夏合宿 2025<br class="sp-480only">（Zoom・オンライン）</th>
               <th>4</th>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
         </div>
@@ -211,7 +219,7 @@ get_header();
 </section>
 
 <!-- 申し込みリンク -->
-<div class="requestLink">
+<!-- <div class="requestLink">
   <div class="requestLink__flex">
     <a class="requestLink__item -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
       <div class="requestLink__text">(ゲストの方)申し込む</div>
@@ -233,7 +241,7 @@ get_header();
     </a>
   </div>
   <a href="#" class="backToTop__button -mobile" id="backToTop">↑</a>
-</div>
+</div> -->
 <!-- 申し込みリンクここまで -->
 
 <?php get_footer(); ?>
