@@ -342,7 +342,7 @@
   background: linear-gradient(180deg, #ff6d3a, #ffc107);
 }
 .pointsBattle__chartBar.-hb {
-  height: 68rem;
+  height: 70rem;
   background: linear-gradient(180deg, #9a27ee, #00e0ff);
 }
 .pointsBattle__chartText {
@@ -491,7 +491,7 @@
     height: 39rem;
   }
   .pointsBattle__chartBar.-hb {
-    height: 43rem;
+    height: 45rem;
     background: linear-gradient(180deg, #9a27ee, #00e0ff);
   }
   .pointsBattle__chartItem.-ego {
