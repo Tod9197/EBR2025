@@ -74,10 +74,10 @@ get_header(); ?>
     <span class="Timer__text" id="timer-sec"></span>秒
   </div> -->
   <div class="Timer__scheduleWrap">
-    <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2027年1月予定</p>
+    <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2027年2月20日(土)</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
-    <p class="Timer__schedulePrice">【参加費用】未定</p>
-    <a href="#access" class="Timer__schedulePlace">【開催場所】未定
+    <p class="Timer__schedulePrice">【参加費用】18,000円</p>
+    <a href="#access" class="Timer__schedulePlace">【開催場所】KKRホテル東京
     </a>
   </div>
   <!-- 申し込み -->
@@ -209,7 +209,7 @@ $the_query = new WP_Query($args);
     <h2 class="ourGoals__title">GOALs
     </h2>
     <p class="ourGoals__subTitle">EBRを通して目指すもの</p>
-    <p class="ourGoals__text">2026年1月25日に開催されるEBR。升砲館門下生はこの1日に向けて1年間稽古を繰り返し、英語発音、スピーチ、プレゼンの技術などを向上させていきます。ただ単にうまくなるだけではなく、升砲館門下生にしか目指せない領域を狙い日々研鑽を積んでいます。そしてEBRへの活動を通して私たち門下生が目指しているところは次の2点に集約されます。</p>
+    <p class="ourGoals__text">2027年2月20日に開催されるEBR。升砲館門下生はこの1日に向けて1年間稽古を繰り返し、英語発音、スピーチ、プレゼンの技術などを向上させていきます。ただ単にうまくなるだけではなく、升砲館門下生にしか目指せない領域を狙い日々研鑽を積んでいます。そしてEBRへの活動を通して私たち門下生が目指しているところは次の2点に集約されます。</p>
     <ul class="ourGoals__list">
       <li class="ourGoals__item">① 1年に一度の大きな舞台「EBR」での勝利を目標に据えることで、自身の成長を加速する</li>
       <li class="ourGoals__item">② ネイティブを超える英語プレゼン力をEBRで披露し、升砲館の凄さを世に見せつける</li>
@@ -227,7 +227,7 @@ $the_query = new WP_Query($args);
 <section class="impression">
   <div class="impression__inner">
   <h2 class="impression__title">VOICEs</h2>
-  <p class="impression__subTitle"> 2024年参加者の声</p>
+  <p class="impression__subTitle"> 過去開催EBR参加者の声</p>
   <div class="impressionWords">
     <ul class="impressionList">
       <li class="impressionList__item">
@@ -256,7 +256,7 @@ $the_query = new WP_Query($args);
       </li>
       <li class="impressionList__item">
       <div class="impressionWords__itemContent">
-         <p class="impressionWords__itemText">何よりよかったのはやはり本番です。
+        <p class="impressionWords__itemText">何よりよかったのはやはり本番です。
           仲間たちがあの立派なステージ上やモニターの中で
           自分の種目を堂々と、かっこよく、ぶっ放していく姿に心躍りました。
           そして、いざ自分の番。残念ながら、音節分化の注意点は頭から抜けてしまって
@@ -299,12 +299,12 @@ $the_query = new WP_Query($args);
     <p class="aboutText">英語、スピーチの概念を一変させる記念すべき1日。ぜひご参加ください！</p>
     </div>
     <div class="aboutImg__box -first">
-     <div class="aboutImg -first"></div>
-     <div class="aboutImg -second"></div>
-     </div>
+      <div class="aboutImg -first"></div>
+      <div class="aboutImg -second"></div>
+      </div>
   </div>
 
-   <p class="aboutSubTitle -second">
+  <p class="aboutSubTitle -second">
     EBRは他のスピーチコンテストとはここが違う！！
   </p>
   <div class="aboutFlex -second">
@@ -378,9 +378,9 @@ $the_query = new WP_Query($args);
         <img src="<?php echo esc_url(get_theme_file_uri('/img/ebr2023-20.jpg')); ?>" alt="パーティー画像3">
       </li>
     </ul>
-    <!-- <p class="aboutPrice">【参加費】
+    <p class="aboutPrice">【参加費】
         <br>コンテスト＆パーティ：18,000円
-  </p> -->
+  </p>
   </div>
   <!-- <div class="requestWrap -about">
     <div class="requestInner__line">
@@ -396,7 +396,7 @@ $the_query = new WP_Query($args);
 </section>
 
 <!-- ShowDown -->
-<div class="showDown__bar">
+<!-- <div class="showDown__bar">
       <div class="showDown__barWrap">
         <div class="showDown__Flex">
           <p class="showDown__barTitle -third">Team e-Go!</p> 
@@ -408,7 +408,7 @@ $the_query = new WP_Query($args);
 
       <div class="showDown__barImg -third"></div>
       </div>
-</div>
+</div> -->
 
 <!-- <section class="showDown__Description">
   <div class="inner">
@@ -471,7 +471,7 @@ $the_query = new WP_Query($args);
   <div class="inner">
     <h2 class="galleryTitle" data-en="画像集">GALLERY</h2>
     <p class="gallery__text">過去開催の写真</p>
-       <!-- 年代を選択 -->
+      <!-- 年代を選択 -->
     <div class="galleryCategory">
       <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2024', home_url('/gallerylist2024'))); ?>">EBR2024の画像を<br class="sp-only">もっと見る</a>
       <a class="galleryCategory__link" href="<?php echo esc_url(add_query_arg('category', 'ebr2023', home_url('/gallerylist2023'))); ?>">EBR2023の画像を<br class="sp-only">もっと見る</a>
@@ -529,7 +529,7 @@ else :
   <div class="inner">
     <h2 class="accessTitle">ACCESS</h2>
     <div class="accessSubTitle">開催場所</div>
-    <h3 class="accessText">未定</h3>
+    <h3 class="accessText">KKRホテル東京</h3>
     <!-- <div class="accessMap">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.0708920408133!2d135.77531187575764!3d35.00493047281316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001093458379d1f%3A0x594fe3acaa5361a!2zS09UT1dBIOS6rOmDvSDlhavlnYI!5e0!3m2!1sja!2sjp!4v1761041655822!5m2!1sja!2sjp" width="90%" height="450" style="display:block; border:0; margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
