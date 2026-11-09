@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // イベントタイマー
 function countDown(due) {
   const now = new Date(); // 現在時刻を定義
-  const rest = due.getTime() - now.getTime();
+  const rest = Math.max(0, due.getTime() - now.getTime());
   // パラメータdueのミリ秒から定数nowのミリ秒を引いて定数restに代入
   const sec = Math.floor(rest / 1000) % 60; // 秒を定義
   const min = Math.floor(rest / 1000 / 60) % 60; // 分を定義
@@ -41,8 +41,8 @@ function countDown(due) {
 }
 
 // 升砲館EBR日程を定義
-//2026/01/31
-const goal1 = new Date(2026, 0, 25);
+//2027/02/20
+const goal1 = new Date(2027, 1, 20);
 
 function recalc() {
   // Timer セクションが存在する場合のみタイマーを更新
@@ -68,7 +68,9 @@ function recalc() {
 }
 
 function refresh() {
-  setTimeout(recalc, 1000);
+  if (goal1.getTime() > Date.now()) {
+    setTimeout(recalc, 1000);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -81,7 +83,7 @@ let modal = document.getElementById("imageModal");
 let modalImg = document.getElementById("modalImage");
 let captionText = document.getElementById("caption");
 let galleryItems = document.querySelectorAll(
-  ".galleryImg__listItem img, .galleryArchive__listItem img"
+  ".galleryImg__listItem img, .galleryArchive__listItem img",
 );
 
 // モーダル表示時のスクロール位置を保存するための変数
@@ -228,7 +230,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
     },
-    { threshold: [0, 0.1, 0.2], rootMargin: "0px 0px -10% 0px" }
+    { threshold: [0, 0.1, 0.2], rootMargin: "0px 0px -10% 0px" },
   );
 
   const section = document.querySelector(".impression");
@@ -250,7 +252,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       threshold: 0.3,
-    }
+    },
   );
 
   targets.forEach((target) => observer.observe(target));
@@ -298,7 +300,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       root: null,
       threshold: 0.7,
-    }
+    },
   );
 
   if (PointTarget) {

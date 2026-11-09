@@ -24,8 +24,8 @@ get_header(); ?>
         <p class="fundingText">皆様、こんにちは！<br>
 私たち英語道場升砲館は、国際人としての成長を目指す門下生一同によるスピーチコンテストを1月25日（日）に開催いたします。このコンテストは、日々の稽古の成果を発表し、英語発音の重要性を広める貴重な機会です。<br class="pc-only">しかしながら、コンテスト開催には多額の費用が必要です。<br class="pc-only">当日参加する方の参加費だけで賄うには参加費が高額となり、参加者の負担が大きくなるため、皆様に応援金のお願いをしております。皆様のご支援により、英語のスキル向上を目指す仲間たちが力を発揮できる場を作りたいと思います。<br class="pc-only">どうぞご協力いただきますようよろしくお願いいたします。</p>
 
- <p class="fundingButton__text">詳しくは下記のリンクをクリックしてください。</p>
- <div class="fundingButton__flex">
+<p class="fundingButton__text">詳しくは下記のリンクをクリックしてください。</p>
+<div class="fundingButton__flex">
   <a class="fundingButton -guest" href="https://docs.google.com/forms/d/e/1FAIpQLSeE8Q94MaGwgkdR54S0vfUtDyMnuAxak9G7iCuhI4Zul-6kAw/viewform" target="_blank" rel="noopener noreferrer">応援金のご協力はこちら</a>
   </div>
     <p class="fundingText -second">升砲館EBR実行委員会</p>
@@ -33,46 +33,21 @@ get_header(); ?>
       </div>
     </div>
 </div> -->
- <!-- 応援金ここまで -->
+  <!-- 応援金ここまで -->
 </section>
 
 <!-- タイマー -->
 <section class="Timer">
-<!-- 申し込みリンク -->
-<!-- <div class="requestLink">
-  <div class="requestLink__flex">
-    <a class="requestLink__item -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" id="js-request-guest" target="_blank" rel="noopener noreferrer">
-      <div class="requestLink__text">(ゲストの方)申し込む</div>
-    </a>
-    <a class="requestLink__item -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" id="js-request-student" target="_blank" rel="noopener noreferrer">
-      <div class="requestLink__text -student">(門下生)申し込む</div>
-    </a>
-  </div>
-  <a href="#" class="backToTop__button" id="backToTop">↑</a>
-</div>
-
-<div class="requestLink -mobile">
-  <div class="requestLink__flex -mobile">
-    <a class="requestLink__item -guest" href="https://forms.gle/CANfPHXf7euAwXPv5" id="js-request-guest"
-    target="_blank" rel="noopener noreferrer">
-      <p class="requestLink__text">申し込む<br>(ゲストの方)</p>
-    </a>
-    <a class="requestLink__item -student" href="https://forms.gle/heiLwP3w1VTeM9XM7" id="js-request-student" target="_blank" rel="noopener noreferrer">
-      <p class="requestLink__text -student">申し込む<br>(門下生)</p>
-    </a>
-  </div>
-  <a href="#" class="backToTop__button -mobile" id="backToTop">↑</a>
-</div> -->
-<!-- 申し込みリンクここまで -->
+<?php get_template_part('template-parts/request-link'); ?>
   <div class="Timer__wrap">
   <div class="inner">  
     <h2 class="Timer__title"><span>NEXT <br class="Timer__title__spOnly">STAGE</span></h2>
-    <!-- <div class="Timer__section">
+    <div class="Timer__section">
     あと<span class="Timer__text" id="timer-day"></span>日
     <span class="Timer__text" id="timer-hours"></span>時間
     <span class="Timer__text" id="timer-min"></span>分
     <span class="Timer__text" id="timer-sec"></span>秒
-  </div> -->
+  </div>
   <div class="Timer__scheduleWrap">
     <p class="Timer__scheduleText">【開催日時】<br class="sp-only02">2027年2月20日(土)</p>
     <!-- <p class="Timer__scheduleText -second">（16時定刻スタートのため、<br class="sp-only02">15時45分集合にご協力ください。）</p> -->
@@ -82,7 +57,7 @@ get_header(); ?>
   </div>
   <!-- 申し込み -->
 
-   <div class="requestWrap fade-in-left">
+  <div class="requestWrap fade-in-left">
     <div class="requestInner__line">
   <p class="requestText"><span>大人</span>が<span>本気</span>で<br><span>学び、遊び、挑み、魅せる</span></p>
   <div class="appreciateText__wrap">
@@ -530,11 +505,11 @@ else :
     <h2 class="accessTitle">ACCESS</h2>
     <div class="accessSubTitle">開催場所</div>
     <h3 class="accessText">KKRホテル東京</h3>
-    <!-- <div class="accessMap">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.0708920408133!2d135.77531187575764!3d35.00493047281316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001093458379d1f%3A0x594fe3acaa5361a!2zS09UT1dBIOS6rOmDvSDlhavlnYI!5e0!3m2!1sja!2sjp!4v1761041655822!5m2!1sja!2sjp" width="90%" height="450" style="display:block; border:0; margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="accessMap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.444081035567!2d139.7606157!3d35.690688099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0f076e19ed%3A0xadffe12bddd39239!2z77yr77yr77yyIO-8qO-8r--8tO-8pe-8rCDvvLTvvK_vvKvvvLnvvK8!5e0!3m2!1sja!2sjp!4v1794223667110!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </div>
-    <a class="accessLink" href="https://www.dearswedding.jp/kotowa-kyoto-yasaka/party/" target="_blank" rel="noopener noreferrer">KOTOWA 京都 八坂 <br class="sp-480only">公式HPはこちら</a>
-  </div> -->
+    <a class="accessLink" href="https://tokyo.kkr.or.jp/access/" target="_blank" rel="noopener noreferrer">KKRホテル東京<br class="sp-480only">公式HPはこちら</a>
+  </div>
 </section>
 
 <!-- 応援金 -->
